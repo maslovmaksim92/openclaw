@@ -1,103 +1,112 @@
 # OpenClaw Multi-Agent Business Model Pipeline
 
 ## Original Problem Statement
-Настройка OpenClaw для конкретных задач и построение мультиагентной системы для автоматического поиска, фильтрации и валидации бизнес-моделей 24/7. Интеграция Telegram-ботов в Telegram Supergroup с Topics. Пайплайн для `branch-models-lead`. `core-chief` самообучается по логам.
+Настройка OpenClaw для конкретных задач и построение мультиагентной системы для автоматического поиска, фильтрации и валидации бизнес-моделей 24/7. Telegram-боты в Supergroup с Topics. Пайплайн для `branch-models-lead`. `core-chief` самообучается.
 
 ## Architecture
 
 ### VPS
 - IP: `188.214.107.181`
 - Docker Compose: `/opt/openclaw/docker-compose.yml`
-- Jobs (Cron): `/srv/openclaw/config/cron/jobs.json`
-- Agent workspace (симлинк): `/srv/openclaw/agents/branch-models-lead/workspace/` → `/srv/openclaw/config/workspace-branch-models-lead/`
+- Jobs: `/srv/openclaw/config/cron/jobs.json`
+- AGENTS.md: `/srv/openclaw/config/workspace-branch-models-lead/AGENTS.md` (796 строк, 11 программ)
+- Симлинк: `/srv/openclaw/agents/branch-models-lead/workspace/` → `/srv/openclaw/config/workspace-branch-models-lead/`
 
 ### Pipeline Flow
-Radar → Triage → Demand → Economics → Finance+Critic → Verdict → Telegram → Digest
+Radar → Triage (+ Auto-enrich) → Demand (+ScoreTrajectory) → Economics (+ScoreTrajectory) → Finance+Critic (+ScoreTrajectory) → Verdict (Near-Pass/Approved/Rejected) → Telegram → Digest (+ Health Dashboard) + Market Pulse (weekly)
 
 ### Telegram Topics
 | Топик | threadId | Кто пишет |
 |-------|----------|-----------|
 | Подтверждение модели | 267 | models-critic (score ≥ 70) — 3 сообщения |
-| Отклонённые модели | 270 | models-critic (score < 70) — 2 сообщения |
-| Дайджест | 8 | models-digest (09:00 МСК) + alert для approved |
+| Отклонённые / Near-Pass | 270 | models-critic — 2 сообщения (особый формат для 65-69) |
+| Дайджест + Health Dashboard | 8 | models-digest (09:00) + Market Pulse (вс 10:00) + alerts |
 | Обучение | 76 | core-chief / models-feedback-loop |
 
 ### Bot Tokens
-- `@vd_programist_bot` = models bot: `7993830496:AAFDoTzBbWUCybkvKM-hRm1iay45CBRpXU8`
+- `@vd_programist_bot` = models bot: `7993830496:AAFDoTzBbWUCybkvKM-hRm1iay45CBRpXU8` (admin, can pin)
 - Chat ID: `-1003900243133`
 
-## All Enabled Cron Jobs (10 jobs)
-| Job | Agent | Schedule | Назначение |
-|-----|-------|----------|------------|
-| models-radar-search | branch-models-lead | 10,40 * * * * | Поиск сигналов (LTV Gate) |
-| models-intake-triage | branch-models-lead | 25,55 * * * * | Обработка raw сигналов |
-| chief-models-review | core-chief | 58 * * * * | Ревью качества кейсов |
-| models-demand-validation | branch-models-lead | 30 * * * * | Валидация спроса (Wordstat/Avito) |
-| models-economics | branch-models-lead | 5 */2 * * * | Юнит-экономика в рублях |
-| models-finance | branch-models-lead | 35 */2 * * * | Финмодель + критический анализ |
-| models-critic | branch-models-lead | 55 */2 * * * | Вердикт 0-100 + Telegram |
-| models-digest | branch-models-lead | 0 9 * * * | Ежедневный дайджест |
-| chief-supervisor | core-chief | 0 */6 * * * | Самообучение + CHANGELOG |
-| models-feedback-loop | branch-models-lead | 30 */6 * * * | Обратная связь пользователя |
+## All Enabled Cron Jobs (11 jobs)
+| Job | Schedule | Назначение |
+|-----|----------|------------|
+| models-radar-search | 10,40 * * * * | Поиск сигналов с LTV Gate |
+| models-intake-triage | 25,55 * * * * | Тriage + Автообогащение 01-evidence.md |
+| chief-models-review | 58 * * * * | Ревью качества |
+| models-demand-validation | 30 * * * * | Спрос (Wordstat/Avito/HH.ru) + ScoreTrajectory |
+| models-economics | 5 */2 * * * | Юнит-экономика в рублях + ScoreTrajectory |
+| models-finance | 35 */2 * * * | Финмодель + Критика + ScoreTrajectory |
+| models-critic | 55 */2 * * * | Вердикт 0-100, Near-Pass, Telegram |
+| models-digest | 0 9 * * * | Дайджест + Health Dashboard |
+| chief-supervisor | 0 */6 * * * | Самообучение + CHANGELOG |
+| models-feedback-loop | 30 */6 * * * | Обратная связь пользователя |
+| models-market-pulse | 0 10 * * 0 | Тренды Wordstat (воскресенье 10:00 МСК) |
 
 ## Key System Rules
 
 ### LTV Gate
-- Минимум: LTV > 500 000 руб/мес (6 000 000 руб/год)
-- Применяется на всех этапах: Radar, Demand, Economics, Critic
-- LTV < 500k руб/мес → автоматический REJECT
+- Минимум: LTV > 500 000 руб/мес
+- Применяется: Radar, Triage, Demand, Economics, Critic
 
-### Scoring (0-100, порог 70)
-- Спрос с Wordstat/Avito/HH.ru: 20 pts
-- Юнит-экономика в рублях (CAC/LTV/GM): 25 pts
-- Масштабируемость: 20 pts
-- Конкурентное позиционирование: 15 pts
-- Барьеры входа: 10 pts
-- Качество данных: 10 pts
+### Scoring (0-100)
+- Спрос Wordstat/Avito/HH.ru: 20 pts | Экономика RUB: 25 pts | Масштаб: 20 pts
+- Конкуренция: 15 pts | Защита: 10 pts | Данные: 10 pts
+
+### Verdict Thresholds
+- ≥ 70 → APPROVED → pipeline/approved/ → topic 267 (3 msg)
+- 65-69 → NEAR-PASS → pipeline/rejected/ → topic 270 (особый формат: что улучшить)
+- < 65 → REJECTED → pipeline/rejected/ → topic 270 (стандарт)
+
+### Язык
+- ВСЕ файлы, отчёты, Telegram — ТОЛЬКО НА РУССКОМ ЯЗЫКЕ
 
 ### Валюта
-- Все расчёты в РУБЛЯХ. USD → конвертировать (~90 руб/$)
+- Все расчёты в РУБЛЯХ
 
-### Telegram формат
-- Approved: 3 сообщения (заголовок + экономика+рынок + финмодель+обоснование) + alert в topic 8
-- Rejected: 2 сообщения (причина + данные+проблемы)
+## Implemented
 
-## Implemented (2026-04-13 сессия 2)
+### Сессия 1 (2026-04-13): Базовая строгая критичность
+- AGENTS.md переписан с программами 4-8
+- LTV Gate, порог 70/100, запрет шаблонов
 
-### Строгие правила (сессия 1)
-- AGENTS.md переписан с программами 4-8 + строгая критичность
-- jobs.json обновлён (5 задач)
-- Отправлены rejected кейсы в topic 270
-- Очищены шаблонные файлы
+### Сессия 2 (2026-04-13): LTV 500k, Feedback Loop, закрепление
+- LTV Gate 500k руб/мес во всех этапах
+- Program 9 (Feedback Loop), SEARCH_PREFERENCES.md
+- Pinned messages в topиках 267, 270, 8
+- Alerts в topic 8 при approved
 
-### Масштабные улучшения (сессия 2, эта)
-- LTV Gate > 500k руб/мес добавлен во все этапы (Radar, Demand, Economics, Critic)
-- Валюта: переход на рубли как основную валюту
-- Program 9 (Feedback Loop): новый cron job `models-feedback-loop` (каждые 6ч)
-- state/SEARCH_PREFERENCES.md и state/FEEDBACK_LOG.md созданы
-- core-chief AGENTS.md обновлён: читает FEEDBACK_LOG, обновляет SEARCH_PREFERENCES
-- chief-supervisor обновлён: публикует статистику pipeline + user preferences в topic 76
-- Alert для approved: brief уведомление в topic 8 при каждом одобрении
-- Сообщения закреплены (pinned) в топиках 267, 270, 8 через @vd_programist_bot
-- Telegram topics explain messages: 267 (правила одобрения), 270 (правила отклонения), 8 (дайджест info)
-- Добавлен призыв к обратной связи (👍/👎) в каждое сообщение пайплайна
+### Сессия 3 (2026-04-14): 5 новых функций
+- **Near-Pass** (65-69/100): особый формат в topic 270 с конкретными рекомендациями что улучшить
+- **Автообогащение** (Program 1): supporting signal → автодобавление в 01-evidence.md открытого кейса
+- **Market Pulse** (Program 10, cron воскресенье 10:00): Wordstat-тренды по всем кейсам → topic 8
+- **Health Dashboard** (Program 8): ежедневная статистика пайплайна в topic 8 (in-progress/approved/rejected/near-pass/top-rejection-reason)
+- **Score Trajectory** (07-score-trajectory.md): каждый этап записывает свой промежуточный score в кейс
 
-## Current Pipeline State (2026-04-13)
-| Кейс | Файлы | Следующий шаг |
-|------|-------|---------------|
-| openclaw-contours-agency | до 05-critic.md | models-critic (20:55 МСК) |
-| ai-marketing-ops-microagency | до 05-critic.md | models-critic (20:55 МСК) |
-| ai-customer-service-operations-operator | до 04-economics.md | models-finance |
-| 5 других кейсов | только 00-brief.md | models-demand-validation |
+## Case Files Map
+```
+pipeline/cases/<slug>/
+  00-brief.md          — сигнал и гипотеза
+  01-evidence.md       — доказательная база (автообогащается)
+  02-demand.md         — спрос Wordstat/Avito/HH.ru
+  03-offer.md          — оффер
+  04-economics.md      — CAC/LTV/GM/break-even в рублях
+  05-critic.md         — финмодель P&L + критический анализ
+  06-verdict.md        — финальный вердикт 0-100
+  07-score-trajectory.md — история score по этапам
+```
 
 ## Backlog
+
 ### P1
-- Дождаться первого прогона models-critic (20:55 МСК) и проверить качество Telegram-сообщений
-- Добавить Wordstat-данные в уже существующие 02-demand.md файлы (ai-customer-service, openclaw-contours, ai-marketing)
+- Проверить openclaw-contours-agency вердикт (runs at 00:55 MSK)
+- Убедиться что Near-Pass формат корректно отображается в Telegram
 
 ### P2
-- Механизм прямого чтения Telegram thread 76 (через webhook или polling) для FEEDBACK_LOG.md
+- Конкурентный радар (мониторинг цен конкурентов для approved кейсов)
+- Webhook для автоматического чтения topic 76 в FEEDBACK_LOG.md
+- Portfolio view (monthly report by category)
 
 ## Notes
-- GitHub auto-deploy/VPS connection — ОТМЕНЕНО пользователем
-- SSH timeout → добавить IP в iptables: `iptables -I INPUT -s <IP> -j ACCEPT`
+- GitHub auto-deploy/VPS connection — ОТМЕНЕНО
+- SSH timeout → `iptables -I INPUT -s <IP> -j ACCEPT`
+- Все backup AGENTS.md: `/srv/openclaw/config/workspace-branch-models-lead/AGENTS.md.bak.*`
