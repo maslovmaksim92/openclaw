@@ -99,14 +99,24 @@ radar-b2b-ops | radar-ai-services | radar-quick-ai | radar-geo-expansion | radar
 
 ## Backlog
 ### P1
-- Активировать Wordstat OAuth токен (oauth.yandex.ru → добавить в wordstat.env)
-- Следить за топиками 267/270 — кейсы начнут прилетать через ~10 часов
+- Секторальная оценка: отдельные scoring-веса для QUICK-AI vs B2B-OPS
+- Реальные цены конкурентов (3 источника, не галлюцинации — Program 4)
+- Следить за топиками 267/270 — кейсы начнут прилетать по мере прохождения пайплайна
 
 ### P2
+- Минимум 3 независимых источника для demand validation (избежать vendor bias)
 - Конкурентный радар для approved кейсов (weekly мониторинг)
-- Webhook topic 76 вместо polling
+- Активировать Wordstat OAuth токен (oauth.yandex.ru → wordstat.env)
 
 ### P3
 - LTV Upside Leaderboard в дайджест (топ-3 NEAR-PASS ближайших к 70)
 - Pattern learning в chief-supervisor
-- Дедупликация при intake
+- Feedback loop: трекинг запущенных кейсов 30/60/90 дней
+
+## Changelog
+### 2026-04 (последние изменения)
+- ✅ Anti-duplication (Program 1): DEDUP CHECK с 5 правилами (2 из 3 критериев = дубль)
+- ✅ Улучшен формат REJECTED: 3 сообщения (бизнес-процесс + команда + стек + экономика + LTV Upside)
+- ✅ Улучшен формат APPROVED: добавлена 👥 Команда в СООБЩЕНИЕ 2
+- ✅ Улучшен формат NEAR-PASS: добавлены бизнес-процесс + команда в СООБЩЕНИЕ 2
+- ✅ AGENTS.md: 984 → ~1020 строк, docker compose restarted
