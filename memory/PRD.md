@@ -4,104 +4,109 @@
 Автоматический поиск, фильтрация и валидация бизнес-моделей 24/7. Telegram-боты в Supergroup. `core-chief` самообучается.
 
 ## VPS: `188.214.107.181`
-- AGENTS.md: `/srv/openclaw/config/workspace-branch-models-lead/AGENTS.md` (957 строк)
+- AGENTS.md: `/srv/openclaw/config/workspace-branch-models-lead/AGENTS.md` (984 строк)
 - Jobs: `/srv/openclaw/config/cron/jobs.json` (18 jobs, 16 enabled)
-- Wordstat Proxy: `/srv/openclaw/wordstat_proxy.py` → systemd → port 9001
+- Wordstat Service v3: `/srv/openclaw/wordstat_service.py` → systemd → port 9001
 - Command Processor: `/srv/openclaw/command_processor.py` → cron */5 * * * *
 - Stale Detector: `/srv/openclaw/stale_detector.py` → cron 0 5 * * *
 - TG Notifier: `/srv/openclaw/tg_notifier.py` → cron */10 * * * *
 
 ## SSH Whitelist (постоянный)
-Добавлено в `/etc/ufw/before.rules` (переживает ufw reload и reboot):
-```
--A ufw-before-input -s 34.0.0.0/8 -j ACCEPT
--A ufw-before-input -s 35.0.0.0/8 -j ACCEPT
--A ufw-before-input -s 104.0.0.0/8 -j ACCEPT
-```
+В `/etc/ufw/before.rules`: `-A ufw-before-input -s 34.0.0.0/8 -j ACCEPT` + 35/104
 Также: `/etc/network/if-pre-up.d/iptables-restore` → `/etc/iptables/rules.v4`
-Экстренный whitelist: `iptables -I INPUT 1 -s <IP> -j ACCEPT && iptables-save > /etc/iptables/rules.v4`
 
-## Wordstat (нужен токен!)
-Сервис: `http://localhost:9001/health` → ok
-Активация: `YANDEX_OAUTH_TOKEN=<токен>` в `/srv/openclaw/config/wordstat.env`
-Получить: https://oauth.yandex.ru → создать приложение → scopes: wordstat
+## Wordstat Service v3 (без токена!)
+**Источники без авторизации:**
+| Источник | Метод | Статус |
+|----------|-------|--------|
+| Google Trends RU | pytrends (0-100) | ✅ работает |
+| Yandex Suggest | публичный API | ✅ работает |
+| HH.ru API | официальный API | ✅ работает |
+| Avito | scraping | ⚠️ иногда блокируется |
+| Habr | scraping | ✅ работает |
+
+**Endpoint `/multi-demand`**: сводный анализ без токена. Принимает `tg_subs=N` — агент передаёт подписчиков Telegram-бота/канала найденного вручную.
+**OAuth токен** (опциональный): добавить в `/srv/openclaw/config/wordstat.env` для официального Wordstat.
+
+## Улучшения агентов (апрель 2026)
+
+### Program 0 (Radar)
+- Обязательная проверка Telegram-ботов: `@keyword_bot`, `@keywordaibot`
+- Запрос `http://172.17.0.1:9001/telegram-search?keyword=...`
+- Добавление `existing_products_ru` в raw-файл
+
+### Program 4 (Demand Validation) — полностью переписан
+- Запрещено давать LOW без 4+ источников
+- Обязательный первый шаг: поиск Telegram-ботов/каналов по теме
+- Использует `/multi-demand?keyword=X&tg_subs=N` (Google Trends + HH + Avito + Habr)
+- MEDIUM минимум если: действующий конкурент в РФ с 1k+ пользователей
+- LTV gate: проверяет ВСЕ сценарии (B2C + B2B + White-label + Hybrid)
+
+### Program 7 (Critic) — детальный scoring
+- Спрос: 0-20 с бонусом +2 за product-market fit (действующий продукт в РФ 10k+)
+- Экономика: 0-25 с детальными порогами по LTV/GM/CAC
+- Масштабируемость: 0-20 с бонусом +2 за автоматическую доставку (бот/API)
+- Полные шкалы для всех 6 критериев
+
+## Features
+- **LTV Upside Calculator**: в 06-verdict.md + Telegram NEAR-PASS
+- **Devil's Advocate**: 3 сценария провала (Near-Pass 65-69)
+- **Auto-posting**: Program 7 → `.telegram-sent` → topic 270/267
 
 ## Telegram Topics
 | Topic | Назначение |
 |-------|------------|
-| 267 | Подтверждённые модели (APPROVED ≥70) |
+| 267 | Подтверждённые (APPROVED ≥70) |
 | 270 | Отклонённые + Near-Pass |
-| 8 | Дайджест + Health Dashboard |
-| 76 | Обучение (feedback, команды) |
+| 8 | Дайджест + Health |
+| 76 | Обучение |
 
-## Telegram Commands
-`/relaunch <slug>` | `/status` | `/sectors` | `/help`
+## Radar Jobs (6)
+radar-b2b-ops | radar-ai-services | radar-quick-ai | radar-geo-expansion | radar-healthcare | radar-fintech
 
-## Features реализованные
-- **LTV Upside Calculator** (в 06-verdict.md + Telegram NEAR-PASS): таблица критериев, кратчайший путь до 70, LTV цель в рублях, рычаг роста
-- **Devil's Advocate** (NEAR-PASS 65-69): 3 сценария провала за 6 мес + ранние сигналы + рекомендация /relaunch или отклонить
-- **Auto-posting**: Program 7 → .telegram-sent маркер; tg_notifier.py каждые 10 мин (failsafe)
-- **Стабильный SSH**: ufw before.rules + iptables-persistent
+## Pipeline State (2026-04-14 21:30 MSK)
+### Active cases/: 20 кейсов
+Все сброшены на demand validation с улучшенными агентами:
+- ai-customer-service-operations-operator
+- ai-finance-supply-chain-operations-operator
+- ai-manufacturing-quoting-operator
+- ai-marketing-ops-microagency
+- ai-native-salesforce-implementation-operator
+- **ai-songs-on-demand-service** (был REJECTED, пересматривается с @bro_hit_bot 177k)
+- ambient-clinical-documentation-operator
+- autonomous-b2c-crm-operator
+- autonomous-enterprise-service-operations-operator
+- autonomous-medical-coding-operator
+- autonomous-sre-incident-response-operator
+- draft-ai-support-local-clinics
+- enterprise-agent-control-plane-implementation-operator
+- enterprise-agentic-marketing-implementation-operator
+- enterprise-ai-process-automation-operator
+- enterprise-contract-operations-agents
+- human-data-ai-trainers-operator
+- investment-banking-ai-analyst-operator
+- openclaw-contours-agency
 
-## All Radar Jobs (6 активных)
-| Job | Schedule | Сектор |
-|-----|----------|--------|
-| radar-b2b-ops | 12,42 * * * * | AI-автоматизация B2B операций |
-| radar-ai-services | 17,47 * * * * | AI-услуги на заказ |
-| radar-quick-ai | 22,52 * * * * | TG-боты, быстрые AI-продукты |
-| radar-geo-expansion | 27,57 * * * * | Западные модели без аналога в РФ |
-| **radar-healthcare** | **7,37 * * * *** | **AI в медицине, клиниках, диагностике** |
-| **radar-fintech** | **2,32 * * * *** | **AI в финансах, бухгалтерии, страховании** |
+### Rejected/: пусто (все перемещены в cases/ для пересмотра)
+### Approved/: пусто
 
-## All Pipeline Jobs (10 активных)
-| Job | Schedule | Назначение |
-|-----|----------|------------|
-| models-intake-triage | 25,55 * * * * | Triage + Auto-enrich |
-| chief-models-review | 58 * * * * | Ревью качества |
-| models-demand-validation | 30 * * * * | Demand: мульти-сигнальный |
-| models-economics | 5 */2 * * * | Unit economics RUB |
-| models-finance | 35 */2 * * * | P&L 3 scenarios |
-| models-critic | 55 */2 * * * | Verdict + Near-Pass + Devil's + LTV Upside + Telegram |
-| models-digest | 0 9 * * * | Digest + Health Dashboard |
-| chief-supervisor | 0 */6 * * * | Self-learning |
-| models-feedback-loop | 30 */6 * * * | Feedback → SEARCH_PREFERENCES |
-| models-market-pulse | 0 10 * * 0 | Weekly trend check |
-
-System crons (host VPS):
-- `*/5` → command_processor.py | `*/10` → tg_notifier.py | `0 5` → stale_detector.py
+**Ожидаемое время:** demand validation 1 per :30 → 20 cases / 2 per hour = ~10 hours
+После demand → economics (5 */2) → finance (35 */2) → critic (55 */2): ~3-5 дней полный цикл
 
 ## Key Rules
 - LTV Gate: > 500 000 руб/мес | Score: ≥70 APPROVED, 65-69 NEAR-PASS, <65 REJECTED
 - Язык: ТОЛЬКО РУССКИЙ | Валюта: РУБЛИ
 
-## Pipeline State (2026-04-14 20:30 MSK)
-### Active (9 кейсов)
-- ai-songs-on-demand-service → 02-demand.md (REJECT demand, идёт к economics)
-- ai-native-salesforce-implementation-operator → 04-economics.md
-- ambient-clinical-documentation-operator → 05-critic.md
-- autonomous-medical-coding-operator → 04-economics.md
-- enterprise-agent-control-plane-implementation-operator → 02-demand.md
-- expert-human-data-ops-for-ai-models-operator → 00-brief.md
-- human-data-ai-trainers-operator → 02-demand.md
-- investment-banking-ai-analyst-operator → 02-demand.md
-- openclaw-contours-agency → 04-economics.md
-
-### Rejected (10 кейсов, 9 отправлены в TG topic 270)
-ai-customer-service 54 ✅ | ai-finance-supply-chain 55 ✅ | ai-manufacturing-quoting 62 ✅
-ai-marketing-ops 43 ✅ | autonomous-b2c-crm 65 NEAR-PASS ✅ | autonomous-enterprise-service 58 ✅
-draft-ai-support-local-clinics (manual) | enterprise-agentic-marketing 58 ✅
-enterprise-ai-process-automation 68 NEAR-PASS ✅ | enterprise-contract-operations 54 ✅
-
 ## Backlog
 ### P1
-- Активировать Wordstat OAuth токен
+- Активировать Wordstat OAuth токен (oauth.yandex.ru → добавить в wordstat.env)
+- Следить за топиками 267/270 — кейсы начнут прилетать через ~10 часов
 
 ### P2
 - Конкурентный радар для approved кейсов (weekly мониторинг)
-- Webhook topic 76 (сейчас polling, конфликт)
+- Webhook topic 76 вместо polling
 
 ### P3
-- Pattern learning в chief-supervisor
-- Дедупликация при intake (semantic similarity)
-- Минимум 3 независимых источника для demand validation
 - LTV Upside Leaderboard в дайджест (топ-3 NEAR-PASS ближайших к 70)
+- Pattern learning в chief-supervisor
+- Дедупликация при intake
