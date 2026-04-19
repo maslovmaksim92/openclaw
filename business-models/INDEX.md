@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 5 | ✅ Одобрено: 2 | ❌ Отклонено: 0 | 🟡 Near-Pass: 3
+**Всего:** 7 | ✅ Одобрено: 4 | ❌ Отклонено: 0 | 🟡 Near-Pass: 3
 
 ---
 
@@ -11,6 +11,8 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание | LTV/мес (базовый) | Файл |
 |---|---------|--------|-------|--------|------|----------|-------------------|------|
+| 7 | Clover Security | ✅ APPROVED | 76/100 | ENTERPRISE AI / APPSEC / DEVSECOPS | 2026-04-19 | AI product security engineer для enterprise-команд, который автоматизирует product security review, AppSec-checks и remediation workflow. | 374 000 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/clover-security/verdict.md) |
+| 6 | AI vCISO MSSP Operator | ✅ APPROVED | 73/100 | B2B-OPS | 2026-04-19 | AI/vCISO service-enablement слой для MSSP/MSP и security-консалтинга с автоматизацией risk assessment, compliance и клиентской отчётности. | 578 000 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-vciso-mssp-operator/verdict.md) |
 | 5 | AI Marketing Ops Microagency | 🟡 NEAR-PASS | 66/100 | B2B MarTech / SMB services | 2026-04-19 | Productized AI-assisted micro-agency для SMB-брендов с ads ops, CRM и campaign execution, но пока без достаточного moat и repeatable scale. | 47 500 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-marketing-ops-microagency/verdict.md) |
 | 4 | AI Fullstack App Builder No Code Operator | 🟡 NEAR-PASS | 68/100 | GEO-EXPAND | 2026-04-19 | Enterprise-first AI app factory для сборки MVP, внутренних сервисов и mini-apps по текстовому описанию, но пока без доказанного premium WTP в РФ. | 404 000 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-fullstack-app-builder-no-code-operator/verdict.md) |
 | 3 | Animated Photo On Demand Service | 🟡 NEAR-PASS | 67/100 | QUICK-AI | 2026-04-19 | B2B-first white-label сервис для оживления фото и short-form AI-видео для агентств, студий и Telegram-ботов, но с пока слабым moat. | 23 500 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/animated-photo-on-demand-service/verdict.md) |
