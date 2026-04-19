@@ -2,8 +2,8 @@
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
-**Обновлено:** 2026-04-19
-**Всего:** 32 | ✅ Одобрено: 8 | ❌ Отклонено: 16 | 🟡 Near-Pass: 8
+**Обновлено:** 2026-04-20
+**Всего:** 32 | ✅ Одобрено: 8 | ❌ Отклонено: 17 | 🟡 Near-Pass: 8
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 33 | [ai-native-salesforce-implementation-operator-v2](./rejected/ai-native-salesforce-implementation-operator-v2/verdict.md) | ❌ | 59 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] AI-native Salesforce Implementation Operator v2 — REJECTED: 59/100 \| РФ demand LOW, Salesforce market struc |
 | 32 | Vidnoz, быстрые AI-видеооткрытки и AI-аватары | 🟡 | 67/100 | QUICK-AI | 2026-04-19 | QUICK-AI content-ops engine с сильной unit economics, но пока без доказанного локального moat и repeatable GTM. | 500 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/vidnoz-ai-videootkrytki-i-ai-avatary/verdict.md |
 | 31 | AI Credit Analysis Corporate Financial Statements v2 | 🟡 | 67/100 | FINTECH | 2026-04-19 | AI-native workflow для анализа отчётности юрлиц в кредитном контуре улучшил score после rerun, но всё ещё требует доказать повторяемый GTM и capital efficiency. | 1 200 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-credit-analysis-corporate-financial-statements-v2/verdict.md |
 | 30 | Expert Human Data Ops For AI Models Operator v2 | ❌ | n/a | AI-SERVICES | 2026-04-19 | Human data ops для AI-моделей в РФ отклонён: спрос узкий, substitutes сильные, а service-heavy delivery не даёт fund-level outcome. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/expert-human-data-ops-for-ai-models-operator-v2/verdict.md |
