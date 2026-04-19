@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 17 | ✅ Одобрено: 5 | ❌ Отклонено: 8 | 🟡 Near-Pass: 4
+**Всего:** 18 | ✅ Одобрено: 5 | ❌ Отклонено: 9 | 🟡 Near-Pass: 4
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание | LTV/мес (вспомогательно) | Файл |
 |---|---------|--------|-------|--------|------|----------|-------------------|------|
+| 18 | Ambient Clinical Documentation Operator | ❌ REJECTED | 59/100 | HEALTHCARE | 2026-04-16 | Ambient clinical documentation для клиник и hospital-grade контуров показывает сильную боль и рабочую economics, но не проходит порог из-за частично подтверждённого спроса в РФ и тяжёлой масштабируемости. | 840 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ambient-clinical-documentation-operator__backup_2026-04-17_0857_msk/verdict.md |
 | 17 | Enterprise Compliance Operations Agents | ✅ APPROVED | 72/100 | B2B-OPS | 2026-04-16 | Enterprise compliance operations agents с сильной экономикой и регулярной compliance-болью проходят порог, если удержать продуктовую дисциплину и не уйти в bespoke-консалтинг. | 1 120 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-compliance-operations-agents__backup_2026-04-17_0355_msk/verdict.md |
 | 16 | Expert Human Data Ops For AI Models Operator | ❌ REJECTED | n/a | AI-SERVICES | 2026-04-16 | Кейс был автоматически закрыт после fail на ранних этапах и не получил полноценного investment-grade продолжения. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/expert-human-data-ops-for-ai-models-operator/verdict.md |
 | 15 | Enterprise Compliance Operations Agents | 🟡 NEAR-PASS | 67/100 | B2B-OPS | 2026-04-16 | Enterprise compliance operations agents почти проходят порог, но пока не доказывают repeatable спрос по высокой цене в узком enterprise ICP. | 1 100 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/enterprise-compliance-operations-agents__backup_2026-04-17_0657_msk/verdict.md |
