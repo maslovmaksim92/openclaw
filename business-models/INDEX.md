@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 29 | ✅ Одобрено: 8 | ❌ Отклонено: 15 | 🟡 Near-Pass: 6
+**Всего:** 30 | ✅ Одобрено: 8 | ❌ Отклонено: 16 | 🟡 Near-Pass: 6
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 30 | Expert Human Data Ops For AI Models Operator v2 | ❌ | n/a | AI-SERVICES | 2026-04-19 | Human data ops для AI-моделей в РФ отклонён: спрос узкий, substitutes сильные, а service-heavy delivery не даёт fund-level outcome. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/expert-human-data-ops-for-ai-models-operator-v2/verdict.md |
 | 29 | Voice Accent Translation Contact Center Operator v2 | ❌ | n/a | AI-SERVICES | 2026-04-19 | Voice accent translation для контакт-центров в РФ отклонён: локальный спрос слишком слабый, а EBITDA >= 500 тыс. ₽/мес не просматривается. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/voice-accent-translation-contact-center-operator-v2/verdict.md |
 | 28 | URROBOT, AI-платформа для управления и взыскания дебиторской задолженности | 🟡 | 67/100 | FINTECH | 2026-04-19 | AI/RPA-платформа для debt ops проходит economics-gate, но пока недодоказывает quality of evidence и margin of safety для investable approve. | 850 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/urrobot-ai-debitorskaya-zadolzhennost/verdict.md |
 | 27 | Smart Engines, ИИ-обработка бухгалтерской первички и финансовых документов | ✅ | 71/100 | FINTECH | 2026-04-19 | Vertical document AI для бухгалтерской первички с сильной economics и достижимым EBITDA, но с оговорками по quality of evidence. | 624 022 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/smart-engines-ai-buhgalterskaya-pervichka/verdict.md |
