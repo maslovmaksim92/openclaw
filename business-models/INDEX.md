@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 14 | ✅ Одобрено: 4 | ❌ Отклонено: 7 | 🟡 Near-Pass: 3
+**Всего:** 17 | ✅ Одобрено: 5 | ❌ Отклонено: 8 | 🟡 Near-Pass: 4
 
 ---
 
@@ -11,6 +11,9 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание | LTV/мес (вспомогательно) | Файл |
 |---|---------|--------|-------|--------|------|----------|-------------------|------|
+| 17 | Enterprise Compliance Operations Agents | ✅ APPROVED | 72/100 | B2B-OPS | 2026-04-16 | Enterprise compliance operations agents с сильной экономикой и регулярной compliance-болью проходят порог, если удержать продуктовую дисциплину и не уйти в bespoke-консалтинг. | 1 120 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-compliance-operations-agents__backup_2026-04-17_0355_msk/verdict.md |
+| 16 | Expert Human Data Ops For AI Models Operator | ❌ REJECTED | n/a | AI-SERVICES | 2026-04-16 | Кейс был автоматически закрыт после fail на ранних этапах и не получил полноценного investment-grade продолжения. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/expert-human-data-ops-for-ai-models-operator/verdict.md |
+| 15 | Enterprise Compliance Operations Agents | 🟡 NEAR-PASS | 67/100 | B2B-OPS | 2026-04-16 | Enterprise compliance operations agents почти проходят порог, но пока не доказывают repeatable спрос по высокой цене в узком enterprise ICP. | 1 100 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/enterprise-compliance-operations-agents__backup_2026-04-17_0657_msk/verdict.md |
 | 14 | Warehouse-native AI Decisioning Marketing Operator | ❌ REJECTED | 61/100 | B2B-OPS | 2026-04-17 | Warehouse-native AI decisioning для маркетинга выглядит сильным кейсом, но на текущих данных не подтверждены repeatable спрос в РФ и защитимое premium positioning. | 930 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/warehouse-native-ai-decisioning-marketing-operator__backup_2026-04-17_1956_msk/verdict.md |
 | 13 | Investment Banking AI Analyst Operator | 🟡 NEAR-PASS | 67/100 | FINTECH | 2026-04-17 | Enterprise-кейс для investment banking и corporate finance почти проходит порог, но пока недостаточно доказаны repeatable спрос, масштабируемость и устойчивость premium pricing. | 650 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/investment-banking-ai-analyst-operator__backup_2026-04-17_1655_msk/verdict.md |
 | 12 | Enterprise Compliance Operations Agents | ❌ REJECTED | 63/100 | FINTECH | 2026-04-17 | Кейс показывает реальную боль и сильную unit economics на одном крупном клиенте, но не проходит порог из-за слабой доказанности repeatable масштаба. | 1 180 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/enterprise-compliance-operations-agents__backup_2026-04-17_205809_msk/verdict.md |
