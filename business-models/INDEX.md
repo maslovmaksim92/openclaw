@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 19 | ✅ Одобрено: 6 | ❌ Отклонено: 9 | 🟡 Near-Pass: 4
+**Всего:** 20 | ✅ Одобрено: 6 | ❌ Отклонено: 9 | 🟡 Near-Pass: 5
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 20 | Cognizant Agentic AI Infrastructure Services | 🟡 NEAR-PASS | 67/100 | B2B-OPS | 2026-04-19 | Enterprise AI-managed IT operations с сильной unit economics  но пока недодоказанным RU-demand quality и execution moat. | 4 119 800 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/cognizant-agentic-ai-infrastructure-services/verdict.md |
 | 19 | Celsus, AI-скрининг и ранняя диагностика для клиник и диагностических сетей | ✅ APPROVED | 73/100 | HEALTHCARE | 2026-04-19 | Radiology AI-layer для клиник и диагностических сетей с сильной unit economics и достижимым путём к EBITDA >500K при стандартизации внедрений. | 484 538 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/celsus-radiology-ai-screening/verdict.md |
 | 18 | Ambient Clinical Documentation Operator | ❌ REJECTED | 59/100 | HEALTHCARE | 2026-04-16 | Ambient clinical documentation для клиник и hospital-grade контуров показывает сильную боль и рабочую economics, но не проходит порог из-за частично подтверждённого спроса в РФ и тяжёлой масштабируемости. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ambient-clinical-documentation-operator__backup_2026-04-17_0857_msk/verdict.md |
 | 17 | Enterprise Compliance Operations Agents | ✅ APPROVED | 72/100 | B2B-OPS | 2026-04-16 | Enterprise compliance operations agents с сильной экономикой и регулярной compliance-болью проходят порог, если удержать продуктовую дисциплину и не уйти в bespoke-консалтинг. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-compliance-operations-agents__backup_2026-04-17_0355_msk/verdict.md |
