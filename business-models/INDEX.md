@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 28 | ✅ Одобрено: 8 | ❌ Отклонено: 14 | 🟡 Near-Pass: 6
+**Всего:** 29 | ✅ Одобрено: 8 | ❌ Отклонено: 15 | 🟡 Near-Pass: 6
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 29 | Voice Accent Translation Contact Center Operator v2 | ❌ | n/a | AI-SERVICES | 2026-04-19 | Voice accent translation для контакт-центров в РФ отклонён: локальный спрос слишком слабый, а EBITDA >= 500 тыс. ₽/мес не просматривается. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/voice-accent-translation-contact-center-operator-v2/verdict.md |
 | 28 | URROBOT, AI-платформа для управления и взыскания дебиторской задолженности | 🟡 | 67/100 | FINTECH | 2026-04-19 | AI/RPA-платформа для debt ops проходит economics-gate, но пока недодоказывает quality of evidence и margin of safety для investable approve. | 850 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/urrobot-ai-debitorskaya-zadolzhennost/verdict.md |
 | 27 | Smart Engines, ИИ-обработка бухгалтерской первички и финансовых документов | ✅ | 71/100 | FINTECH | 2026-04-19 | Vertical document AI для бухгалтерской первички с сильной economics и достижимым EBITDA, но с оговорками по quality of evidence. | 624 022 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/smart-engines-ai-buhgalterskaya-pervichka/verdict.md |
 | 26 | [ai-accounting-document-processing-operator-v2](./rejected/ai-accounting-document-processing-operator-v2/verdict.md) | ❌ | 58 | B2B-OPS | 2026-04-19 | [B2B-OPS] AI Accounting Document Processing Operator v2 — REJECTED: 58/100 \| Рынок реальный, но standalone модель не про |
