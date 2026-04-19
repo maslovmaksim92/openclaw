@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 8 | ✅ Одобрено: 4 | ❌ Отклонено: 3 | 🟡 Near-Pass: 1
+**Всего:** 11 | ✅ Одобрено: 4 | ❌ Отклонено: 5 | 🟡 Near-Pass: 2
 
 ---
 
@@ -11,6 +11,9 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание | LTV/мес (вспомогательно) | Файл |
 |---|---------|--------|-------|--------|------|----------|-------------------|------|
+| 11 | Voice Accent Translation Contact Center Operator | ❌ REJECTED | n/a | AI-SERVICES | 2026-04-18 | Real-time accent translation для контакт-центров выглядит технологически интересно, но текущая экономика не проходит порог Program 7. | 400 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/voice-accent-translation-contact-center-operator__demand_fail_2026-04-17_2233_msk/verdict.md |
+| 10 | Ambient Clinical Documentation Operator | ❌ REJECTED | 52/100 | HEALTHCARE | 2026-04-18 | Ambient clinical documentation для клиник и hospital-grade контуров имеет рабочую экономику, но пока не подтверждён repeatable спрос в РФ. | 840 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ambient-clinical-documentation-operator__backup_2026-04-18_1356_msk/verdict.md |
+| 9 | Voice Accent Translation Contact Center Operator | 🟡 NEAR-PASS | 67/100 | AI-SERVICES | 2026-04-17 | Real-time accent translation для контакт-центров почти проходит порог, но в РФ пока недостаточно подтверждён именно premium accent-translation wedge. | 900 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/voice-accent-translation-contact-center-operator__backup_2026-04-17_115852_msk/verdict.md |
 | 8 | AI-first full-stack конструктор приложений по текстовому описанию | 🟡 NEAR-PASS | 69/100 | GEO-EXPAND | 2026-04-19 | AI-first платформа генерации full-stack приложений по текстовому описанию с сильной premium-экономикой, но пока без доказанного российского moat и прямого спроса в enterprise wedge. | 404 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-fullstack-app-builder-no-code-operator/verdict.md |
 | 7 | AI Customer Service Operations Operator | ❌ REJECTED | 56/100 | B2B-OPS | 2026-04-19 | Service-led AI-оператор для внедрения и сопровождения customer service workflows показывает реальный спрос, но требует слишком долгого и капиталоёмкого пути к прибыльности компании. | 68 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-customer-service-operations-operator/verdict.md |
 | 6 | AI Credit Analysis Corporate Financial Statements | ❌ REJECTED | 62/100 | B2B Fintech / Credit Risk / Workflow Automation | 2026-04-19 | AI-native workflow для анализа отчётности юрлиц в кредитном контуре подтверждает спрос, но остаётся слишком капиталоёмким для фондового профиля. | 445 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-credit-analysis-corporate-financial-statements/verdict.md |
