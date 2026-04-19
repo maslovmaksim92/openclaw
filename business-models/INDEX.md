@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 25 | ✅ Одобрено: 7 | ❌ Отклонено: 13 | 🟡 Near-Pass: 5
+**Всего:** 25 | ✅ Одобрено: 7 | ❌ Отклонено: 14 | 🟡 Near-Pass: 5
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 26 | [ai-accounting-document-processing-operator-v2](./rejected/ai-accounting-document-processing-operator-v2/verdict.md) | ❌ | 58 | B2B-OPS | 2026-04-19 | [B2B-OPS] AI Accounting Document Processing Operator v2 — REJECTED: 58/100 \| Рынок реальный, но standalone модель не про |
 | 25 | DocuVox AI, ambient clinical documentation | ✅ APPROVED | 71/100 | HEALTHCARE | 2026-04-19 | Vertical healthtech AI для ambient clinical documentation в частных клиниках РФ с сильной unit economics и реалистичным pilot-to-rollout GTM. | 1 602 800 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/docuvox-ai-ambient-clinical-documentation/verdict.md |
 | 24 | [ambient-clinical-documentation-operator-v2](./rejected/ambient-clinical-documentation-operator-v2/verdict.md) | ❌ | 59 | HEALTHCARE | 2026-04-19 | [HEALTHCARE] Ambient Clinical Documentation Operator v2 — REJECTED: 59/100 \| Рынок РФ слишком ранний, demand LOW, Profit |
 | 23 | RankAI, AI-first SEO/GEO white-label fulfillment | ❌ REJECTED | 53/100 | AI-SERVICES | 2026-04-19 | White-label SEO/GEO execution layer для агентств показывает сильную unit economics на клиента, но не доказывает устойчивую прибыль компании и защитимый moat. | -1 846 102 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rankai-ai-seo-geo-white-label/verdict.md |
