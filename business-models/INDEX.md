@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 23 | ✅ Одобрено: 6 | ❌ Отклонено: 12 | 🟡 Near-Pass: 5
+**Всего:** 23 | ✅ Одобрено: 6 | ❌ Отклонено: 13 | 🟡 Near-Pass: 5
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 24 | [ambient-clinical-documentation-operator-v2](./rejected/ambient-clinical-documentation-operator-v2/verdict.md) | ❌ | 59 | HEALTHCARE | 2026-04-19 | [HEALTHCARE] Ambient Clinical Documentation Operator v2 — REJECTED: 59/100 \| Рынок РФ слишком ранний, demand LOW, Profit |
 | 23 | RankAI, AI-first SEO/GEO white-label fulfillment | ❌ REJECTED | 53/100 | AI-SERVICES | 2026-04-19 | White-label SEO/GEO execution layer для агентств показывает сильную unit economics на клиента, но не доказывает устойчивую прибыль компании и защитимый moat. | -1 846 102 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rankai-ai-seo-geo-white-label/verdict.md |
 | 22 | SteosVoice, AI-озвучка и voice generation в Telegram | ❌ REJECTED | n/a | QUICK-AI | 2026-04-19 | Telegram-first AI-озвучка показывает реальный локальный спрос, но как фондовый кейс проваливается из-за слишком низкого ARPU и далёкого break-even. | -3 913 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/steosvoice-ai-ozvuchka-v-telegram/verdict.md |
 | 21 | Lawgeex, AI-анализ и ревью договоров | ❌ REJECTED | n/a | B2B-OPS | 2026-04-19 | AI-сервис ревью договоров подтверждает спрос и сильный LTV/CAC, но не проходит Profit Gate из-за тяжёлой enterprise delivery-модели. | -4 099 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/lawgeex-ai-yuridicheskiy-analiz-dogovorov/verdict.md |
