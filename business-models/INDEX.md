@@ -1,9 +1,9 @@
-# Business Models — Index
+# Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 33 | ✅ Одобрено: 9 | ❌ Отклонено: 17 | 🟡 Near-Pass: 8
+**Всего:** 35 | ✅ Одобрено: 9 | ❌ Отклонено: 17 | 🟡 Near-Pass: 9
 
 ---
 
@@ -11,17 +11,18 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 35 | 0201 MSK Conveyor GEO Expand v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-20 | Standalone rerun Conveyor-category кейса с сильной unit economics, но пока без investment-grade локального demand proof. | 1 020 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0201-msk-conveyor-geo-expand-v2/verdict.md |
 | 34 | Celsus, AI-скрининг и ранняя диагностика для клиник и диагностических сетей v2 | ✅ | 71/100 | HEALTHCARE | 2026-04-20 | Rerun radiology AI-layer с сильной economics и достижимым EBITDA, но с оговорками по pricing и execution risk. | 8 560 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/celsus-radiology-ai-screening-v2/verdict.md |
-| 33 | [ai-native-salesforce-implementation-operator-v2](./rejected/ai-native-salesforce-implementation-operator-v2/verdict.md) | ❌ | 59 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] AI-native Salesforce Implementation Operator v2 — REJECTED: 59/100 \| РФ demand LOW, Salesforce market struc |
+| 33 | [ai-native-salesforce-implementation-operator-v2](./rejected/ai-native-salesforce-implementation-operator-v2/verdict.md) | ❌ | 59 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] AI-native Salesforce Implementation Operator v2 — REJECTED: 59/100 \| РФ demand LOW, Salesforce market struc | 
 | 32 | Vidnoz, быстрые AI-видеооткрытки и AI-аватары | 🟡 | 67/100 | QUICK-AI | 2026-04-19 | QUICK-AI content-ops engine с сильной unit economics, но пока без доказанного локального moat и repeatable GTM. | 500 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/vidnoz-ai-videootkrytki-i-ai-avatary/verdict.md |
 | 31 | AI Credit Analysis Corporate Financial Statements v2 | 🟡 | 67/100 | FINTECH | 2026-04-19 | AI-native workflow для анализа отчётности юрлиц в кредитном контуре улучшил score после rerun, но всё ещё требует доказать повторяемый GTM и capital efficiency. | 1 200 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-credit-analysis-corporate-financial-statements-v2/verdict.md |
 | 30 | Expert Human Data Ops For AI Models Operator v2 | ❌ | n/a | AI-SERVICES | 2026-04-19 | Human data ops для AI-моделей в РФ отклонён: спрос узкий, substitutes сильные, а service-heavy delivery не даёт fund-level outcome. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/expert-human-data-ops-for-ai-models-operator-v2/verdict.md |
 | 29 | Voice Accent Translation Contact Center Operator v2 | ❌ | n/a | AI-SERVICES | 2026-04-19 | Voice accent translation для контакт-центров в РФ отклонён: локальный спрос слишком слабый, а EBITDA >= 500 тыс. ₽/мес не просматривается. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/voice-accent-translation-contact-center-operator-v2/verdict.md |
 | 28 | URROBOT, AI-платформа для управления и взыскания дебиторской задолженности | 🟡 | 67/100 | FINTECH | 2026-04-19 | AI/RPA-платформа для debt ops проходит economics-gate, но пока недодоказывает quality of evidence и margin of safety для investable approve. | 850 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/urrobot-ai-debitorskaya-zadolzhennost/verdict.md |
 | 27 | Smart Engines, ИИ-обработка бухгалтерской первички и финансовых документов | ✅ | 71/100 | FINTECH | 2026-04-19 | Vertical document AI для бухгалтерской первички с сильной economics и достижимым EBITDA, но с оговорками по quality of evidence. | 624 022 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/smart-engines-ai-buhgalterskaya-pervichka/verdict.md |
-| 26 | [ai-accounting-document-processing-operator-v2](./rejected/ai-accounting-document-processing-operator-v2/verdict.md) | ❌ | 58 | B2B-OPS | 2026-04-19 | [B2B-OPS] AI Accounting Document Processing Operator v2 — REJECTED: 58/100 \| Рынок реальный, но standalone модель не про | 
+| 26 | [ai-accounting-document-processing-operator-v2](./rejected/ai-accounting-document-processing-operator-v2/verdict.md) | ❌ | 58 | B2B-OPS | 2026-04-19 | [B2B-OPS] AI Accounting Document Processing Operator v2 - REJECTED: 58/100 \| Рынок реальный, но standalone модель не про |
 | 25 | DocuVox AI, ambient clinical documentation | ✅ APPROVED | 71/100 | HEALTHCARE | 2026-04-19 | Vertical healthtech AI для ambient clinical documentation в частных клиниках РФ с сильной unit economics и реалистичным pilot-to-rollout GTM. | 1 602 800 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/docuvox-ai-ambient-clinical-documentation/verdict.md |
-| 24 | [ambient-clinical-documentation-operator-v2](./rejected/ambient-clinical-documentation-operator-v2/verdict.md) | ❌ | 59 | HEALTHCARE | 2026-04-19 | [HEALTHCARE] Ambient Clinical Documentation Operator v2 — REJECTED: 59/100 \| Рынок РФ слишком ранний, demand LOW, Profit |
+| 24 | [ambient-clinical-documentation-operator-v2](./rejected/ambient-clinical-documentation-operator-v2/verdict.md) | ❌ | 59 | HEALTHCARE | 2026-04-19 | [HEALTHCARE] Ambient Clinical Documentation Operator v2 - REJECTED: 59/100 \| Рынок РФ слишком ранний, demand LOW, Profit |
 | 23 | RankAI, AI-first SEO/GEO white-label fulfillment | ❌ REJECTED | 53/100 | AI-SERVICES | 2026-04-19 | White-label SEO/GEO execution layer для агентств показывает сильную unit economics на клиента, но не доказывает устойчивую прибыль компании и защитимый moat. | -1 846 102 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rankai-ai-seo-geo-white-label/verdict.md |
 | 22 | SteosVoice, AI-озвучка и voice generation в Telegram | ❌ REJECTED | n/a | QUICK-AI | 2026-04-19 | Telegram-first AI-озвучка показывает реальный локальный спрос, но как фондовый кейс проваливается из-за слишком низкого ARPU и далёкого break-even. | -3 913 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/steosvoice-ai-ozvuchka-v-telegram/verdict.md |
 | 21 | Lawgeex, AI-анализ и ревью договоров | ❌ REJECTED | n/a | B2B-OPS | 2026-04-19 | AI-сервис ревью договоров подтверждает спрос и сильный LTV/CAC, но не проходит Profit Gate из-за тяжёлой enterprise delivery-модели. | -4 099 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/lawgeex-ai-yuridicheskiy-analiz-dogovorov/verdict.md |
@@ -48,4 +49,4 @@
 
 ---
 
-*Каждая строка — результат полного анализа: спрос + юнит-экономика + финансовая модель + вердикт инвесткомитета.*
+*Каждая строка - результат полного анализа: спрос + юнит-экономика + финансовая модель + вердикт инвесткомитета.*
