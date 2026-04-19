@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 7 | ✅ Одобрено: 4 | ❌ Отклонено: 0 | 🟡 Near-Pass: 3
+**Всего:** 9 | ✅ Одобрено: 5 | ❌ Отклонено: 1 | 🟡 Near-Pass: 3
 
 ---
 
@@ -11,6 +11,8 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание | LTV/мес (базовый) | Файл |
 |---|---------|--------|-------|--------|------|----------|-------------------|------|
+| 9 | AI-support для локальных клиник | ❌ REJECTED | 38/100 | HEALTHCARE | 2026-04-19 | AI-слой для локальных клиник с автоматизацией записи, FAQ и patient communication, но с низким чеком и слабым moat. | 180 000 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/draft-ai-support-local-clinics/verdict.md) |
+| 8 | AI Credit Analysis Corporate Financial Statements | ✅ APPROVED | 77/100 | FINTECH | 2026-04-19 | AI workflow для анализа отчётности юрлиц в кредитном контуре банков и небанковских кредиторов с интеграцией, audit trail и human QA. | 445 000 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-credit-analysis-corporate-financial-statements/verdict.md) |
 | 7 | Clover Security | ✅ APPROVED | 76/100 | ENTERPRISE AI / APPSEC / DEVSECOPS | 2026-04-19 | AI product security engineer для enterprise-команд, который автоматизирует product security review, AppSec-checks и remediation workflow. | 374 000 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/clover-security/verdict.md) |
 | 6 | AI vCISO MSSP Operator | ✅ APPROVED | 73/100 | B2B-OPS | 2026-04-19 | AI/vCISO service-enablement слой для MSSP/MSP и security-консалтинга с автоматизацией risk assessment, compliance и клиентской отчётности. | 578 000 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-vciso-mssp-operator/verdict.md) |
 | 5 | AI Marketing Ops Microagency | 🟡 NEAR-PASS | 66/100 | B2B MarTech / SMB services | 2026-04-19 | Productized AI-assisted micro-agency для SMB-брендов с ads ops, CRM и campaign execution, но пока без достаточного moat и repeatable scale. | 47 500 руб/мес | [verdict.md](https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-marketing-ops-microagency/verdict.md) |
