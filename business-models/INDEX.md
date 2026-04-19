@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 36 | ✅ Одобрено: 9 | ❌ Отклонено: 18 | 🟡 Near-Pass: 9
+**Всего:** 37 | ✅ Одобрено: 10 | ❌ Отклонено: 18 | 🟡 Near-Pass: 9
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 37 | Enterprise Compliance Operations Agents v2 | ✅ | 71/100 | B2B-OPS | 2026-04-20 | Enterprise compliance ops AI-layer с сильной unit economics и одобрением с оговорками по GTM и moat. | 680 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-compliance-operations-agents-v2/verdict.md |
 | 36 | Animated Photo On-Demand Service v2 | ❌ | n/a | QUICK-AI | 2026-04-20 | Красивый consumer AI utility с реальными платежами, но слишком маленьким и низкочековым рынком для фондовой доходности. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/animated-photo-on-demand-service-v2/verdict.md |
 | 35 | 0201 MSK Conveyor GEO Expand v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-20 | Standalone rerun Conveyor-category кейса с сильной unit economics, но пока без investment-grade локального demand proof. | 1 020 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0201-msk-conveyor-geo-expand-v2/verdict.md |
 | 34 | Celsus, AI-скрининг и ранняя диагностика для клиник и диагностических сетей v2 | ✅ | 71/100 | HEALTHCARE | 2026-04-20 | Rerun radiology AI-layer с сильной economics и достижимым EBITDA, но с оговорками по pricing и execution risk. | 8 560 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/celsus-radiology-ai-screening-v2/verdict.md |
