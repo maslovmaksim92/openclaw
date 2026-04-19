@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-19
-**Всего:** 5 | ✅ Одобрено: 4 | ❌ Отклонено: 1 | 🟡 Near-Pass: 0
+**Всего:** 6 | ✅ Одобрено: 4 | ❌ Отклонено: 2 | 🟡 Near-Pass: 0
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание | LTV/мес (вспомогательно) | Файл |
 |---|---------|--------|-------|--------|------|----------|-------------------|------|
+| 6 | AI Credit Analysis Corporate Financial Statements | ❌ REJECTED | 62/100 | B2B Fintech / Credit Risk / Workflow Automation | 2026-04-19 | AI-native workflow для анализа отчётности юрлиц в кредитном контуре подтверждает спрос, но остаётся слишком капиталоёмким для фондового профиля. | 445 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-credit-analysis-corporate-financial-statements/verdict.md |
 | 5 | AI-native Salesforce Implementation Operator | ✅ APPROVED | 70/100 | GEO-EXPAND | 2026-04-19 | AI-native сервисный оператор внедрения Salesforce Agentforce и Industry Cloud с упором на ускоренный enterprise delivery и managed optimization. | 636 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-native-salesforce-implementation-operator/verdict.md |
 | 4 | Enterprise AI Knowledge Search Operator | ✅ APPROVED | 72/100 | GEO-EXPAND | 2026-04-19 | Service-led модель внедрения enterprise AI-поиска по корпоративным данным с private deployment, ACL и managed knowledge ops. | 382 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-ai-knowledge-search-operator/verdict.md |
 | 3 | AI Accounting Document Processing Operator | ✅ APPROVED | 79/100 | B2B-OPS | 2026-04-19 | Service-led AI-оператор для распознавания и обработки первичных бухгалтерских документов, интеграции с 1С/ERP и managed exception handling. | 200 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-accounting-document-processing-operator/verdict.md |
