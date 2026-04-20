@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 43 | ✅ Одобрено: 11 | ❌ Отклонено: 22 | 🟡 Near-Pass: 10
+**Всего:** 43 | ✅ Одобрено: 11 | ❌ Отклонено: 23 | 🟡 Near-Pass: 10
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 44 | [0657-msk-hilbert-geo-expand-v2](./rejected/0657-msk-hilbert-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0657 MSK Hilbert GEO Expand v2 — REJECTED: 0/100 \| локальный спрос размазан между CRM/CDP/messaging suites, |
 | 43 | Enterprise AI Documentation Platform v2 | ✅ | 70/100 | GEO-EXPAND | 2026-04-20 | migration-led AI documentation platform с сильной economics и approve с оговорками по moat и GTM. | 680 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-ai-documentation-platform-v2/verdict.md |
 | 42 | Investment Banking AI Analyst Operator v2 | 🟡 | 69/100 | FINTECH | 2026-04-20 | AI-native investment banking workflow с сильной economics и EBITDA-потенциалом, но пока без достаточного запаса прочности по спросу и moat. | 1 810 538 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/investment-banking-ai-analyst-operator-v2/verdict.md |
 | 41 | [ai-customer-service-operations-operator-v2](./rejected/ai-customer-service-operations-operator-v2/verdict.md) | ❌ | 52 | B2B-OPS | 2026-04-20 | [B2B-OPS] AI Customer Service Operations Operator v2 — REJECTED: 52/100 \| спрос и WTP подтверждены, но fully-loaded CAC, |
