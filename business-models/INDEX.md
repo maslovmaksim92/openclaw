@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 64 | ✅ Одобрено: 12 | ❌ Отклонено: 36 | 🟡 Near-Pass: 18
+**Всего:** 64 | ✅ Одобрено: 12 | ❌ Отклонено: 37 | 🟡 Near-Pass: 18
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 66 | [arphie-geo-expand-v2](./rejected/arphie-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] Arphie GEO Expand v2 — REJECTED: 0/100 \| В РФ боль вокруг тендеров есть, но core-demand на RFP/DDQ/security |
 | 65 | [braintrust-geo-expand-v2](./rejected/braintrust-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] Braintrust GEO Expand v2 — REJECTED: 0/100 \| РФ-спрос на AI observability/evals/tracing остаётся LOW, а sta |
 | 64 | 1927 MSK Hebbia GEO Expand v2 | ✅ | 72/100 | GEO-EXPAND | 2026-04-20 | Secure enterprise knowledge copilot для document-heavy regulated компаний с approve по economics и оговорками по moat/execution. | 5 770 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/1927-msk-hebbia-geo-expand-v2/verdict.md |
 | 63 | 1048 MSK Hightouch GEO Expand v2 | 🟡 | 66/100 | GEO-EXPAND | 2026-04-20 | Warehouse-native AI decisioning проходит economics-gate, но пока не доказывает локальный moat и repeatable premium GTM. | 2 000 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1048-msk-hightouch-geo-expand-v2/verdict.md |
