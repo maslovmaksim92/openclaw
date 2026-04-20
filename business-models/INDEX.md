@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 37 | ✅ Одобрено: 10 | ❌ Отклонено: 22 | 🟡 Near-Pass: 9
+**Всего:** 38 | ✅ Одобрено: 10 | ❌ Отклонено: 23 | 🟡 Near-Pass: 10
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 42 | Investment Banking AI Analyst Operator v2 | 🟡 | 69/100 | FINTECH | 2026-04-20 | AI-native investment banking workflow с сильной economics и EBITDA-потенциалом, но пока без достаточного запаса прочности по спросу и moat. | 1 810 538 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/investment-banking-ai-analyst-operator-v2/verdict.md |
 | 41 | [ai-customer-service-operations-operator-v2](./rejected/ai-customer-service-operations-operator-v2/verdict.md) | ❌ | 52 | B2B-OPS | 2026-04-20 | [B2B-OPS] AI Customer Service Operations Operator v2 — REJECTED: 52/100 \| спрос и WTP подтверждены, но fully-loaded CAC, |
 | 40 | [0703-msk-aibidia-geo-expand-v2](./rejected/0703-msk-aibidia-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0703 MSK Aibidia GEO Expand v2 — REJECTED: 0/100 \| локальный demand по трансфертному ценообразованию слишко |
 | 39 | [0806-msk-securitypal-refresh-geo-expand-v2](./rejected/0806-msk-securitypal-refresh-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0806 MSK SecurityPal Refresh GEO Expand v2 — REJECTED: 0/100 \| trust/security questionnaire pain реален, но |
@@ -19,7 +20,7 @@
 | 36 | Animated Photo On-Demand Service v2 | ❌ | n/a | QUICK-AI | 2026-04-20 | Красивый consumer AI utility с реальными платежами, но слишком маленьким и низкочековым рынком для фондовой доходности. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/animated-photo-on-demand-service-v2/verdict.md |
 | 35 | 0201 MSK Conveyor GEO Expand v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-20 | Standalone rerun Conveyor-category кейса с сильной unit economics, но пока без investment-grade локального demand proof. | 1 020 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0201-msk-conveyor-geo-expand-v2/verdict.md |
 | 34 | Celsus, AI-скрининг и ранняя диагностика для клиник и диагностических сетей v2 | ✅ | 71/100 | HEALTHCARE | 2026-04-20 | Rerun radiology AI-layer с сильной economics и достижимым EBITDA, но с оговорками по pricing и execution risk. | 8 560 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/celsus-radiology-ai-screening-v2/verdict.md |
-| 33 | [ai-native-salesforce-implementation-operator-v2](./rejected/ai-native-salesforce-implementation-operator-v2/verdict.md) | ❌ | 59 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] AI-native Salesforce Implementation Operator v2 — REJECTED: 59/100 \| РФ demand LOW, Salesforce market struc | 
+| 33 | [ai-native-salesforce-implementation-operator-v2](./rejected/ai-native-salesforce-implementation-operator-v2/verdict.md) | ❌ | 59 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] AI-native Salesforce Implementation Operator v2 — REJECTED: 59/100 \| РФ demand LOW, Salesforce market struc |
 | 32 | Vidnoz, быстрые AI-видеооткрытки и AI-аватары | 🟡 | 67/100 | QUICK-AI | 2026-04-19 | QUICK-AI content-ops engine с сильной unit economics, но пока без доказанного локального moat и repeatable GTM. | 500 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/vidnoz-ai-videootkrytki-i-ai-avatary/verdict.md |
 | 31 | AI Credit Analysis Corporate Financial Statements v2 | 🟡 | 67/100 | FINTECH | 2026-04-19 | AI-native workflow для анализа отчётности юрлиц в кредитном контуре улучшил score после rerun, но всё ещё требует доказать повторяемый GTM и capital efficiency. | 1 200 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-credit-analysis-corporate-financial-statements-v2/verdict.md |
 | 30 | Expert Human Data Ops For AI Models Operator v2 | ❌ | n/a | AI-SERVICES | 2026-04-19 | Human data ops для AI-моделей в РФ отклонён: спрос узкий, substitutes сильные, а service-heavy delivery не даёт fund-level outcome. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/expert-human-data-ops-for-ai-models-operator-v2/verdict.md |
