@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 54 | ✅ Одобрено: 11 | ❌ Отклонено: 30 | 🟡 Near-Pass: 14
+**Всего:** 54 | ✅ Одобрено: 11 | ❌ Отклонено: 31 | 🟡 Near-Pass: 14
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 55 | [1835-msk-sanas-geo-expand-v2](./rejected/1835-msk-sanas-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1835 MSK Sanas GEO Expand v2 — REJECTED: 0/100 \| direct demand на accent translation в РФ остаётся LOW, Pro |
 | 54 | 0755 MSK Dropzone AI GEO Expand v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-20 | AI SOC analyst для sovereign enterprise проходит economics-gate, но пока не доказывает локальный demand moat и repeatable GTM. | 757 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0755-msk-dropzone-ai-geo-expand-v2/verdict.md |
 | 53 | [1628-msk-sanas-geo-expand-v2](./rejected/1628-msk-sanas-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1628 MSK Sanas GEO Expand v2 — REJECTED: 0/100 \| direct demand на accent translation в РФ остаётся LOW, pre |
 | 52 | [1007-msk-sanas-accent-translation-geo-expand-v2](./rejected/1007-msk-sanas-accent-translation-geo-expand-v2/verdict.md) | ❌ | 22 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1007 MSK Sanas Accent Translation GEO Expand v2 — REJECTED: 22/100 \| локальный спрос почти нулевой, fully-l |
