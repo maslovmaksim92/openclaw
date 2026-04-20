@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 60 | ✅ Одобрено: 11 | ❌ Отклонено: 33 | 🟡 Near-Pass: 16
+**Всего:** 60 | ✅ Одобрено: 11 | ❌ Отклонено: 34 | 🟡 Near-Pass: 16
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 61 | [1557-msk-norm-ai-geo-expand-v2](./rejected/1557-msk-norm-ai-geo-expand-v2/verdict.md) | ❌ | 57 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] Norm AI — REJECTED: 57/100 \| EBITDA base=3540К₽/мес через 24 мес \| LTV/CAC=3.79x \| Ключевое преимущество: e |
 | 60 | 0613 MSK Anterior GEO Expand v2 | ❌ | 59/100 | HEALTHCARE | 2026-04-20 | Payer-side clinical admin automation с сильной economics, но без investment-grade локального demand proof и moat. | 13 091 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0613-msk-anterior-geo-expand-v2/verdict.md |
 | 59 | 0827 MSK Conveyor GEO Expand v2 | ❌ | 18/100 | GEO-EXPAND | 2026-04-20 | Customer trust workflow подтверждает глобальную боль, но в РФ остаётся слишком узким и не окупает enterprise CAC. | -3 492 869 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0827-msk-conveyor-geo-expand-v2/verdict.md |
 | 58 | [aaru-geo-expand-v2](./rejected/aaru-geo-expand-v2/verdict.md) | ❌ | 41 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] Aaru synthetic customer research — REJECTED: direct demand in Russia is weak, adjacent WTP exists but belongs to substitutes, and achievable local monetization does not clear 500k ₽ monthly EBITDA. |
