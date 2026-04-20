@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 37 | ✅ Одобрено: 10 | ❌ Отклонено: 21 | 🟡 Near-Pass: 9
+**Всего:** 37 | ✅ Одобрено: 10 | ❌ Отклонено: 22 | 🟡 Near-Pass: 9
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 41 | [ai-customer-service-operations-operator-v2](./rejected/ai-customer-service-operations-operator-v2/verdict.md) | ❌ | 52 | B2B-OPS | 2026-04-20 | [B2B-OPS] AI Customer Service Operations Operator v2 — REJECTED: 52/100 \| спрос и WTP подтверждены, но fully-loaded CAC, |
 | 40 | [0703-msk-aibidia-geo-expand-v2](./rejected/0703-msk-aibidia-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0703 MSK Aibidia GEO Expand v2 — REJECTED: 0/100 \| локальный demand по трансфертному ценообразованию слишко |
 | 39 | [0806-msk-securitypal-refresh-geo-expand-v2](./rejected/0806-msk-securitypal-refresh-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0806 MSK SecurityPal Refresh GEO Expand v2 — REJECTED: 0/100 \| trust/security questionnaire pain реален, но |
 | 38 | [0527-msk-sanas-geo-expand-v2](./rejected/0527-msk-sanas-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0527 MSK Sanas GEO Expand v2 — REJECTED: 0/100 \| standalone demand в РФ не подтверждён, Profit Gate FAIL, о |
