@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 50 | ✅ Одобрено: 11 | ❌ Отклонено: 26 | 🟡 Near-Pass: 13
+**Всего:** 50 | ✅ Одобрено: 11 | ❌ Отклонено: 27 | 🟡 Near-Pass: 13
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 51 | [1755-msk-hebbia-geo-expand-v2](./rejected/1755-msk-hebbia-geo-expand-v2/verdict.md) | ❌ | 22 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1755 MSK Hebbia GEO Expand v2 — REJECTED: 22/100 \| прямой спрос на institutional intelligence workflow в РФ |
 | 50 | [0900-msk-aaru-geo-expand-v2](./rejected/0900-msk-aaru-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0900 MSK Aaru GEO Expand v2 — REJECTED: 0/100 \| EBITDA @50 clients = -2,32 млн ₽/мес \| LTV/CAC=2,46x \| Ключ |
 | 49 | 0457 MSK Rogo GEO Expand v2 | 🟡 | 65/100 | GEO-EXPAND | 2026-04-20 | Finance-native AI workflow для investment banking и private markets с сильной economics, но без достаточного запаса прочности по локальному спросу и moat. | 3 384 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0457-msk-rogo-geo-expand-v2/verdict.md |
 | 48 | 1028 MSK Sanas GEO Expand v2 | ❌ | 0 | GEO-EXPAND | 2026-04-20 | Accent translation для contact centers выглядит технологически интересно, но в РФ не доказывает отдельный платежеспособный спрос и не проходит Profit Gate. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1028-msk-sanas-geo-expand-v2/verdict.md |
