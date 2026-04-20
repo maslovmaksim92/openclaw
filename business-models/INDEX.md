@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 46 | ✅ Одобрено: 11 | ❌ Отклонено: 23 | 🟡 Near-Pass: 12
+**Всего:** 47 | ✅ Одобрено: 11 | ❌ Отклонено: 24 | 🟡 Near-Pass: 12
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 47 | 1229 MSK Abridge GEO Expand v2 | ❌ | 0 | GEO-EXPAND | 2026-04-20 | Standalone ambient clinical documentation для РФ пока не показывает сформированного спроса, а локальная unit economics не проходит Profit Gate даже в enterprise-сценарии. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1229-msk-abridge-geo-expand-v2/verdict.md |
 | 46 | Enterprise AI Knowledge Search Operator v2 | 🟡 | 65/100 | B2B-OPS | 2026-04-20 | Service-led enterprise AI search по корпоративным данным остаётся сильным по unit economics, но rerun понизил кейс до near-pass из-за quality of evidence и тяжёлого GTM. | 532 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/enterprise-ai-knowledge-search-operator-v2/verdict.md |
 | 45 | AlphaSense AI Market Intelligence | 🟡 | 66/100 | GEO-EXPAND | 2026-04-20 | Premium AI market intelligence для high-stakes research показывает сильную economics, но пока не доказывает локальный moat и repeatable GTM в РФ. | 2 000 200 ₽/мес через 19-20 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/alphasense-ai-market-intelligence/verdict.md |
 | 44 | [0657-msk-hilbert-geo-expand-v2](./rejected/0657-msk-hilbert-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0657 MSK Hilbert GEO Expand v2 — REJECTED: 0/100 \| локальный спрос размазан между CRM/CDP/messaging suites, |
