@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 44 | ✅ Одобрено: 11 | ❌ Отклонено: 23 | 🟡 Near-Pass: 10
+**Всего:** 45 | ✅ Одобрено: 11 | ❌ Отклонено: 23 | 🟡 Near-Pass: 11
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 45 | AlphaSense AI Market Intelligence | 🟡 | 66/100 | GEO-EXPAND | 2026-04-20 | Premium AI market intelligence для high-stakes research показывает сильную economics, но пока не доказывает локальный moat и repeatable GTM в РФ. | 2 000 200 ₽/мес через 19-20 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/alphasense-ai-market-intelligence/verdict.md |
 | 44 | [0657-msk-hilbert-geo-expand-v2](./rejected/0657-msk-hilbert-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0657 MSK Hilbert GEO Expand v2 — REJECTED: 0/100 \| локальный спрос размазан между CRM/CDP/messaging suites, |
 | 43 | Enterprise AI Documentation Platform v2 | ✅ | 70/100 | GEO-EXPAND | 2026-04-20 | migration-led AI documentation platform с сильной economics и approve с оговорками по moat и GTM. | 680 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-ai-documentation-platform-v2/verdict.md |
 | 42 | Investment Banking AI Analyst Operator v2 | 🟡 | 69/100 | FINTECH | 2026-04-20 | AI-native investment banking workflow с сильной economics и EBITDA-потенциалом, но пока без достаточного запаса прочности по спросу и moat. | 1 810 538 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/investment-banking-ai-analyst-operator-v2/verdict.md |
