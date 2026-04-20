@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 48 | ✅ Одобрено: 11 | ❌ Отклонено: 25 | 🟡 Near-Pass: 12
+**Всего:** 49 | ✅ Одобрено: 11 | ❌ Отклонено: 25 | 🟡 Near-Pass: 13
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 49 | 0457 MSK Rogo GEO Expand v2 | 🟡 | 65/100 | GEO-EXPAND | 2026-04-20 | Finance-native AI workflow для investment banking и private markets с сильной economics, но без достаточного запаса прочности по локальному спросу и moat. | 3 384 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0457-msk-rogo-geo-expand-v2/verdict.md |
 | 48 | 1028 MSK Sanas GEO Expand v2 | ❌ | 0 | GEO-EXPAND | 2026-04-20 | Accent translation для contact centers выглядит технологически интересно, но в РФ не доказывает отдельный платежеспособный спрос и не проходит Profit Gate. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1028-msk-sanas-geo-expand-v2/verdict.md |
 | 47 | 1229 MSK Abridge GEO Expand v2 | ❌ | 0 | GEO-EXPAND | 2026-04-20 | Standalone ambient clinical documentation для РФ пока не показывает сформированного спроса, а локальная unit economics не проходит Profit Gate даже в enterprise-сценарии. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1229-msk-abridge-geo-expand-v2/verdict.md |
 | 46 | Enterprise AI Knowledge Search Operator v2 | 🟡 | 65/100 | B2B-OPS | 2026-04-20 | Service-led enterprise AI search по корпоративным данным остаётся сильным по unit economics, но rerun понизил кейс до near-pass из-за quality of evidence и тяжёлого GTM. | 532 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/enterprise-ai-knowledge-search-operator-v2/verdict.md |
