@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 50 | ✅ Одобрено: 11 | ❌ Отклонено: 28 | 🟡 Near-Pass: 13
+**Всего:** 50 | ✅ Одобрено: 11 | ❌ Отклонено: 29 | 🟡 Near-Pass: 13
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 53 | [1628-msk-sanas-geo-expand-v2](./rejected/1628-msk-sanas-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1628 MSK Sanas GEO Expand v2 — REJECTED: 0/100 \| direct demand на accent translation в РФ остаётся LOW, pre |
 | 52 | [1007-msk-sanas-accent-translation-geo-expand-v2](./rejected/1007-msk-sanas-accent-translation-geo-expand-v2/verdict.md) | ❌ | 22 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1007 MSK Sanas Accent Translation GEO Expand v2 — REJECTED: 22/100 \| локальный спрос почти нулевой, fully-l |
 | 51 | [1755-msk-hebbia-geo-expand-v2](./rejected/1755-msk-hebbia-geo-expand-v2/verdict.md) | ❌ | 22 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1755 MSK Hebbia GEO Expand v2 — REJECTED: 22/100 \| прямой спрос на institutional intelligence workflow в РФ |
 | 50 | [0900-msk-aaru-geo-expand-v2](./rejected/0900-msk-aaru-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 0900 MSK Aaru GEO Expand v2 — REJECTED: 0/100 \| EBITDA @50 clients = -2,32 млн ₽/мес \| LTV/CAC=2,46x \| Ключ |
