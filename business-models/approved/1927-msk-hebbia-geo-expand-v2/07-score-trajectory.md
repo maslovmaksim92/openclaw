@@ -1,0 +1,67 @@
+# 07-score-trajectory
+
+## 2026-04-20 12:48:00 MSK — P5 Unit Economics
+- stage: Unit Economics
+- case: 1927-msk-hebbia-geo-expand-v2
+- outcome: PROCEED
+- pricing_model: enterprise knowledge copilot, 300k ₽ MRR per client
+- cogs_per_client_month: 65k ₽
+- contribution_margin: 78.3%
+- blended_fully_loaded_cac: 1.418 млн ₽
+- ltv: 13.05 млн ₽
+- churn_rate_monthly: 1.8%
+- ltv_cac: 9.2x
+- cac_payback_months: 4.7
+- break_even_clients: 26 operational / 33 with active GTM spend
+- break_even_month: M17 operational / M19 EBITDA with GTM spend
+- profit_gate: PASS
+- key_reasoning:
+  - enterprise ACV 3.6 млн ₽/год позволяет окупать fully-loaded CAC даже при длинном sales cycle
+  - gross economics выглядят сильными, пока компания держит secure enterprise positioning и не скатывается в services-heavy кастомщину
+  - при 50 клиентах бизнес многократно выше порога EBITDA 500k ₽/мес
+- score_impact:
+  - unit_economics_confidence: medium -> high
+  - investment_readiness: medium -> high
+  - reject_risk: low -> low
+- artifacts:
+  - /home/node/.openclaw/workspace/branch-models-lead/pipeline/cases/1927-msk-hebbia-geo-expand-v2/04-economics.md
+
+## 2026-04-20 19:56:00 MSK — P7 Critic and Verdict
+- stage: Critic and Verdict
+- case: 1927-msk-hebbia-geo-expand-v2
+- outcome: APPROVED WITH NOTES
+- normalized_score: 72/100
+- raw_score: 108/150
+- rubric:
+  - unit_economics: 21/25
+  - ebitda_potential: 19/25
+  - market_demand: 15/25
+  - moat: 12/25
+  - execution_risk: 18/25
+  - gtm_realism: 23/25
+- source_tier_balance:
+  - t1: 3
+  - t2: 6
+  - t3: 0
+  - weighted: 2.33
+  - penalty_to_market_demand: -2
+- moat_7factor:
+  - network_effects: 0/3
+  - switching_costs: 2/3
+  - scale_economies: 1/3
+  - proprietary_data_model_advantage: 1/3
+  - regulatory_moat: 2/3
+  - brand_distribution: 1/3
+  - embedded_workflow: 3/3
+- investment_logic:
+  - кейс проходит committee gate за счёт LTV/CAC 9.2x, payback 4.7 мес и EBITDA potential 5.77 млн ₽/мес при 50 клиентах
+  - слабое место не в gross economics, а в execution dispersion, pricing discipline и regulated deployment complexity
+  - approve возможен только как secure enterprise knowledge copilot, а не как generic chatbot
+- score_impact:
+  - investment_readiness: high -> approved_with_notes
+  - moat_confidence: medium -> medium
+  - execution_risk: medium -> medium_high
+  - reject_risk: low -> medium
+- artifacts:
+  - /home/node/.openclaw/workspace/branch-models-lead/pipeline/cases/1927-msk-hebbia-geo-expand-v2/05-critic.md
+  - /home/node/.openclaw/workspace/branch-models-lead/pipeline/cases/1927-msk-hebbia-geo-expand-v2/06-verdict.md

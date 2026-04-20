@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 63 | ✅ Одобрено: 11 | ❌ Отклонено: 35 | 🟡 Near-Pass: 18
+**Всего:** 64 | ✅ Одобрено: 12 | ❌ Отклонено: 35 | 🟡 Near-Pass: 18
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 64 | 1927 MSK Hebbia GEO Expand v2 | ✅ | 72/100 | GEO-EXPAND | 2026-04-20 | Secure enterprise knowledge copilot для document-heavy regulated компаний с approve по economics и оговорками по moat/execution. | 5 770 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/1927-msk-hebbia-geo-expand-v2/verdict.md |
 | 63 | 1048 MSK Hightouch GEO Expand v2 | 🟡 | 66/100 | GEO-EXPAND | 2026-04-20 | Warehouse-native AI decisioning проходит economics-gate, но пока не доказывает локальный moat и repeatable premium GTM. | 2 000 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1048-msk-hightouch-geo-expand-v2/verdict.md |
 | 62 | Warehouse-native AI Decisioning Marketing Operator v2 | 🟡 | 69/100 | B2B-OPS | 2026-04-20 | Warehouse-native decisioning layer для маркетинга показывает рабочую unit economics и путь к EBITDA, но пока не доказывает repeatable premium demand в РФ. | 672 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/warehouse-native-ai-decisioning-marketing-operator-v2/verdict.md |
 | 61 | 1557 MSK Norm AI GEO Expand v2 | ❌ | 57/100 | GEO-EXPAND | 2026-04-20 | Enterprise compliance AI имеет рабочую economics, но не доказывает локальный moat и repeatable GTM для РФ. | 3 540 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1557-msk-norm-ai-geo-expand-v2/verdict.md |
