@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 56 | ✅ Одобрено: 11 | ❌ Отклонено: 30 | 🟡 Near-Pass: 15
+**Всего:** 57 | ✅ Одобрено: 11 | ❌ Отклонено: 30 | 🟡 Near-Pass: 16
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 57 | Cognizant Agentic AI Infrastructure Services v2 | 🟡 | 66/100 | B2B-OPS | 2026-04-20 | Rerun enterprise AI-managed IT operations сохраняет сильную economics и высокий EBITDA potential, но не дотягивает до approve из-за слабой source-tier evidence и умеренного moat. | 9 660 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/cognizant-agentic-ai-infrastructure-services-v2/verdict.md |
 | 56 | 1027 MSK Hightouch AI Decisioning v2 | 🟡 | 69/100 | B2B-OPS | 2026-04-20 | Warehouse-native AI decisioning для enterprise B2C выглядит сильно по economics, но пока не дотягивает до approve из-за слабого локального demand proof и среднего moat. | 7 390 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1027-msk-hightouch-ai-decisioning-v2/verdict.md |
 | 55 | [1835-msk-sanas-geo-expand-v2](./rejected/1835-msk-sanas-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1835 MSK Sanas GEO Expand v2 — REJECTED: 0/100 \| direct demand на accent translation в РФ остаётся LOW, Pro |
 | 54 | 0755 MSK Dropzone AI GEO Expand v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-20 | AI SOC analyst для sovereign enterprise проходит economics-gate, но пока не доказывает локальный demand moat и repeatable GTM. | 757 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0755-msk-dropzone-ai-geo-expand-v2/verdict.md |
