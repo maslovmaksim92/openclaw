@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-20
-**Всего:** 58 | ✅ Одобрено: 11 | ❌ Отклонено: 31 | 🟡 Near-Pass: 16
+**Всего:** 59 | ✅ Одобрено: 11 | ❌ Отклонено: 32 | 🟡 Near-Pass: 16
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 59 | 0827 MSK Conveyor GEO Expand v2 | ❌ | 18/100 | GEO-EXPAND | 2026-04-20 | Customer trust workflow подтверждает глобальную боль, но в РФ остаётся слишком узким и не окупает enterprise CAC. | -3 492 869 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0827-msk-conveyor-geo-expand-v2/verdict.md |
 | 58 | [aaru-geo-expand-v2](./rejected/aaru-geo-expand-v2/verdict.md) | ❌ | 41 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] Aaru synthetic customer research — REJECTED: direct demand in Russia is weak, adjacent WTP exists but belongs to substitutes, and achievable local monetization does not clear 500k ₽ monthly EBITDA. |
 | 57 | Cognizant Agentic AI Infrastructure Services v2 | 🟡 | 66/100 | B2B-OPS | 2026-04-20 | Rerun enterprise AI-managed IT operations сохраняет сильную economics и высокий EBITDA potential, но не дотягивает до approve из-за слабой source-tier evidence и умеренного moat. | 9 660 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/cognizant-agentic-ai-infrastructure-services-v2/verdict.md |
 | 56 | 1027 MSK Hightouch AI Decisioning v2 | 🟡 | 69/100 | B2B-OPS | 2026-04-20 | Warehouse-native AI decisioning для enterprise B2C выглядит сильно по economics, но пока не дотягивает до approve из-за слабого локального demand proof и среднего moat. | 7 390 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1027-msk-hightouch-ai-decisioning-v2/verdict.md |
