@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 82 | ✅ Одобрено: 12 | ❌ Отклонено: 49 | 🟡 Near-Pass: 25
+**Всего:** 86 | ✅ Одобрено: 12 | ❌ Отклонено: 48 | 🟡 Near-Pass: 26
 **Обновлено:** 2026-04-22
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 86 | HubSpot Outcome-Based AI Agents Pricing v2 | 🟡 | 65/100 | B2B-OPS | 2026-04-22 | Service-heavy AI CRM ops layer вокруг HubSpot outcome pricing проходит economics-gate, но пока не доказывает локальный moat и repeatable GTM. | 1 461 718 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/hubspot-outcome-based-ai-agents-pricing-v2/verdict.md |
 | 85 | [microsoft-supply-chain-agentic-partner-offerings-v2](./rejected/microsoft-supply-chain-agentic-partner-offerings-v2/verdict.md) | ❌ | 0 | B2B-OPS | 2026-04-22 | [B2B-OPS] Microsoft Supply Chain Agentic Partner Offerings v2 — REJECTED: 0/100 \| direct demand на Microsoft-centered su |
 | 84 | [lightyear-geo-expand-v2](./rejected/lightyear-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-21 | [GEO-EXPAND] Lightyear GEO Expand v2 — REJECTED: 0/100 \| direct demand на standalone telecom procurement/TEM в РФ остаёт |
 | 83 | [langfuse-geo-expand-v2](./rejected/langfuse-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-21 | [GEO-EXPAND] Langfuse GEO Expand v2 — REJECTED: direct demand в РФ остаётся LOW, а standalone economics не проходят порог 500 тыс. ₽ EBITDA/мес. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/langfuse-geo-expand-v2/verdict.md |
