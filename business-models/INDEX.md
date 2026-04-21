@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-21
-**Всего:** 68 | ✅ Одобрено: 12 | ❌ Отклонено: 42 | 🟡 Near-Pass: 21
+**Всего:** 75 | ✅ Одобрено: 12 | ❌ Отклонено: 41 | 🟡 Near-Pass: 22
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 75 | CodaMetrix Autonomous Medical Coding v2 | 🟡 | 67/100 | HEALTHCARE | 2026-04-21 | Enterprise autonomous medical coding проходит economics-gate, но пока не доказывает локальный product-demand и запас прочности по GTM. | 505 960 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/codametrix-autonomous-medical-coding-v2/verdict.md |
 | 74 | [conveyor-geo-expand-v2](./rejected/conveyor-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-21 | [GEO-EXPAND] Conveyor GEO Expand v2 — REJECTED: 0/100 \| Ключевой стоп-фактор: в РФ слишком узкий спрос на trust workflow |
 | 73 | Appian Enterprise AI Process v2 | 🟡 | 65/100 | B2B-OPS | 2026-04-21 | Enterprise AI orchestration для document-heavy regulated workflows силён по economics, но пока не доказывает инвестиционный запас прочности по спросу, moat и GTM. | 862 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/appian-enterprise-ai-process-v2/verdict.md |
 | 72 | [darrow-geo-expand-v2](./rejected/darrow-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-21 | [GEO-EXPAND] Darrow GEO Expand v2 — REJECTED: 0/100 \| Ключевой стоп-фактор: в РФ нет подтверждённого core-demand на plai |
@@ -51,7 +52,7 @@
 | 37 | Enterprise Compliance Operations Agents v2 | ✅ | 71/100 | B2B-OPS | 2026-04-20 | Enterprise compliance ops AI-layer с сильной unit economics и одобрением с оговорками по GTM и moat. | 680 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-compliance-operations-agents-v2/verdict.md |
 | 36 | Animated Photo On-Demand Service v2 | ❌ | n/a | QUICK-AI | 2026-04-20 | Красивый consumer AI utility с реальными платежами, но слишком маленьким и низкочековым рынком для фондовой доходности. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/animated-photo-on-demand-service-v2/verdict.md |
 | 35 | 0201 MSK Conveyor GEO Expand v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-20 | Standalone rerun Conveyor-category кейса с сильной unit economics, но пока без investment-grade локального demand proof. | 1 020 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/0201-msk-conveyor-geo-expand-v2/verdict.md |
-| 34 | Celsus, AI-скрининг и ранняя диагностика для клиник и диагностических сетей v2 | ✅ | 71/100 | HEALTHCARE | 2026-04-20 | Rerun radiology AI-layer с сильной economics и достижимым EBITDA, но с оговорками по pricing и execution risk. | 8 560 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/celsus-radiology-ai-screening-v2/verdict.md |
+| 34 | Celsus, AI-скрининг и ранняя диагностика для клиник и диагностических сетей v2 | ✅ | 71/100 | HEALTHCARE | 2026-04-20 | Rerun radiology AI-layer с сильной economics и достижимым EBITDA, но с оговорками по pricing и execution risk. | 8 560 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/celsus-radiology-ai-screening-v2/verdict.md |
 | 33 | [ai-native-salesforce-implementation-operator-v2](./rejected/ai-native-salesforce-implementation-operator-v2/verdict.md) | ❌ | 59 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] AI-native Salesforce Implementation Operator v2 — REJECTED: 59/100 \| РФ demand LOW, Salesforce market struc |
 | 32 | Vidnoz, быстрые AI-видеооткрытки и AI-аватары | 🟡 | 67/100 | QUICK-AI | 2026-04-19 | QUICK-AI content-ops engine с сильной unit economics, но пока без доказанного локального moat и repeatable GTM. | 500 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/vidnoz-ai-videootkrytki-i-ai-avatary/verdict.md |
 | 31 | AI Credit Analysis Corporate Financial Statements v2 | 🟡 | 67/100 | FINTECH | 2026-04-19 | AI-native workflow для анализа отчётности юрлиц в кредитном контуре улучшил score после rerun, но всё ещё требует доказать повторяемый GTM и capital efficiency. | 1 200 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-credit-analysis-corporate-financial-statements-v2/verdict.md |
