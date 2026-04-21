@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 79 | ✅ Одобрено: 12 | ❌ Отклонено: 43 | 🟡 Near-Pass: 24
+**Всего:** 80 | ✅ Одобрено: 12 | ❌ Отклонено: 44 | 🟡 Near-Pass: 25
 **Обновлено:** 2026-04-21
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 80 | 2001 MSK Edra GEO Expand v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-21 | Enterprise process-intelligence layer силён по economics, но пока не доказывает локальный moat и repeatable GTM. | 2 432 305 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/2001-msk-edra-geo-expand-v2/verdict.md |
 | 79 | 2327 MSK Hilbert GEO Expand v2 | ❌ | 63/100 | GEO-EXPAND | 2026-04-21 | Warehouse-native AI decisioning показывает сильную economics, но не доказывает локальный moat и repeatable premium GTM. | 633 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/2327-msk-hilbert-geo-expand-v2/verdict.md |
 | 78 | 1528 MSK Hebbia GEO Expand v2 | 🟡 | 65/100 | GEO-EXPAND | 2026-04-21 | Secure AI workspace для investment banking и due diligence проходит economics-gate, но пока не доказывает достаточный локальный moat и repeatable GTM. | 626 800 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1528-msk-hebbia-geo-expand-v2/verdict.md |
 | 77 | 1C RPD Fintech v2 | 🟡 | 65/100 | FINTECH | 2026-04-21 | AI-оператор для первички внутри 1С подтверждает локальный спрос и сильный LTV/CAC, но не проходит approve из-за слишком длинного пути к EBITDA компании. | 11 239 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/1c-rpd-fintech-v2/verdict.md |
