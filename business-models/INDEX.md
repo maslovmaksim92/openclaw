@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-21
-**Всего:** 67 | ✅ Одобрено: 12 | ❌ Отклонено: 41 | 🟡 Near-Pass: 20
+**Всего:** 68 | ✅ Одобрено: 12 | ❌ Отклонено: 41 | 🟡 Near-Pass: 21
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 73 | Appian Enterprise AI Process v2 | 🟡 | 65/100 | B2B-OPS | 2026-04-21 | Enterprise AI orchestration для document-heavy regulated workflows силён по economics, но пока не доказывает инвестиционный запас прочности по спросу, moat и GTM. | 862 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/appian-enterprise-ai-process-v2/verdict.md |
 | 72 | [darrow-geo-expand-v2](./rejected/darrow-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-21 | [GEO-EXPAND] Darrow GEO Expand v2 — REJECTED: 0/100 \| Ключевой стоп-фактор: в РФ нет подтверждённого core-demand на plai |
 | 71 | AI Fullstack App Builder No-Code Operator v2 | 🟡 | 65/100 | AI-SERVICES | 2026-04-21 | Productized AI app-factory для быстрого запуска MVP и internal tools проходит economics-gate, но пока не доказывает moat и quality of evidence. | 690 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-fullstack-app-builder-no-code-operator-v2/verdict.md |
 | 70 | Ambience Healthcare Geo Expand v2 | 🟡 | 65/100 | HEALTHCARE | 2026-04-21 | Ambient clinical documentation и revenue-integrity workflow для private healthcare в РФ почти проходят порог, но пока не хватает moat и margin of safety. | 434 887 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ambience-healthcare-geo-expand-v2/verdict.md |
