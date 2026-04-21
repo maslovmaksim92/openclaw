@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-21
-**Всего:** 65 | ✅ Одобрено: 12 | ❌ Отклонено: 40 | 🟡 Near-Pass: 18
+**Всего:** 66 | ✅ Одобрено: 12 | ❌ Отклонено: 40 | 🟡 Near-Pass: 19
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 70 | Ambience Healthcare Geo Expand v2 | 🟡 | 65/100 | HEALTHCARE | 2026-04-21 | Ambient clinical documentation и revenue-integrity workflow для private healthcare в РФ почти проходят порог, но пока не хватает moat и margin of safety. | 434 887 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ambience-healthcare-geo-expand-v2/verdict.md |
 | 69 | Clay GEO Expand v2 | ❌ | n/a | GEO-EXPAND | 2026-04-21 | Clay-подобный GTM data enrichment workflow для РФ отклонён: локальный спрос нишевый, substitutes дешёвые, а EBITDA >= 500 тыс. ₽/мес не просматривается. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/clay-geo-expand-v2/verdict.md |
 | 68 | [campfire-ai-erp-geo-expand-v2](./rejected/campfire-ai-erp-geo-expand-v2/verdict.md) | ❌ | 19 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] Campfire AI ERP GEO Expand v2 — REJECTED: 19/100 \| В РФ боль finance close реальна, но demand LOW, incumben |
 | 67 | [1525-msk-abridge-geo-expand-v2](./rejected/1525-msk-abridge-geo-expand-v2/verdict.md) | ❌ | 62 | GEO-EXPAND | 2026-04-20 | [GEO-EXPAND] 1525 MSK Abridge GEO Expand v2 — REJECTED: 62/100 \| EBITDA base=598К₽/мес через 24 мес \| LTV/CAC=8,8x \| Клю |
