@@ -3,7 +3,7 @@
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
 
 **Обновлено:** 2026-04-21
-**Всего:** 75 | ✅ Одобрено: 12 | ❌ Отклонено: 41 | 🟡 Near-Pass: 22
+**Всего:** 76 | ✅ Одобрено: 12 | ❌ Отклонено: 42 | 🟡 Near-Pass: 22
 
 ---
 
@@ -11,6 +11,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 76 | EvenUp Personal Injury GEO Expand v2 | ❌ | n/a | GEO-EXPAND | 2026-04-21 | Plaintiff-side personal injury legal AI для РФ отклонён: локальный спрос слишком узкий, а путь к EBITDA >= 500 тыс. ₽/мес не подтверждён. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/evenup-personal-injury-geo-expand-v2/verdict.md |
 | 75 | CodaMetrix Autonomous Medical Coding v2 | 🟡 | 67/100 | HEALTHCARE | 2026-04-21 | Enterprise autonomous medical coding проходит economics-gate, но пока не доказывает локальный product-demand и запас прочности по GTM. | 505 960 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/codametrix-autonomous-medical-coding-v2/verdict.md |
 | 74 | [conveyor-geo-expand-v2](./rejected/conveyor-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-21 | [GEO-EXPAND] Conveyor GEO Expand v2 — REJECTED: 0/100 \| Ключевой стоп-фактор: в РФ слишком узкий спрос на trust workflow |
 | 73 | Appian Enterprise AI Process v2 | 🟡 | 65/100 | B2B-OPS | 2026-04-21 | Enterprise AI orchestration для document-heavy regulated workflows силён по economics, но пока не доказывает инвестиционный запас прочности по спросу, moat и GTM. | 862 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/appian-enterprise-ai-process-v2/verdict.md |
