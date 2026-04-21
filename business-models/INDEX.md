@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 81 | ✅ Одобрено: 12 | ❌ Отклонено: 45 | 🟡 Near-Pass: 25
+**Всего:** 81 | ✅ Одобрено: 12 | ❌ Отклонено: 46 | 🟡 Near-Pass: 25
 **Обновлено:** 2026-04-21
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 82 | [infinitus-geo-expand-v2](./rejected/infinitus-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-21 | [GEO-EXPAND] Infinitus GEO Expand v2 — REJECTED: 0/100 \| Ключевой стоп-фактор: в РФ спрос на payer-oriented patient acce |
 | 81 | Haast AI Marketing Compliance v2 | ❌ | 63/100 | GEO-EXPAND | 2026-04-21 | AI review для legal/compliance проверки маркетинговых материалов в regulated сегментах силён на уровне клиента, но слишком тяжёл для standalone РФ-scale. | 554 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/haast-ai-marketing-compliance-v2/verdict.md |
 | 80 | 2001 MSK Edra GEO Expand v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-21 | Enterprise process-intelligence layer силён по economics, но пока не доказывает локальный moat и repeatable GTM. | 2 432 305 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/2001-msk-edra-geo-expand-v2/verdict.md |
 | 79 | 2327 MSK Hilbert GEO Expand v2 | ❌ | 63/100 | GEO-EXPAND | 2026-04-21 | Warehouse-native AI decisioning показывает сильную economics, но не доказывает локальный moat и repeatable premium GTM. | 633 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/2327-msk-hilbert-geo-expand-v2/verdict.md |
