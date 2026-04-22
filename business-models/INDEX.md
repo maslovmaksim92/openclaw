@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 96 | ✅ Одобрено: 13 | ❌ Отклонено: 56 | 🟡 Near-Pass: 27
+**Всего:** 97 | ✅ Одобрено: 13 | ❌ Отклонено: 57 | 🟡 Near-Pass: 27
 **Обновлено:** 2026-04-22
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 97 | Abridge Ambient Medical Scribe GEO Expand v2 | ❌ | 64/100 | HEALTHCARE | 2026-04-22 | Enterprise ambient documentation для РФ проходит economics-gate, но не дотягивает до investable уровня из-за weak moat и LOW demand. | 1 048 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/abridge-ambient-medical-scribe-geo-expand-v2/verdict.md |
 | 96 | Infobip AgentOS v2 | 🟡 | 65/100 | B2B-OPS | 2026-04-22 | Enterprise CX orchestration проходит economics-gate, но пока не доказывает moat и repeatable GTM в РФ. | 1 128 000 ₽/мес через 16 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/infobip-agentos-b2b-ops-v2/verdict.md |
 | 95 | Abridge GEO Expand v2 | ❌ | 64/100 | HEALTHCARE | 2026-04-22 | Ambient clinical documentation для РФ проходит economics-gate только в enterprise/on-prem модели, но пока не доказывает investment-grade спрос и moat. | 717 999 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/abridge-geo-expand-v2/verdict.md |
 | 94 | [patlytics-geo-expand-0927-v2](./rejected/patlytics-geo-expand-0927-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-22 | [GEO-EXPAND] Patlytics GEO Expand 0927 v2 — REJECTED: 0/100 \| Direct patent demand в РФ LOW, standalone economics не дос |
