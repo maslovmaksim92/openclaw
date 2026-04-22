@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 90 | ✅ Одобрено: 13 | ❌ Отклонено: 52 | 🟡 Near-Pass: 26
+**Всего:** 90 | ✅ Одобрено: 13 | ❌ Отклонено: 53 | 🟡 Near-Pass: 26
 **Обновлено:** 2026-04-22
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 92 | [patlytics-geo-expand-0855-v2](./rejected/patlytics-geo-expand-0855-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-22 | [GEO-EXPAND] Patlytics GEO Expand 0855 v2 — REJECTED: 0/100 \| Direct patent demand в РФ LOW, standalone economics ниже п |
 | 91 | [patlytics-geo-expand-0655-v2](./rejected/patlytics-geo-expand-0655-v2/verdict.md) | ❌ | 18 | GEO-EXPAND | 2026-04-22 | [GEO-EXPAND] Patlytics GEO Expand 0655 v2 — REJECTED: 18/100 \| Спрос в РФ LOW, SAM ≈ 71 млн ₽/год, Profit Gate FAIL \| Кл |
 | 90 | Listen Labs GEO Expand v2 | ✅ | 70/100 | GEO-EXPAND | 2026-04-22 | AI research operating system для customer interviews проходит approve только как sales-led enterprise wedge с оговорками по moat и pricing. | 698 068 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/listen-labs-geo-expand-v2/verdict.md |
 | 89 | [openevidence-medical-search-geo-expand-v2](./rejected/openevidence-medical-search-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-22 | [HEALTHCARE] OpenEvidence Medical Search GEO Expand v2 — REJECTED: 0/100 \| direct demand в РФ LOW, Telegram-wedge не най |
