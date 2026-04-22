@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 99 | ✅ Одобрено: 14 | ❌ Отклонено: 61 | 🟡 Near-Pass: 27
+**Всего:** 99 | ✅ Одобрено: 14 | ❌ Отклонено: 62 | 🟡 Near-Pass: 27
 **Обновлено:** 2026-04-22
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 119 | [resolve-ai-sre-v2](./rejected/resolve-ai-sre-v2/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-04-22 | [AI-SERVICES] Resolve AI SRE v2 — REJECTED: 0/100 \| Прямой спрос в РФ на AI SRE incident response automation остаётся LO |
 | 118 | [raapid-medical-coding-geo-expand-v2](./rejected/raapid-medical-coding-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-22 | [HEALTHCARE] Raapid Medical Coding GEO Expand v2 — REJECTED: 0/100 \| Прямой спрос в РФ на autonomous medical coding и re |
 | 117 | [prorata-geo-expand-refresh-v2](./rejected/prorata-geo-expand-refresh-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-22 | [GEO-EXPAND] ProRata GEO Expand Refresh v2 — REJECTED: 0/100 \| РФ-спрос на AI content licensing / attribution остаётся L |
 | 116 | Complyance GEO Expand v2 | ✅ | 71/100 | GEO-EXPAND | 2026-04-22 | Enterprise-only GRC automation для regulated buyers проходит approve с оговорками по спросу, moat и execution risk. | 8 869 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/complyance-geo-expand-v2/verdict.md |
