@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 93 | ✅ Одобрено: 13 | ❌ Отклонено: 54 | 🟡 Near-Pass: 26
+**Всего:** 93 | ✅ Одобрено: 13 | ❌ Отклонено: 55 | 🟡 Near-Pass: 26
 **Обновлено:** 2026-04-22
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 94 | [patlytics-geo-expand-0927-v2](./rejected/patlytics-geo-expand-0927-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-22 | [GEO-EXPAND] Patlytics GEO Expand 0927 v2 — REJECTED: 0/100 \| Direct patent demand в РФ LOW, standalone economics не дос |
 | 93 | Accenture + Microsoft Forward Deployed Engineering v2 | ❌ | 63/100 | AI-SERVICES | 2026-04-22 | Enterprise AI implementation practice показывает сильную unit economics, но не проходит инвесткомитет из-за weak moat и price compression risk. | 940 000 ₽/мес при 15 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/accenture-microsoft-forward-deployed-engineering-v2/verdict.md |
 | 92 | [patlytics-geo-expand-0855-v2](./rejected/patlytics-geo-expand-0855-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-22 | [GEO-EXPAND] Patlytics GEO Expand 0855 v2 — REJECTED: 0/100 \| Direct patent demand в РФ LOW, standalone economics ниже п |
 | 91 | [patlytics-geo-expand-0655-v2](./rejected/patlytics-geo-expand-0655-v2/verdict.md) | ❌ | 18 | GEO-EXPAND | 2026-04-22 | [GEO-EXPAND] Patlytics GEO Expand 0655 v2 — REJECTED: 18/100 \| Спрос в РФ LOW, SAM ≈ 71 млн ₽/год, Profit Gate FAIL \| Кл |
