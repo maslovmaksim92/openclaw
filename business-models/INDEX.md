@@ -1,8 +1,8 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 100 | ✅ Одобрено: 14 | ❌ Отклонено: 63 | 🟡 Near-Pass: 27
-**Обновлено:** 2026-04-22
+**Всего:** 105 | ✅ Одобрено: 15 | ❌ Отклонено: 63 | 🟡 Near-Pass: 27
+**Обновлено:** 2026-04-23
 
 ---
 
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 105 | Saby AI-бухгалтерия МСБ v2 | ✅ | 71/100 | FINTECH | 2026-04-23 | Specialist AI-layer для первички и ФНС-workflow одобрен с оговорками, потому что exact-demand силён, а moat зависит от интеграций и SLA. | 1 550 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/fintech-saby-ai-buhgalteriya-msb-v2/verdict.md |
 | 104 | Hebbia Finance AI Analyst GEO Expand v2 | ❌ | 63/100 | GEO-EXPAND | 2026-04-22 | AI execution layer для investment banking и due diligence в РФ силён по unit economics, но отклонён из-за weak moat, LOW direct demand и тяжёлого GTM. | 1 460 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/hebbia-finance-ai-analyst-geo-expand-v2/verdict.md |
 | 119 | [resolve-ai-sre-v2](./rejected/resolve-ai-sre-v2/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-04-22 | [AI-SERVICES] Resolve AI SRE v2 — REJECTED: 0/100 \| Прямой спрос в РФ на AI SRE incident response automation остаётся LO |
 | 118 | [raapid-medical-coding-geo-expand-v2](./rejected/raapid-medical-coding-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-22 | [HEALTHCARE] Raapid Medical Coding GEO Expand v2 — REJECTED: 0/100 \| Прямой спрос в РФ на autonomous medical coding и re |
