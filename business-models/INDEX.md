@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 87 | ✅ Одобрено: 12 | ❌ Отклонено: 51 | 🟡 Near-Pass: 26
+**Всего:** 90 | ✅ Одобрено: 13 | ❌ Отклонено: 51 | 🟡 Near-Pass: 26
 **Обновлено:** 2026-04-22
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 90 | Listen Labs GEO Expand v2 | ✅ | 70/100 | GEO-EXPAND | 2026-04-22 | AI research operating system для customer interviews проходит approve только как sales-led enterprise wedge с оговорками по moat и pricing. | 698 068 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/listen-labs-geo-expand-v2/verdict.md |
 | 89 | [openevidence-medical-search-geo-expand-v2](./rejected/openevidence-medical-search-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-22 | [HEALTHCARE] OpenEvidence Medical Search GEO Expand v2 — REJECTED: 0/100 \| direct demand в РФ LOW, Telegram-wedge не най |
 | 88 | [oracle-fusion-agentic-finance-supply-chain-v2](./rejected/oracle-fusion-agentic-finance-supply-chain-v2/verdict.md) | ❌ | 0 | B2B-OPS | 2026-04-22 | [B2B-OPS] Oracle Fusion Agentic Finance & Supply Chain v2 — REJECTED: 0/100 \| direct demand в РФ LOW, Oracle-specific we |
 | 87 | Apella AI GEO Expand v2 | ❌ | 59/100 | HEALTHCARE | 2026-04-22 | Hospital operations AI для OR orchestration силён по economics, но в РФ пока не доказывает investment-grade спрос и moat. | 766 000 ₽/мес через 16-18 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/apella-geo-expand-v2/verdict.md |
