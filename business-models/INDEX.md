@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 99 | ✅ Одобрено: 14 | ❌ Отклонено: 59 | 🟡 Near-Pass: 27
+**Всего:** 99 | ✅ Одобрено: 14 | ❌ Отклонено: 60 | 🟡 Near-Pass: 27
 **Обновлено:** 2026-04-22
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 117 | [prorata-geo-expand-refresh-v2](./rejected/prorata-geo-expand-refresh-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-22 | [GEO-EXPAND] ProRata GEO Expand Refresh v2 — REJECTED: 0/100 \| РФ-спрос на AI content licensing / attribution остаётся L |
 | 116 | Complyance GEO Expand v2 | ✅ | 71/100 | GEO-EXPAND | 2026-04-22 | Enterprise-only GRC automation для regulated buyers проходит approve с оговорками по спросу, moat и execution risk. | 8 869 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/complyance-geo-expand-v2/verdict.md |
 | 115 | Laurel GEO Expand v2 | ❌ | 63/100 | GEO-EXPAND | 2026-04-22 | AI-native passive timekeeping для professional services в РФ выглядит осмысленно по unit economics, но не проходит инвесткомитет из-за weak moat и LOW demand. | 243 082 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/2101-msk-laurel-geo-expand-v2/verdict.md |
 | 98 | [patlytics-ip-ops-geo-expand-v2](./rejected/patlytics-ip-ops-geo-expand-v2/verdict.md) | ❌ | 0 | B2B-OPS | 2026-04-22 | [B2B-OPS] Patlytics IP Ops GEO Expand v2 — REJECTED: 0/100 \| Локальный спрос на standalone patent workflow platform в РФ |
