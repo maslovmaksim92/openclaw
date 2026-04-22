@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 108 | ✅ Одобрено: 15 | ❌ Отклонено: 66 | 🟡 Near-Pass: 27
+**Всего:** 109 | ✅ Одобрено: 15 | ❌ Отклонено: 67 | 🟡 Near-Pass: 28
 **Обновлено:** 2026-04-23
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 123 | Hebbia Institutional Finance GEO Expand v2 | 🟡 | 67/100 | FINTECH | 2026-04-23 | Узкий enterprise FINTECH workflow проходит economics-gate, но не получает approve из-за weak moat, compliance friction и тяжёлого GTM. | 1 260 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/hebbia-institutional-finance-geo-expand-v2/verdict.md |
 | 122 | [guidde-geo-expand-v2](./rejected/guidde-geo-expand-v2/verdict.md) | ❌ | 58 | GEO-EXPAND | 2026-04-23 | [GEO-EXPAND] Guidde GEO Expand v2 — REJECTED: 58/100 \| LTV/CAC выглядит хорошо, но при 50 клиентах кейс не даёт требуемы |
 | 121 | [rocket-vibe-solutioning-v2](./rejected/rocket-vibe-solutioning-v2/verdict.md) | ❌ | 54 | AI-SERVICES | 2026-04-23 | [AI-SERVICES] Rocket Vibe Solutioning v2 — REJECTED: 54/100 \| Presales и discovery-боль реальны, но в РФ это пока servic |
 | 120 | [rogo-finance-workflow-geo-expand-v2](./rejected/rogo-finance-workflow-geo-expand-v2/verdict.md) | ❌ | 56 | GEO-EXPAND | 2026-04-23 | [GEO-EXPAND] Rogo Finance Workflow GEO Expand v2 — REJECTED: 56/100 \| Реальная enterprise-боль есть, но в РФ buyer unive |
