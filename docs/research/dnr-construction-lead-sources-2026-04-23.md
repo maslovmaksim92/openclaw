@@ -374,6 +374,32 @@
    - локальным Telegram-каналам как радару по фактическому старту работ.
 5. Через 2-6 недель возвращаемся к объекту и ищем вторую волну: окна, фасады, кровля, отделка, благоустройство, инженерка.
 
+### 10.7. Отдельный слой ранних сигналов: что мониторить ещё до тендера
+
+Это полезное усиление карты: часть строительного спроса в ДНР видна не только в тендерах, но и в официальных публикациях Минстроя ДНР, где заранее появляются признаки будущих подрядов.
+
+| Ранний сигнал | Прямая ссылка | Почему это важно для лидогенерации | Что делать practically |
+|---|---|---|---|
+| Единый реестр зданий и сооружений, подлежащих сносу | https://minstroy-dnr.ru/snos-jilya | снос почти всегда тянет за собой демонтаж, расчистку, вывоз, проектирование, новое строительство или благоустройство | собирать адреса, гео и массивы домов, затем проверять закупки по сносу, расчистке и новому строительству |
+| Проекты планировки территорий в Мариуполе | https://minstroy-dnr.ru/utverzhdeny-proekty-planirovki-territorij-v-mariupole | утверждённые ППТ показывают территории будущего строительства, капремонта и инфраструктурных работ | вынимать названия кварталов и улиц, ставить их в поисковые запросы по ЕИС, агрегаторам и новостям |
+| Проект планировки центральной исторической части Мариуполя | https://minstroy-dnr.ru/utverzhden-proekt-planirovki-centralnoj-istoricheskoj-chasti-mariupolya | исторический центр означает длинную цепочку работ: реставрация, фасады, кровли, сети, благоустройство | заводить отдельный watchlist по историческому центру и искать подрядчиков по реставрации и фасадам |
+| Шеф-регионы РФ восстанавливают инфраструктуру ДНР | https://minstroy-dnr.ru/shef-regionyi-rf-vosstanavlivayut-infrastrukturu-dnr | шеф-регионы создают распределённый поток заказов через свои подрядные цепочки, не всегда заметные одним поиском по ДНР | по каждому шеф-региону искать связки `регион + ДНР + подрядчик + объект`, отдельно собирать победителей и субподрядные касания |
+| Публикации о конкретных восстановительных подрядчиках на объектах Мариуполя | https://minstroy-dnr.ru/zamministra-stroitelstva-i-zhkx-dnr-posetil-neskolko-obrazovatelnyix-uchrezhdenij-v-mariupole | официальный сайт иногда прямо называет исполнителя до того, как рынок массово замечает компанию | фиксировать названия подрядчиков, например ООО «РКС-НР», и строить отдельный outbound по ним |
+| Публикации по медобъектам с раскрытием генподрядной цепочки | https://minstroy-dnr.ru/nikolaj-ciganov-otmetil-kachestvo-vosstanovitelnyh-rabot-na-obektah-zdravoohraneniya-goroda-mariupolya | в таких публикациях встречаются сразу 2 слоя входа: координирующий контур и фактические подрядчики, например ООО «РКС-НР» и АО «ГКС «ЕКС» | заносить в лист победителей/генподрядчиков и возвращаться к ним с предложением субподряда и поставок |
+
+Практический вывод: в ежедневном мониторинге нужен не только поиск по словам `тендер`, `закупка`, `подряд`, но и отдельный цикл по словам `проект планировки`, `снос`, `восстановление`, `шеф-регион`, `подрядчики приступили`, `координация Минстроя России`.
+
+### 10.8. Дополнительные мониторинговые запросы для этого раннего слоя
+
+- `site:minstroy-dnr.ru Мариуполь подрядчики приступили к работам`
+- `site:minstroy-dnr.ru проект планировки Мариуполь`
+- `site:minstroy-dnr.ru снос жилья Мариуполь`
+- `site:minstroy-dnr.ru шеф-регионы ДНР восстановление`
+- `site:minstroy-dnr.ru РКС-НР Мариуполь`
+- `site:minstroy-dnr.ru ГКС ЕКС Мариуполь`
+- `Мариуполь проект планировки подрядчик`
+- `Мариуполь снос расчистка подряд`
+
 ## 11. Что стоит сделать следующим этапом
 
 Если делать не просто список, а реально рабочую систему, следующий слой должен быть таким:
@@ -396,3 +422,9 @@
 - https://www.mk-donbass.ru/social/2026/03/30/edinyy-zakazchik-pristupil-k-remontu-srazu-dvukh-razrushennykh-detsadov-v-mariupole.html
 - https://www.mk-donbass.ru/social/2026/01/14/v-mariupole-postroili-kompensacionnyy-dom.html
 - https://www.mk-donbass.ru/social/2023/08/20/istoricheskie-zdaniya-v-mariupole-vosstanovit-edinyy-zakazchik.html
+- https://minstroy-dnr.ru/snos-jilya
+- https://minstroy-dnr.ru/utverzhdeny-proekty-planirovki-territorij-v-mariupole
+- https://minstroy-dnr.ru/utverzhden-proekt-planirovki-centralnoj-istoricheskoj-chasti-mariupolya
+- https://minstroy-dnr.ru/shef-regionyi-rf-vosstanavlivayut-infrastrukturu-dnr
+- https://minstroy-dnr.ru/zamministra-stroitelstva-i-zhkx-dnr-posetil-neskolko-obrazovatelnyix-uchrezhdenij-v-mariupole
+- https://minstroy-dnr.ru/nikolaj-ciganov-otmetil-kachestvo-vosstanovitelnyh-rabot-na-obektah-zdravoohraneniya-goroda-mariupolya
