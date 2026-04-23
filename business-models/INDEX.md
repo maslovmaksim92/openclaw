@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 118 | ✅ Одобрено: 15 | ❌ Отклонено: 69 | 🟡 Near-Pass: 34
+**Всего:** 119 | ✅ Одобрено: 15 | ❌ Отклонено: 70 | 🟡 Near-Pass: 34
 **Обновлено:** 2026-04-23
 
 ---
@@ -10,6 +10,8 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 132 | [solve-intelligence-patent-ai-geo-expand-v2](./rejected/solve-intelligence-patent-ai-geo-expand-v2/verdict.md) | ❌ | 0 | LEGAL | 2026-04-23 | [LEGAL] Solve Intelligence patent AI GEO Expand v2 — REJECTED: спрос в РФ по категории LOW, а unit economics не дают надёжного пути к EBITDA 500 тыс. ₽/мес. |
+
 | 118 | micro1 Human Data GEO Expand v2 | ❌ | 64/100 | GEO-EXPAND | 2026-04-23 | Managed human data ops для enterprise AI-команд сильны по economics, но в РФ рынок слишком узкий и human-heavy для approve. | 1 602 546 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/micro1-human-data-geo-expand-v2/verdict.md |
 | 131 | Aibidia Geo Expand v2 | 🟡 | 66/100 | GEO-EXPAND | 2026-04-23 | Enterprise tax-tech с редкой силой по unit economics, но пока без investment-grade запаса по спросу, moat и локальному trust layer. | 8 937 000 ₽/мес через 19 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/aibidia-geo-expand-v2/verdict.md |
 | 130 | [sanas-geo-expand-0659-v2](./rejected/sanas-geo-expand-0659-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-23 | [GEO-EXPAND] Sanas GEO Expand 0659 v2 — REJECTED: 0/100 \| Standalone accent translation для contact centers в РФ не подт |
