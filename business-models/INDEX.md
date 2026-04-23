@@ -1,8 +1,8 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 119 | ✅ Одобрено: 15 | ❌ Отклонено: 70 | 🟡 Near-Pass: 34
-**Обновлено:** 2026-04-23
+**Всего:** 119 | ✅ Одобрено: 15 | ❌ Отклонено: 71 | 🟡 Near-Pass: 34
+**Обновлено:** 2026-04-24
 
 ---
 
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 133 | [superdial-geo-expand-v2](./rejected/superdial-geo-expand-v2/verdict.md) | ❌ | 34 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] SuperDial GEO Expand v2 — REJECTED: 34/100 \| Спрос в РФ по payer-facing healthcare voice automation остаётс |
 | 132 | [solve-intelligence-patent-ai-geo-expand-v2](./rejected/solve-intelligence-patent-ai-geo-expand-v2/verdict.md) | ❌ | 0 | LEGAL | 2026-04-23 | [LEGAL] Solve Intelligence patent AI GEO Expand v2 — REJECTED: спрос в РФ по категории LOW, а unit economics не дают надёжного пути к EBITDA 500 тыс. ₽/мес. |
 
 | 118 | micro1 Human Data GEO Expand v2 | ❌ | 64/100 | GEO-EXPAND | 2026-04-23 | Managed human data ops для enterprise AI-команд сильны по economics, но в РФ рынок слишком узкий и human-heavy для approve. | 1 602 546 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/micro1-human-data-geo-expand-v2/verdict.md |
