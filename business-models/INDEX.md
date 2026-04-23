@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 115 | ✅ Одобрено: 15 | ❌ Отклонено: 67 | 🟡 Near-Pass: 33
+**Всего:** 115 | ✅ Одобрено: 15 | ❌ Отклонено: 68 | 🟡 Near-Pass: 33
 **Обновлено:** 2026-04-23
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 130 | [sanas-geo-expand-0659-v2](./rejected/sanas-geo-expand-0659-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-23 | [GEO-EXPAND] Sanas GEO Expand 0659 v2 — REJECTED: 0/100 \| Standalone accent translation для contact centers в РФ не подт |
 | 115 | Conductor Enterprise AEO Platform | 🟡 | 67/100 | AI-SERVICES | 2026-04-23 | Enterprise AEO/SEO платформа проходит economics-gate, но отклонена из-за раннего RU-demand, weak moat и риска price compression. | 10 094 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/conductor-enterprise-aeo-platform/verdict.md |
 | 113 | Eudia GEO Expand v2 | 🟡 | 68/100 | GEO-EXPAND | 2026-04-23 | Enterprise legal ops с сильной unit economics, но пока без investment-grade запаса прочности по локальному спросу и moat. | 621 900 ₽/мес через 9 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/eudia-geo-expand-v2/verdict.md |
 | 129 | Legora GEO Expand v2 | 🟡 | 69/100 | GEO-EXPAND | 2026-04-23 | Enterprise legal AI проходит economics-gate, но пока не доказывает moat и repeatable GTM в РФ. | 1 970 071 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/legora-geo-expand-v2/verdict.md |
