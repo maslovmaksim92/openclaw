@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 112 | ✅ Одобрено: 15 | ❌ Отклонено: 67 | 🟡 Near-Pass: 31
+**Всего:** 113 | ✅ Одобрено: 15 | ❌ Отклонено: 67 | 🟡 Near-Pass: 32
 **Обновлено:** 2026-04-23
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 113 | Eudia GEO Expand v2 | 🟡 | 68/100 | GEO-EXPAND | 2026-04-23 | Enterprise legal ops с сильной unit economics, но пока без investment-grade запаса прочности по локальному спросу и moat. | 621 900 ₽/мес через 9 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/eudia-geo-expand-v2/verdict.md |
 | 129 | Legora GEO Expand v2 | 🟡 | 69/100 | GEO-EXPAND | 2026-04-23 | Enterprise legal AI проходит economics-gate, но пока не доказывает moat и repeatable GTM в РФ. | 1 970 071 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/legora-geo-expand-v2/verdict.md |
 | 125 | [salesforce-agentforce-it-service-adoption-v2](./rejected/salesforce-agentforce-it-service-adoption-v2/verdict.md) | ❌ | 18 | SALESFORCE-AGENTFORCE-IT-SERVICE | 2026-04-23 | [SALESFORCE-AGENTFORCE-IT-SERVICE] Salesforce Agentforce IT Service adoption v2 — REJECTED: 18/100 \| В РФ есть платежесп |
 | 124 | Causaly GEO Expand v2 | 🟡 | 68/100 | GEO-EXPAND | 2026-04-23 | Biopharma R&D intelligence проходит economics-gate, но отклонён из-за LOW demand в РФ, среднего moat и хрупкого GTM. | 1 298 299 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/causaly-geo-expand-v2/verdict.md |
