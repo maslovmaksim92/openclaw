@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 111 | ✅ Одобрено: 15 | ❌ Отклонено: 66 | 🟡 Near-Pass: 30
+**Всего:** 111 | ✅ Одобрено: 15 | ❌ Отклонено: 67 | 🟡 Near-Pass: 30
 **Обновлено:** 2026-04-23
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 125 | [salesforce-agentforce-it-service-adoption-v2](./rejected/salesforce-agentforce-it-service-adoption-v2/verdict.md) | ❌ | 18 | SALESFORCE-AGENTFORCE-IT-SERVICE | 2026-04-23 | [SALESFORCE-AGENTFORCE-IT-SERVICE] Salesforce Agentforce IT Service adoption v2 — REJECTED: 18/100 \| В РФ есть платежесп |
 | 124 | Causaly GEO Expand v2 | 🟡 | 68/100 | GEO-EXPAND | 2026-04-23 | Biopharma R&D intelligence проходит economics-gate, но отклонён из-за LOW demand в РФ, среднего moat и хрупкого GTM. | 1 298 299 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/causaly-geo-expand-v2/verdict.md |
 | 110 | Haast GEO Expand v2 | 🟡 | 66/100 | GEO-EXPAND | 2026-04-23 | AI review для marketing compliance в РФ проходит economics-gate, но пока не доказывает moat и repeatable enterprise GTM. | 640 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/haast-geo-expand-v2/verdict.md |
 | 123 | Hebbia Institutional Finance GEO Expand v2 | 🟡 | 67/100 | FINTECH | 2026-04-23 | Узкий enterprise FINTECH workflow проходит economics-gate, но не получает approve из-за weak moat, compliance friction и тяжёлого GTM. | 1 260 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/hebbia-institutional-finance-geo-expand-v2/verdict.md |
