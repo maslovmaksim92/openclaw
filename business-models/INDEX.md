@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 120 | ✅ Одобрено: 15 | ❌ Отклонено: 73 | 🟡 Near-Pass: 35
+**Всего:** 120 | ✅ Одобрено: 15 | ❌ Отклонено: 74 | 🟡 Near-Pass: 35
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 137 | [superdial-insurer-calls-geo-expand-v2](./rejected/superdial-insurer-calls-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-24 | [HEALTHCARE] SuperDial insurer calls GEO Expand v2 — REJECTED: 0/100 \| EBITDA base=н/д \| LTV/CAC=н/д \| Ключевое преимуще |
 | 136 | [supio-geo-expand-v2](./rejected/supio-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] Supio GEO Expand v2 — REJECTED: 0/100 \| EBITDA base=н/д \| LTV/CAC=н/д \| Ключевое преимущество: глобально по |
 | 135 | Clay GEO Expand 1659 v2 | 🟡 | 67/100 | GEO-EXPAND | 2026-04-24 | Managed GTM engineering и enrichment для B2B sales в РФ сильны по economics, но пока не дотягивают до approve из-за weak moat и adjacent-demand. | 3 840 675 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/clay-geo-expand-1659-v2/verdict.md |
 | 134 | [superdial-healthcare-voice-geo-expand-v2](./rejected/superdial-healthcare-voice-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-24 | [HEALTHCARE] SuperDial Healthcare Voice GEO Expand v2 — REJECTED: 0/100 \| В РФ не подтверждён отдельный спрос на payer-f |
