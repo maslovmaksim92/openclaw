@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 128 | ✅ Одобрено: 15 | ❌ Отклонено: 76 | 🟡 Near-Pass: 38
+**Всего:** 128 | ✅ Одобрено: 15 | ❌ Отклонено: 78 | 🟡 Near-Pass: 38
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,8 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 141 | [cleric-geo-expand-v2](./rejected/cleric-geo-expand-v2/verdict.md) | ❌ | 57 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] Cleric GEO Expand v2 — REJECTED: 57/100 \| EBITDA base=н/д \| LTV/CAC=1.58x \| Ключевое преимущество: реальная |
+| 140 | [smart-engines-ai-buhgalteriya-pervichka-v2](./rejected/smart-engines-ai-buhgalteriya-pervichka-v2/verdict.md) | ❌ | 58 | FINTECH | 2026-04-24 | [FINTECH] Smart Engines AI бухгалтерия первичка v2 — REJECTED: 58/100 \| EBITDA base=-4.72M ₽/мес на 50 клиентах \| LTV/CA |
 | 128 | 10Web White-Label AI Website Builder | 🟡 | 65/100 | AI-SERVICES | 2026-04-24 | White-label AI-конвейер сайтов для агентств и MSP силён по unit economics, но пока не доказывает moat и quality of evidence. | 556 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/10web-white-label-ai-sozdanie-saytov/verdict.md |
 | 127 | AI-предаудит бухгалтерской и финансовой отчётности для среднего бизнеса | 🟡 | 66/100 | FINTECH | 2026-04-24 | AI-first finance-quality слой для pre-close и audit-ready контроля силён по unit economics, но пока не доказывает recurring и moat. | 586 000 ₽/мес через 14-15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-predaudit-bukhgalterskoy-i-finansovoy-otchetnosti-dlya-srednego-biznesa/verdict.md |
 | 139 | [tennr-geo-expand-v2](./rejected/tennr-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-24 | [HEALTHCARE] Tennr GEO Expand v2 — REJECTED: 0/100 \| EBITDA base=н/д \| LTV/CAC=н/д \| Ключевое преимущество: реальная бол |
