@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 145 | ✅ Одобрено: 17 | ❌ Отклонено: 87 | 🟡 Near-Pass: 41
+**Всего:** 146 | ✅ Одобрено: 17 | ❌ Отклонено: 88 | 🟡 Near-Pass: 41
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 146 | [deepip-patent-ai-geo-expand-v2](./rejected/deepip-patent-ai-geo-expand-v2/verdict.md) | ❌ | 53 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] DeepIP Patent AI GEO Expand v2 — REJECTED: 53/100 | 504 606 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/deepip-patent-ai-geo-expand-v2/verdict.md |
 | 145 | [quanthealth-geo-expand-v2](./rejected/quanthealth-geo-expand-v2/verdict.md) | ❌ | 63 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] QuantHealth geo-expand v2 — REJECTED: 63/100 | 1 091 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/quanthealth-geo-expand-v2/verdict.md |
 | 144 | [third-opinion-radiology-ai-ru-v2](./approved/third-opinion-radiology-ai-ru-v2/verdict.md) | ✅ | 71 | HEALTHCARE | 2026-04-24 | [HEALTHCARE] Third Opinion — APPROVED WITH NOTES: 71/100 \| EBITDA base=953К₽/мес через 12 мес \| LTV/CAC=29,5x \| radiology workflow с регуляторным moat и реальными внедрениями в 58 регионах. | 953 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/third-opinion-radiology-ai-ru-v2/verdict.md |
 | 143 | [ai-aml-komplaens-dlya-bukhgalterskih-i-auditorskih-firm](./rejected/ai-aml-komplaens-dlya-bukhgalterskih-i-auditorskih-firm/verdict.md) | 🟡 | 69 | FINTECH | 2026-04-24 | [FINTECH] AI-комплаенс по 115-ФЗ для бухгалтерских и аудиторских фирм — NEAR-PASS: 69/100 | 560 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-aml-komplaens-dlya-bukhgalterskih-i-auditorskih-firm/verdict.md |
