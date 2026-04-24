@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 121 | ✅ Одобрено: 15 | ❌ Отклонено: 74 | 🟡 Near-Pass: 36
+**Всего:** 121 | ✅ Одобрено: 15 | ❌ Отклонено: 75 | 🟡 Near-Pass: 36
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 139 | [tennr-geo-expand-v2](./rejected/tennr-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-24 | [HEALTHCARE] Tennr GEO Expand v2 — REJECTED: 0/100 \| EBITDA base=н/д \| LTV/CAC=н/д \| Ключевое преимущество: реальная бол |
 | 138 | AI-first SEO-аудит и контентное продвижение для SMB | 🟡 | 67/100 | AI-SERVICES | 2026-04-24 | Managed SEO/GEO для SMB силён по unit economics, но отклонён из-за weak moat, evidence gap и хрупкого retention-профиля. | 571 000 ₽/мес через 16 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-seo-audit-i-kontentnoe-prodvizhenie-dlya-smb/verdict.md |
 | 137 | [superdial-insurer-calls-geo-expand-v2](./rejected/superdial-insurer-calls-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-24 | [HEALTHCARE] SuperDial insurer calls GEO Expand v2 — REJECTED: 0/100 \| EBITDA base=н/д \| LTV/CAC=н/д \| Ключевое преимуще |
 | 136 | [supio-geo-expand-v2](./rejected/supio-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] Supio GEO Expand v2 — REJECTED: 0/100 \| EBITDA base=н/д \| LTV/CAC=н/д \| Ключевое преимущество: глобально по |
