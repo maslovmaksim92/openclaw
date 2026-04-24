@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 132 | ✅ Одобрено: 15 | ❌ Отклонено: 78 | 🟡 Near-Pass: 39
+**Всего:** 133 | ✅ Одобрено: 16 | ❌ Отклонено: 78 | 🟡 Near-Pass: 39
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 133 | SCORISTA AI-кредитный скоринг v2 | ✅ | 74/100 | FINTECH | 2026-04-24 | Regulated fintech infra для МФО одобрен с оговорками благодаря сильной unit economics и достижимому EBITDA gate. | 898 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/scorista-ai-kreditnyy-skoring-v2/verdict.md |
 | 132 | Hilbert GEO Expand v2 | 🟡 | 69/100 | GEO-EXPAND | 2026-04-24 | Warehouse-native AI decisioning проходит economics-gate и EBITDA-gate, но пока остаётся near-pass из-за weak moat и недоказанного premium GTM в РФ. | 2 061 845 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/hilbert-geo-expand-v2/verdict.md |
 | 129 | 2059 MSK Hilbert GEO Expand v2 | ❌ | 62/100 | GEO-EXPAND | 2026-04-24 | Warehouse-native AI decisioning проходит economics-gate, но отклонён из-за weak moat, LOW RU-demand и невалидированного source-tier evidence. | 1 020 000 ₽/мес через 16 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/2059-msk-hilbert-geo-expand-v2/verdict.md |
 | 141 | [cleric-geo-expand-v2](./rejected/cleric-geo-expand-v2/verdict.md) | ❌ | 57 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] Cleric GEO Expand v2 — REJECTED: 57/100 \| EBITDA base=н/д \| LTV/CAC=1.58x \| Ключевое преимущество: реальная |
