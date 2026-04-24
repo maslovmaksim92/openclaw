@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 142 | ✅ Одобрено: 16 | ❌ Отклонено: 86 | 🟡 Near-Pass: 40
+**Всего:** 143 | ✅ Одобрено: 16 | ❌ Отклонено: 86 | 🟡 Near-Pass: 41
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 143 | [ai-aml-komplaens-dlya-bukhgalterskih-i-auditorskih-firm](./rejected/ai-aml-komplaens-dlya-bukhgalterskih-i-auditorskih-firm/verdict.md) | 🟡 | 69 | FINTECH | 2026-04-24 | [FINTECH] AI-комплаенс по 115-ФЗ для бухгалтерских и аудиторских фирм — NEAR-PASS: 69/100 | 560 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-aml-komplaens-dlya-bukhgalterskih-i-auditorskih-firm/verdict.md |
 | 147 | [glean-geo-expand-v2](./rejected/glean-geo-expand-v2/verdict.md) | ❌ | 58 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] Glean geo-expand v2 — REJECTED: 58/100 \| EBITDA base=81К₽/мес через 24 мес \| LTV/CAC=7,5x \| enterprise knowledge search в РФ пока не проходит EBITDA gate. | 81 424 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/glean-geo-expand-v2/verdict.md |
 | 141 | Salesforce AgentExchange ecosystem signal v2 | ❌ | 51/100 | B2B-OPS | 2026-04-24 | Standalone Salesforce AgentExchange thesis для РФ отклонён: сильная unit economics не компенсирует узкий спрос, weak moat и platform dependence. | 8 145 979 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/salesforce-agentexchange-ecosystem-signal-v2/verdict.md |
 | 146 | [ai-yuridicheskiy-analiz-dogovorov-dlya-smb](./rejected/ai-yuridicheskiy-analiz-dogovorov-dlya-smb/verdict.md) | ❌ | 54 | LEGAL | 2026-04-24 | [LEGAL] AI-юридический анализ договоров для SMB — REJECTED: 54/100 \| LTV/CAC=2,86x \| EBITDA при 50 клиентах = -2,78 млн  |
