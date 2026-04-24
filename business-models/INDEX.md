@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 151 | ✅ Одобрено: 18 | ❌ Отклонено: 93 | 🟡 Near-Pass: 41
+**Всего:** 151 | ✅ Одобрено: 18 | ❌ Отклонено: 94 | 🟡 Near-Pass: 41
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 153 | [wombo-me-ai-avatary-po-odnomu-selfi-za-minuty](./rejected/wombo-me-ai-avatary-po-odnomu-selfi-za-minuty/verdict.md) | ❌ | 12 | QUICK-AI | 2026-04-25 | [QUICK-AI] Wombo Me, AI-аватары по одному селфи за минуты — REJECTED: 12/100 \| DEMAND=LOW \| profit gate FAIL \| WTP есть, |
 | 151 | [ai-operator-kontrolya-kommunikacii](./approved/ai-operator-kontrolya-kommunikacii/verdict.md) | ✅ | 72 | B2B-OPS | 2026-04-25 | [B2B-OPS] AI-оператор контроля коммуникаций — APPROVED WITH NOTES: 72/100 | 623 500 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-operator-kontrolya-kommunikacii/verdict.md |
 | 152 | [ai-nalogovyi-copilot-dlya-msb](./rejected/ai-nalogovyi-copilot-dlya-msb/verdict.md) | ❌ | 34 | FINTECH | 2026-04-25 | [FINTECH] AI-налоговый copilot для МСБ — REJECTED: 34/100 \| LTV/CAC=3,54x \| CAC payback=7,2 мес \| EBITDA @50 клиентов =  |
 | 151 | [zendesk-ai-customer-service-operator-v2](./rejected/zendesk-ai-customer-service-operator-v2/verdict.md) | ❌ | 58 | B2B-OPS | 2026-04-25 | [B2B-OPS] Zendesk AI Customer Service Operator v2 — REJECTED: 58/100 | 7 496 312 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/zendesk-ai-customer-service-operator-v2/verdict.md |
