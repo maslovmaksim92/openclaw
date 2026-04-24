@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 150 | ✅ Одобрено: 17 | ❌ Отклонено: 92 | 🟡 Near-Pass: 41
+**Всего:** 150 | ✅ Одобрено: 17 | ❌ Отклонено: 93 | 🟡 Near-Pass: 41
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 152 | [ai-nalogovyi-copilot-dlya-msb](./rejected/ai-nalogovyi-copilot-dlya-msb/verdict.md) | ❌ | 34 | FINTECH | 2026-04-25 | [FINTECH] AI-налоговый copilot для МСБ — REJECTED: 34/100 \| LTV/CAC=3,54x \| CAC payback=7,2 мес \| EBITDA @50 клиентов =  |
 | 151 | [zendesk-ai-customer-service-operator-v2](./rejected/zendesk-ai-customer-service-operator-v2/verdict.md) | ❌ | 58 | B2B-OPS | 2026-04-25 | [B2B-OPS] Zendesk AI Customer Service Operator v2 — REJECTED: 58/100 | 7 496 312 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/zendesk-ai-customer-service-operator-v2/verdict.md |
 | 150 | [ai-sozdanie-saitov-pod-zakaz-dlya-lokalnogo-smb](./rejected/ai-sozdanie-saitov-pod-zakaz-dlya-lokalnogo-smb/verdict.md) | ❌ | n/a | AI-SERVICES | 2026-04-25 | AI-first подписка на создание и сопровождение сайтов для локального SMB в РФ решает реальную боль, но остаётся слишком сервисным и низкомаржинальным бизнесом для фондовой инвестиции. | -4 370 000 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-sozdanie-saitov-pod-zakaz-dlya-lokalnogo-smb/verdict.md |
 | 149 | [ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b](./rejected/ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b/verdict.md) | ❌ | 58 | FINTECH | 2026-04-24 | [FINTECH] AI-управление дебиторской задолженностью для B2B — REJECTED: 58/100 \| demand подтверждён, но при ARPU 65 тыс. ₽/мес модель требует слишком тяжёлой команды и не проходит Profit Gate. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b/verdict.md |
