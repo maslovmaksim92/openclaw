@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 134 | ✅ Одобрено: 16 | ❌ Отклонено: 80 | 🟡 Near-Pass: 39
+**Всего:** 134 | ✅ Одобрено: 16 | ❌ Отклонено: 81 | 🟡 Near-Pass: 39
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 143 | [2216-msk-supio-geo-expand-v2](./rejected/2216-msk-supio-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] 2216 MSK Supio GEO Expand v2 — REJECTED: 0/100 \| LTV/CAC=0,92x \| EBITDA при 50 клиентах = +80k ₽/мес, ниже  |
 | 135 | Zvezdochka ambient clinical documentation v2 | ❌ | 64/100 | HEALTHCARE | 2026-04-24 | Ambient clinical documentation для клиник РФ силён по economics, но отклонён из-за LOW demand, weak moat и тяжёлого GTM. | 555 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/zvezdochka-ambient-clinical-documentation-v2/verdict.md |
 | 142 | [corgi-startup-insurance-geo-expand-v2](./rejected/corgi-startup-insurance-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] Corgi Startup Insurance GEO Expand v2 — REJECTED: 0/100 \| EBITDA base=отрицательный даже на 50 клиентах \| L |
 | 133 | SCORISTA AI-кредитный скоринг v2 | ✅ | 74/100 | FINTECH | 2026-04-24 | Regulated fintech infra для МФО одобрен с оговорками благодаря сильной unit economics и достижимому EBITDA gate. | 898 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/scorista-ai-kreditnyy-skoring-v2/verdict.md |
