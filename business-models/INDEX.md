@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 147 | ✅ Одобрено: 17 | ❌ Отклонено: 89 | 🟡 Near-Pass: 41
+**Всего:** 148 | ✅ Одобрено: 17 | ❌ Отклонено: 90 | 🟡 Near-Pass: 41
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 149 | [ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b](./rejected/ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b/verdict.md) | ❌ | 58 | FINTECH | 2026-04-24 | [FINTECH] AI-управление дебиторской задолженностью для B2B — REJECTED: 58/100 \| demand подтверждён, но при ARPU 65 тыс. ₽/мес модель требует слишком тяжёлой команды и не проходит Profit Gate. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b/verdict.md |
 | 148 | [ai-sdr-avtonomnyy-outbound-prodazh-dlya-b2b](./rejected/ai-sdr-avtonomnyy-outbound-prodazh-dlya-b2b/verdict.md) | ❌ | 52 | B2B-OPS | 2026-04-24 | [B2B-OPS] AI-SDR, автономный outbound для продаж B2B — REJECTED: 52/100 \| category demand в РФ слабый, а путь к EBITDA ≥ 500k ₽/мес требует слишком тяжёлого GTM. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-sdr-avtonomnyy-outbound-prodazh-dlya-b2b/verdict.md |
 | 146 | [deepip-patent-ai-geo-expand-v2](./rejected/deepip-patent-ai-geo-expand-v2/verdict.md) | ❌ | 53 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] DeepIP Patent AI GEO Expand v2 — REJECTED: 53/100 | 504 606 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/deepip-patent-ai-geo-expand-v2/verdict.md |
 | 145 | [quanthealth-geo-expand-v2](./rejected/quanthealth-geo-expand-v2/verdict.md) | ❌ | 63 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] QuantHealth geo-expand v2 — REJECTED: 63/100 | 1 091 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/quanthealth-geo-expand-v2/verdict.md |
