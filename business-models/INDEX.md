@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 128 | ✅ Одобрено: 15 | ❌ Отклонено: 78 | 🟡 Near-Pass: 38
+**Всего:** 129 | ✅ Одобрено: 15 | ❌ Отклонено: 79 | 🟡 Near-Pass: 38
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 129 | 2059 MSK Hilbert GEO Expand v2 | ❌ | 62/100 | GEO-EXPAND | 2026-04-24 | Warehouse-native AI decisioning проходит economics-gate, но отклонён из-за weak moat, LOW RU-demand и невалидированного source-tier evidence. | 1 020 000 ₽/мес через 16 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/2059-msk-hilbert-geo-expand-v2/verdict.md |
 | 141 | [cleric-geo-expand-v2](./rejected/cleric-geo-expand-v2/verdict.md) | ❌ | 57 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] Cleric GEO Expand v2 — REJECTED: 57/100 \| EBITDA base=н/д \| LTV/CAC=1.58x \| Ключевое преимущество: реальная |
 | 140 | [smart-engines-ai-buhgalteriya-pervichka-v2](./rejected/smart-engines-ai-buhgalteriya-pervichka-v2/verdict.md) | ❌ | 58 | FINTECH | 2026-04-24 | [FINTECH] Smart Engines AI бухгалтерия первичка v2 — REJECTED: 58/100 \| EBITDA base=-4.72M ₽/мес на 50 клиентах \| LTV/CA |
 | 128 | 10Web White-Label AI Website Builder | 🟡 | 65/100 | AI-SERVICES | 2026-04-24 | White-label AI-конвейер сайтов для агентств и MSP силён по unit economics, но пока не доказывает moat и quality of evidence. | 556 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/10web-white-label-ai-sozdanie-saytov/verdict.md |
