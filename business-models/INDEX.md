@@ -1,8 +1,8 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 148 | ✅ Одобрено: 17 | ❌ Отклонено: 90 | 🟡 Near-Pass: 41
-**Обновлено:** 2026-04-24
+**Всего:** 149 | ✅ Одобрено: 17 | ❌ Отклонено: 91 | 🟡 Near-Pass: 41
+**Обновлено:** 2026-04-25
 
 ---
 
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 150 | [ai-sozdanie-saitov-pod-zakaz-dlya-lokalnogo-smb](./rejected/ai-sozdanie-saitov-pod-zakaz-dlya-lokalnogo-smb/verdict.md) | ❌ | n/a | AI-SERVICES | 2026-04-25 | AI-first подписка на создание и сопровождение сайтов для локального SMB в РФ решает реальную боль, но остаётся слишком сервисным и низкомаржинальным бизнесом для фондовой инвестиции. | -4 370 000 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-sozdanie-saitov-pod-zakaz-dlya-lokalnogo-smb/verdict.md |
 | 149 | [ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b](./rejected/ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b/verdict.md) | ❌ | 58 | FINTECH | 2026-04-24 | [FINTECH] AI-управление дебиторской задолженностью для B2B — REJECTED: 58/100 \| demand подтверждён, но при ARPU 65 тыс. ₽/мес модель требует слишком тяжёлой команды и не проходит Profit Gate. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-upravlenie-debitorskoi-zadolzhennostyu-dlya-b2b/verdict.md |
 | 148 | [ai-sdr-avtonomnyy-outbound-prodazh-dlya-b2b](./rejected/ai-sdr-avtonomnyy-outbound-prodazh-dlya-b2b/verdict.md) | ❌ | 52 | B2B-OPS | 2026-04-24 | [B2B-OPS] AI-SDR, автономный outbound для продаж B2B — REJECTED: 52/100 \| category demand в РФ слабый, а путь к EBITDA ≥ 500k ₽/мес требует слишком тяжёлого GTM. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-sdr-avtonomnyy-outbound-prodazh-dlya-b2b/verdict.md |
 | 146 | [deepip-patent-ai-geo-expand-v2](./rejected/deepip-patent-ai-geo-expand-v2/verdict.md) | ❌ | 53 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] DeepIP Patent AI GEO Expand v2 — REJECTED: 53/100 | 504 606 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/deepip-patent-ai-geo-expand-v2/verdict.md |
