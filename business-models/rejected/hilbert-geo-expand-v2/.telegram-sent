@@ -1,0 +1,5 @@
+prepared_at: 2026-04-24 08:55:24 MSK
+thread_id: 270
+status: manual-handoff-required
+source: /home/node/.openclaw/workspace/branch-models-lead/pipeline/rejected/hilbert-geo-expand-v2/telegram-messages.md
+note: Внешняя отправка Telegram не выполнялась этим run; подготовлены 3 обязательных сообщения для ручной доставки в thread 270.

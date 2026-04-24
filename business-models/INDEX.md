@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 129 | ✅ Одобрено: 15 | ❌ Отклонено: 79 | 🟡 Near-Pass: 38
+**Всего:** 132 | ✅ Одобрено: 15 | ❌ Отклонено: 78 | 🟡 Near-Pass: 39
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 132 | Hilbert GEO Expand v2 | 🟡 | 69/100 | GEO-EXPAND | 2026-04-24 | Warehouse-native AI decisioning проходит economics-gate и EBITDA-gate, но пока остаётся near-pass из-за weak moat и недоказанного premium GTM в РФ. | 2 061 845 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/hilbert-geo-expand-v2/verdict.md |
 | 129 | 2059 MSK Hilbert GEO Expand v2 | ❌ | 62/100 | GEO-EXPAND | 2026-04-24 | Warehouse-native AI decisioning проходит economics-gate, но отклонён из-за weak moat, LOW RU-demand и невалидированного source-tier evidence. | 1 020 000 ₽/мес через 16 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/2059-msk-hilbert-geo-expand-v2/verdict.md |
 | 141 | [cleric-geo-expand-v2](./rejected/cleric-geo-expand-v2/verdict.md) | ❌ | 57 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] Cleric GEO Expand v2 — REJECTED: 57/100 \| EBITDA base=н/д \| LTV/CAC=1.58x \| Ключевое преимущество: реальная |
 | 140 | [smart-engines-ai-buhgalteriya-pervichka-v2](./rejected/smart-engines-ai-buhgalteriya-pervichka-v2/verdict.md) | ❌ | 58 | FINTECH | 2026-04-24 | [FINTECH] Smart Engines AI бухгалтерия первичка v2 — REJECTED: 58/100 \| EBITDA base=-4.72M ₽/мес на 50 клиентах \| LTV/CA |
