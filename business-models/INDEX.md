@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 135 | ✅ Одобрено: 16 | ❌ Отклонено: 85 | 🟡 Near-Pass: 40
+**Всего:** 141 | ✅ Одобрено: 16 | ❌ Отклонено: 85 | 🟡 Near-Pass: 40
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 141 | Salesforce AgentExchange ecosystem signal v2 | ❌ | 51/100 | B2B-OPS | 2026-04-24 | Standalone Salesforce AgentExchange thesis для РФ отклонён: сильная unit economics не компенсирует узкий спрос, weak moat и platform dependence. | 8 145 979 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/salesforce-agentexchange-ecosystem-signal-v2/verdict.md |
 | 146 | [ai-yuridicheskiy-analiz-dogovorov-dlya-smb](./rejected/ai-yuridicheskiy-analiz-dogovorov-dlya-smb/verdict.md) | ❌ | 54 | LEGAL | 2026-04-24 | [LEGAL] AI-юридический анализ договоров для SMB — REJECTED: 54/100 \| LTV/CAC=2,86x \| EBITDA при 50 клиентах = -2,78 млн  |
 | 145 | [mubert-ai-muzyka-dlya-kontenta-i-white-label-api](./rejected/mubert-ai-muzyka-dlya-kontenta-i-white-label-api/verdict.md) | ❌ | 30 | QUICK-AI | 2026-04-24 | [QUICK-AI] Mubert AI музыка для контента и white-label API — REJECTED: 30/100 \| Demand=LOW \| Profit Gate=FAIL \| В РФ sta |
 | 144 | [photify-ai-avatar-bot-v2](./rejected/photify-ai-avatar-bot-v2/verdict.md) | ❌ | 41 | QUICK-AI | 2026-04-24 | [QUICK-AI] Photify AI avatar bot v2 — REJECTED: 41/100 \| Demand=LOW \| Profit Gate=FAIL \| Локальный RU рынок слишком мал  |
