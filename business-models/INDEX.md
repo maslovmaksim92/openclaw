@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 135 | ✅ Одобрено: 16 | ❌ Отклонено: 83 | 🟡 Near-Pass: 40
+**Всего:** 135 | ✅ Одобрено: 16 | ❌ Отклонено: 84 | 🟡 Near-Pass: 40
 **Обновлено:** 2026-04-24
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 145 | [mubert-ai-muzyka-dlya-kontenta-i-white-label-api](./rejected/mubert-ai-muzyka-dlya-kontenta-i-white-label-api/verdict.md) | ❌ | 30 | QUICK-AI | 2026-04-24 | [QUICK-AI] Mubert AI музыка для контента и white-label API — REJECTED: 30/100 \| Demand=LOW \| Profit Gate=FAIL \| В РФ sta |
 | 144 | [photify-ai-avatar-bot-v2](./rejected/photify-ai-avatar-bot-v2/verdict.md) | ❌ | 41 | QUICK-AI | 2026-04-24 | [QUICK-AI] Photify AI avatar bot v2 — REJECTED: 41/100 \| Demand=LOW \| Profit Gate=FAIL \| Локальный RU рынок слишком мал  |
 | 137 | SAP Reltio AI-ready MDM v2 | 🟡 | 69/100 | B2B-OPS | 2026-04-24 | Enterprise AI-ready MDM wedge для SAP-heavy контуров силён по economics, но пока не доказывает достаточный запас прочности по спросу и moat. | 505 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/sap-reltio-ai-ready-mdm-v2/verdict.md |
 | 143 | [2216-msk-supio-geo-expand-v2](./rejected/2216-msk-supio-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] 2216 MSK Supio GEO Expand v2 — REJECTED: 0/100 \| LTV/CAC=0,92x \| EBITDA при 50 клиентах = +80k ₽/мес, ниже  |
