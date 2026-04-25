@@ -1,0 +1,13 @@
+## 2026-04-25 22:31 MSK — P5 Unit Economics
+- Stage: P5 Unit Economics
+- Unit economics: mixed, but fund-level FAIL
+- Profit Gate: FAIL
+- Decision delta: кейс переводится из условно жизнеспособного wedge в reject, потому что при реалистичном hire-plan и fully-loaded fixed cost база слишком велика относительно achievable ARPA.
+- Score trajectory:
+  - demand_evidence: 3/5 -> 3/5
+  - willingness_to_pay: 4/5 -> 4/5
+  - market_size: 4/5 -> 4/5
+  - monetization_feasibility: 4/5 -> 2/5
+  - capital_efficiency: 3/5 -> 1/5
+  - overall_investability: 3.5/5 -> 2.0/5
+- Key reason: LTV/CAC и payback сами по себе приемлемы, но EBITDA 500k+/мес не достигается даже на 50 клиентах; break-even только около 198 клиентов, что делает кейс слишком капиталоёмким для фонда.
