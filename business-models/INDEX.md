@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 158 | ✅ Одобрено: 19 | ❌ Отклонено: 96 | 🟡 Near-Pass: 43
+**Всего:** 158 | ✅ Одобрено: 19 | ❌ Отклонено: 97 | 🟡 Near-Pass: 43
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 159 | [ai-first-finansovyy-operator-dlya-smb](./rejected/ai-first-finansovyy-operator-dlya-smb/verdict.md) | ❌ | 71 | B2B-OPS | 2026-04-25 | [B2B-OPS] AI-first финансовый оператор для SMB — APPROVED WITH NOTES: 71/100 \| EBITDA base=602К₽/мес через 17 мес \| LTV/ |
 | 158 | [ai-rekruter-dlya-pervichnogo-skrininga-kandidatov](./rejected/ai-rekruter-dlya-pervichnogo-skrininga-kandidatov/verdict.md) | 🟡 | 69 | B2B-OPS | 2026-04-25 | [B2B-OPS] AI-рекрутер для первичного скрининга кандидатов почти проходит порог благодаря сильной economics  но отклонён из-за weak moat и слабого exact-demand сигнала. | 560 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-rekruter-dlya-pervichnogo-skrininga-kandidatov/verdict.md |
 | 157 | [ai-pervichka-i-platezhnye-dokumenty-dlya-msb](./rejected/ai-pervichka-i-platezhnye-dokumenty-dlya-msb/verdict.md) | ❌ | n/a | FINTECH | 2026-04-25 | AI-first обработка первички и платёжных документов для МСБ отклонена: при ARPU 25 тыс. ₽/мес и fully-loaded CAC 499 тыс. ₽ модель не проходит unit economics и остаётся глубоко убыточной. | -5 300 000 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-pervichka-i-platezhnye-dokumenty-dlya-msb/verdict.md |
 | 156 | [abridge-ai-meditsinskiy-skraib-dlya-klinik](./rejected/abridge-ai-meditsinskiy-skraib-dlya-klinik/verdict.md) | 🟡 | 68 | HEALTHCARE | 2026-04-25 | [HEALTHCARE] Abridge, AI-медицинский скрайб для клиник — NEAR-PASS: 68/100 | 5 349 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/abridge-ai-meditsinskiy-skraib-dlya-klinik/verdict.md |
