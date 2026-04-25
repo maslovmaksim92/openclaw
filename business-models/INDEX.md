@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 172 | ✅ Одобрено: 21 | ❌ Отклонено: 104 | 🟡 Near-Pass: 47
+**Всего:** 173 | ✅ Одобрено: 22 | ❌ Отклонено: 104 | 🟡 Near-Pass: 47
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 173 | [ai-uregulirovanie-ubytkov-i-antifrod-dlya-strahovshchikov](./approved/ai-uregulirovanie-ubytkov-i-antifrod-dlya-strahovshchikov/verdict.md) | ✅ | 71 | FINTECH | 2026-04-25 | [FINTECH] AI-урегулирование убытков и антифрод для страховщиков — APPROVED WITH NOTES: 71/100 | 1 161 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-uregulirovanie-ubytkov-i-antifrod-dlya-strahovshchikov/verdict.md |
 | 170 | [co-star-ai-astrologicheskie-prognozy-i-personalnye-insayty](./rejected/co-star-ai-astrologicheskie-prognozy-i-personalnye-insayty/verdict.md) | 🟡 | 67 | QUICK-AI | 2026-04-25 | [QUICK-AI] Co-Star AI-астрологические прогнозы и персональные инсайты — NEAR-PASS: 67/100 | 809 500 ₽/мес через 18 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/co-star-ai-astrologicheskie-prognozy-i-personalnye-insayty/verdict.md |
 | 171 | [dxc-servicenow-ai-first-enterprise-ops-v2](./rejected/dxc-servicenow-ai-first-enterprise-ops-v2/verdict.md) | 🟡 | 67 | B2B-OPS | 2026-04-25 | [B2B-OPS] DXC + ServiceNow AI-first enterprise operations — NEAR-PASS: 67/100 | 1 530 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/dxc-servicenow-ai-first-enterprise-ops-v2/verdict.md |
 | 170 | [ai-kopiraiting-i-optimizaciya-kartochek-marketpleysov-pod-klyuch](./rejected/ai-kopiraiting-i-optimizaciya-kartochek-marketpleysov-pod-klyuch/verdict.md) | 🟡 | 67 | AI-SERVICES | 2026-04-25 | [AI-SERVICES] AI-копирайтинг и оптимизация карточек маркетплейсов под ключ — NEAR-PASS: 67/100 | 630 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-kopiraiting-i-optimizaciya-kartochek-marketpleysov-pod-klyuch/verdict.md |
