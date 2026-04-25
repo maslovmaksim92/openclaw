@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 158 | ✅ Одобрено: 19 | ❌ Отклонено: 97 | 🟡 Near-Pass: 43
+**Всего:** 161 | ✅ Одобрено: 20 | ❌ Отклонено: 97 | 🟡 Near-Pass: 44
 **Обновлено:** 2026-04-25
 
 ---
@@ -173,5 +173,7 @@
 | 1 | Enterprise AI Documentation Platform | ✅ APPROVED | 72/100 | GEO-EXPAND | 2026-04-19 | AI-native платформа для enterprise-документации, AI-поиска и managed documentation ops для B2B-команд. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-ai-documentation-platform/verdict.md |
 
 ---
+
+| 161 | [ai-seo-autsors-dlya-smb-s-uporom-na-geo](./rejected/ai-seo-autsors-dlya-smb-s-uporom-na-geo/verdict.md) | 🟡 | 67 | AI-SERVICES | 2026-04-25 | [AI-SERVICES] AI-SEO аутсорс для SMB с упором на GEO — NEAR-PASS: 67/100 | 1 146 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-seo-autsors-dlya-smb-s-uporom-na-geo/verdict.md |
 
 *Каждая строка - результат полного анализа: спрос + юнит-экономика + финансовая модель + вердикт инвесткомитета.*
