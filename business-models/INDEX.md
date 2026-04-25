@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 155 | ✅ Одобрено: 19 | ❌ Отклонено: 95 | 🟡 Near-Pass: 41
+**Всего:** 156 | ✅ Одобрено: 19 | ❌ Отклонено: 95 | 🟡 Near-Pass: 42
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 156 | [abridge-ai-meditsinskiy-skraib-dlya-klinik](./rejected/abridge-ai-meditsinskiy-skraib-dlya-klinik/verdict.md) | 🟡 | 68 | HEALTHCARE | 2026-04-25 | [HEALTHCARE] Abridge, AI-медицинский скрайб для клиник — NEAR-PASS: 68/100 | 5 349 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/abridge-ai-meditsinskiy-skraib-dlya-klinik/verdict.md |
 | 155 | [ai-audit-koda-i-pr-review-kak-servis](./rejected/ai-audit-koda-i-pr-review-kak-servis/verdict.md) | ❌ | 61 | AI-SERVICES | 2026-04-25 | [AI-SERVICES] AI-аудит кода и PR-review как сервис — REJECTED: 61/100 | 980 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-audit-koda-i-pr-review-kak-servis/verdict.md |
 | 154 | [ai-first-finansovyy-operator-dlya-smb](./approved/ai-first-finansovyy-operator-dlya-smb/verdict.md) | ✅ | 71 | B2B-OPS | 2026-04-25 | [B2B-OPS] AI-first финансовый оператор для SMB — APPROVED WITH NOTES: 71/100 | 602 000 ₽/мес через 17 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-first-finansovyy-operator-dlya-smb/verdict.md |
 | 153 | [wombo-me-ai-avatary-po-odnomu-selfi-za-minuty](./rejected/wombo-me-ai-avatary-po-odnomu-selfi-za-minuty/verdict.md) | ❌ | 12 | QUICK-AI | 2026-04-25 | [QUICK-AI] Wombo Me, AI-аватары по одному селфи за минуты — REJECTED: 12/100 \| DEMAND=LOW \| profit gate FAIL \| WTP есть, |
