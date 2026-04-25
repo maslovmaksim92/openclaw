@@ -1,0 +1,12 @@
+## 2026-04-25 21:49 MSK — Program 5 Unit Economics
+- Stage: unit economics completed
+- Economics verdict: fail / rejected
+- Economics score: 31/100
+- Trajectory: 58 -> 31 (-27)
+- Why changed:
+  - Fully-loaded CAC после regulated fintech sanity-adjustment вырос до 425 000 ₽ на клиента
+  - При ARPA 25 000 ₽ и monthly churn 4.2% модель даёт LTV/CAC только 1.12x
+  - CAC Payback = 17.0 мес, что слишком тяжело для SMB/MSB GTM
+  - При 50 клиентах EBITDA остаётся глубоко отрицательной, break-even требует около 285 клиентов
+- Main concern: high-touch presale + compliance + 1С/ЭДО integration делают модель слишком капиталоёмкой
+- Artifact: 04-economics.md / 06-verdict.md
