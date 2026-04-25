@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 188 | ✅ Одобрено: 24 | ❌ Отклонено: 113 | 🟡 Near-Pass: 51
+**Всего:** 189 | ✅ Одобрено: 25 | ❌ Отклонено: 113 | 🟡 Near-Pass: 51
 **Обновлено:** 2026-04-26
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 186 | [liya-ai-operator-klientskoy-podderzhki](./approved/liya-ai-operator-klientskoy-podderzhki/verdict.md) | ✅ | 71 | B2B-OPS | 2026-04-26 | [B2B-OPS] LIA, managed AI-оператор клиентской поддержки и продаж, одобрен с оговорками благодаря сильной unit economics и достижимому EBITDA gate. | 840 000 ₽/мес через 11 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/liya-ai-operator-klientskoy-podderzhki/verdict.md |
 | 184 | [oracle-fusion-agentic-cx-v2](./rejected/oracle-fusion-agentic-cx-v2/verdict.md) | ❌ | 56 | B2B-OPS | 2026-04-26 | Standalone Oracle Fusion Agentic CX отклонён: сильная economics не компенсирует слабый exact-demand в РФ, weak moat и platform dependence. | 625,000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/oracle-fusion-agentic-cx-v2/verdict.md |
 | 183 | [ai-anderraiting-i-skoring-zayavok-dlya-mfo-i-bankov-rf](./rejected/ai-anderraiting-i-skoring-zayavok-dlya-mfo-i-bankov-rf/verdict.md) | ❌ | 0 | FINTECH | 2026-04-26 | [FINTECH] AI-андеррайтинг и скоринг заявок для МФО и банков РФ — REJECTED: 0/100 \| Demand=LOW \| Profit Gate=FAIL \| achie |
 | 182 | [atlassian-customer-service-management-app-v2](./rejected/atlassian-customer-service-management-app-v2/verdict.md) | ❌ | 58 | B2B-OPS | 2026-04-26 | [B2B-OPS] Atlassian Customer Service Management App v2 — REJECTED: 58/100 \| Demand=FAIL как standalone wedge \| LTV/CAC=2 |
