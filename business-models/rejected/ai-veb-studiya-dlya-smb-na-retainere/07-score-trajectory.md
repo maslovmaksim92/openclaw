@@ -1,0 +1,16 @@
+## 2026-04-25 — Program 5 Unit Economics
+- Stage: P5 unit economics
+- Case: ai-veb-studiya-dlya-smb-na-retainere
+- Revenue model tested: managed AI-first website retainer for SMB, ARPA 20 000 ₽/мес.
+- COGS: 8 400 ₽/клиент/мес.
+- Contribution Margin: 58%.
+- Blended fully-loaded CAC: 161 100 ₽.
+- Churn benchmark used: 4%/мес.
+- LTV: 290 000 ₽.
+- LTV/CAC: 1,8x.
+- CAC Payback: 13,9 мес.
+- Fixed costs: 4 428 500 ₽/мес.
+- Break-even: 382 клиента.
+- EBITDA at 50 clients: -3 848 500 ₽/мес.
+- Decision: REJECTED. Profit Gate FAIL, потому что LTV/CAC ниже порога и EBITDA 500k/mo недостижим даже близко на 50 клиентах.
+- Artifacts: 04-economics.md, 06-verdict.md
