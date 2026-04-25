@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 173 | ✅ Одобрено: 22 | ❌ Отклонено: 104 | 🟡 Near-Pass: 47
+**Всего:** 173 | ✅ Одобрено: 22 | ❌ Отклонено: 105 | 🟡 Near-Pass: 47
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 174 | [aimyvoice-voice-marketplace-v2](./rejected/aimyvoice-voice-marketplace-v2/verdict.md) | ❌ | 0 | QUICK-AI | 2026-04-25 | [QUICK-AI] Aimyvoice voice marketplace v2 — REJECTED: 0/100 \| при blended MRR 55 тыс. ₽, LTV/CAC 1,99x и EBITDA -2,98 мл |
 | 173 | [ai-uregulirovanie-ubytkov-i-antifrod-dlya-strahovshchikov](./approved/ai-uregulirovanie-ubytkov-i-antifrod-dlya-strahovshchikov/verdict.md) | ✅ | 71 | FINTECH | 2026-04-25 | [FINTECH] AI-урегулирование убытков и антифрод для страховщиков — APPROVED WITH NOTES: 71/100 | 1 161 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-uregulirovanie-ubytkov-i-antifrod-dlya-strahovshchikov/verdict.md |
 | 170 | [co-star-ai-astrologicheskie-prognozy-i-personalnye-insayty](./rejected/co-star-ai-astrologicheskie-prognozy-i-personalnye-insayty/verdict.md) | 🟡 | 67 | QUICK-AI | 2026-04-25 | [QUICK-AI] Co-Star AI-астрологические прогнозы и персональные инсайты — NEAR-PASS: 67/100 | 809 500 ₽/мес через 18 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/co-star-ai-astrologicheskie-prognozy-i-personalnye-insayty/verdict.md |
 | 171 | [dxc-servicenow-ai-first-enterprise-ops-v2](./rejected/dxc-servicenow-ai-first-enterprise-ops-v2/verdict.md) | 🟡 | 67 | B2B-OPS | 2026-04-25 | [B2B-OPS] DXC + ServiceNow AI-first enterprise operations — NEAR-PASS: 67/100 | 1 530 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/dxc-servicenow-ai-first-enterprise-ops-v2/verdict.md |
