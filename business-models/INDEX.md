@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 164 | ✅ Одобрено: 21 | ❌ Отклонено: 103 | 🟡 Near-Pass: 44
+**Всего:** 164 | ✅ Одобрено: 21 | ❌ Отклонено: 104 | 🟡 Near-Pass: 44
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 169 | [deepl-ai-perevod-dokumentov-pod-zakaz](./rejected/deepl-ai-perevod-dokumentov-pod-zakaz/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-04-25 | [AI-SERVICES] DeepL API + бюро AI-перевода документов под заказ — REJECTED: 0/100 \| LTV/CAC 2,12x ниже порога 3,0x, EBIT |
 | 168 | [personalizirovannye-ai-videootkrytki-i-videopozdravleniya-v-telegram](./rejected/personalizirovannye-ai-videootkrytki-i-videopozdravleniya-v-telegram/verdict.md) | ❌ | 0 | QUICK-AI | 2026-04-25 | [QUICK-AI] Персонализированные AI-видеооткрытки и видеопоздравления в Telegram — REJECTED: 0/100 \| прямой спрос LOW, obs |
 | 167 | [ai-operator-pervichnyh-dokumentov-i-buhgalterskoy-otchetnosti-dlya-msb](./rejected/ai-operator-pervichnyh-dokumentov-i-buhgalterskoy-otchetnosti-dlya-msb/verdict.md) | ❌ | 69 | FINTECH | 2026-04-25 | [FINTECH] AI-оператор первичных документов и бухгалтерской отчётности для МСБ — REJECTED: 69/100 \| при сильной клиентско |
 | 166 | [ai-veb-studiya-dlya-smb-na-retainere](./rejected/ai-veb-studiya-dlya-smb-na-retainere/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-04-25 | [AI-SERVICES] AI-веб-студия для SMB на ретейнере — REJECTED: 0/100 \| LTV/CAC 1,8x и EBITDA около -3,85 млн ₽/мес на 50 к |
