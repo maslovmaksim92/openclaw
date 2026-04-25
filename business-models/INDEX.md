@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 161 | ✅ Одобрено: 20 | ❌ Отклонено: 98 | 🟡 Near-Pass: 44
+**Всего:** 161 | ✅ Одобрено: 20 | ❌ Отклонено: 99 | 🟡 Near-Pass: 44
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 163 | [wildberries-ai-videooblozhki-dlya-kartochek-tovarov](./rejected/wildberries-ai-videooblozhki-dlya-kartochek-tovarov/verdict.md) | ❌ | 0 | QUICK-AI | 2026-04-25 | [QUICK-AI] Wildberries AI-видеообложки для карточек товаров — REJECTED: 0/100 \| direct demand в РФ LOW \| Wildberries alr |
 | 162 | [ai-predaudit-i-ifrs-18-disclosure-copilot-dlya-auditorskih-firm-i-mid-market](./rejected/ai-predaudit-i-ifrs-18-disclosure-copilot-dlya-auditorskih-firm-i-mid-market/verdict.md) | ❌ | 30 | FINTECH | 2026-04-25 | [FINTECH] AI-предаудит и IFRS 18 disclosure copilot для аудиторских фирм и mid-market — REJECTED: 30/100 \| EBITDA на 50  |
 | 160 | [webiomed-healthcare-document-ai-v2](./approved/webiomed-healthcare-document-ai-v2/verdict.md) | ✅ | 71 | HEALTHCARE | 2026-04-25 | [HEALTHCARE] Webiomed — APPROVED WITH NOTES: 71/100 \| EBITDA base=4154К₽/мес через 24 мес \| LTV/CAC=9,7x \| regulated document QA с реальной локальной монетизацией. | 4 154 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/webiomed-healthcare-document-ai-v2/verdict.md |
 | 159 | [ai-first-finansovyy-operator-dlya-smb](./rejected/ai-first-finansovyy-operator-dlya-smb/verdict.md) | ❌ | 71 | B2B-OPS | 2026-04-25 | [B2B-OPS] AI-first финансовый оператор для SMB — APPROVED WITH NOTES: 71/100 \| EBITDA base=602К₽/мес через 17 мес \| LTV/ |
