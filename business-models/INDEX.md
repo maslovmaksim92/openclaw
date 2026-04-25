@@ -1,8 +1,8 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 181 | ✅ Одобрено: 23 | ❌ Отклонено: 109 | 🟡 Near-Pass: 50
-**Обновлено:** 2026-04-25
+**Всего:** 181 | ✅ Одобрено: 23 | ❌ Отклонено: 110 | 🟡 Near-Pass: 50
+**Обновлено:** 2026-04-26
 
 ---
 
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 182 | [atlassian-customer-service-management-app-v2](./rejected/atlassian-customer-service-management-app-v2/verdict.md) | ❌ | 58 | B2B-OPS | 2026-04-26 | [B2B-OPS] Atlassian Customer Service Management App v2 — REJECTED: 58/100 \| Demand=FAIL как standalone wedge \| LTV/CAC=2 |
 | 181 | [botkin-ai-ai-skrining-rentgena-i-kt-dlya-klinik](./approved/botkin-ai-ai-skrining-rentgena-i-kt-dlya-klinik/verdict.md) | ✅ | 71 | HEALTHCARE | 2026-04-25 | Botkin.AI одобрен с оговорками как regulated radiology workflow для клиник РФ с сильной economics и управляемым, но тяжёлым GTM. | 542 000 ₽/мес через 17 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/botkin-ai-ai-skrining-rentgena-i-kt-dlya-klinik/verdict.md |
 | 181 | [ai-audit-pervichki-i-avtozakrytie-dokumentov-dlya-msb](./rejected/ai-audit-pervichki-i-avtozakrytie-dokumentov-dlya-msb/verdict.md) | ❌ | 0 | FINTECH | 2026-04-25 | [FINTECH] AI-аудит первички и автозакрытие документов для МСБ — REJECTED: 0/100 \| Demand=MEDIUM \| LTV/CAC=6,8x \| EBITDA  |
 | 180 | [kyndryl-agentic-service-management-v2](./rejected/kyndryl-agentic-service-management-v2/verdict.md) | 🟡 | 67 | B2B-OPS | 2026-04-25 | [B2B-OPS] Kyndryl Agentic Service Management — NEAR-PASS: 67/100 | 700 000 ₽/мес через 17 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/kyndryl-agentic-service-management-v2/verdict.md |
