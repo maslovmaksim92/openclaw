@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 164 | ✅ Одобрено: 21 | ❌ Отклонено: 101 | 🟡 Near-Pass: 44
+**Всего:** 164 | ✅ Одобрено: 21 | ❌ Отклонено: 102 | 🟡 Near-Pass: 44
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 167 | [ai-operator-pervichnyh-dokumentov-i-buhgalterskoy-otchetnosti-dlya-msb](./rejected/ai-operator-pervichnyh-dokumentov-i-buhgalterskoy-otchetnosti-dlya-msb/verdict.md) | ❌ | 69 | FINTECH | 2026-04-25 | [FINTECH] AI-оператор первичных документов и бухгалтерской отчётности для МСБ — REJECTED: 69/100 \| при сильной клиентско |
 | 166 | [ai-veb-studiya-dlya-smb-na-retainere](./rejected/ai-veb-studiya-dlya-smb-na-retainere/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-04-25 | [AI-SERVICES] AI-веб-студия для SMB на ретейнере — REJECTED: 0/100 \| LTV/CAC 1,8x и EBITDA около -3,85 млн ₽/мес на 50 к |
 | 165 | [artisse-ai-ai-avatary-i-fotosety-za-minuty](./rejected/artisse-ai-ai-avatary-i-fotosety-za-minuty/verdict.md) | ❌ | 18 | QUICK-AI | 2026-04-25 | [QUICK-AI] Artisse AI, AI-аватары и фотосеты за минуты — REJECTED: 18/100 \| спрос в РФ событийный и низкочастотный \| low |
 | 164 | [helport-quickcep-ai-customer-service-operator-v2](./approved/helport-quickcep-ai-customer-service-operator-v2/verdict.md) | ✅ | 71 | B2B-OPS | 2026-04-25 | [B2B-OPS] Helport AI + QuickCEP — APPROVED WITH NOTES: 71/100 | 1 510 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/helport-quickcep-ai-customer-service-operator-v2/verdict.md |
