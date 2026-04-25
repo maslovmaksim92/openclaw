@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 176 | ✅ Одобрено: 22 | ❌ Отклонено: 106 | 🟡 Near-Pass: 48
+**Всего:** 177 | ✅ Одобрено: 22 | ❌ Отклонено: 106 | 🟡 Near-Pass: 49
 **Обновлено:** 2026-04-25
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 177 | [patlytics-geo-expand-1227-v2](./rejected/patlytics-geo-expand-1227-v2/verdict.md) | 🟡 | 67 | GEO-EXPAND | 2026-04-25 | [GEO-EXPAND] Patlytics geo-expand 1227 v2 — NEAR-PASS: 67/100 | 593 600 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/patlytics-geo-expand-1227-v2/verdict.md |
 | 176 | [servicenow-autonomous-enterprise-service-operations-v2](./rejected/servicenow-autonomous-enterprise-service-operations-v2/verdict.md) | 🟡 | 66 | B2B-OPS | 2026-04-25 | [B2B-OPS] ServiceNow Autonomous Enterprise Service Operations — NEAR-PASS: 66/100 | 165 625 ₽/мес на M12 | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/servicenow-autonomous-enterprise-service-operations-v2/verdict.md |
 | 175 | [ai-operator-vnedreniya-i-migracii-dlya-b2b-saas](./rejected/ai-operator-vnedreniya-i-migracii-dlya-b2b-saas/verdict.md) | ❌ | 59 | B2B-OPS | 2026-04-25 | [B2B-OPS] AI-оператор внедрения и миграции для B2B SaaS — REJECTED: 59/100 | 3 260 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-operator-vnedreniya-i-migracii-dlya-b2b-saas/verdict.md |
 | 174 | [aimyvoice-voice-marketplace-v2](./rejected/aimyvoice-voice-marketplace-v2/verdict.md) | ❌ | 0 | QUICK-AI | 2026-04-25 | [QUICK-AI] Aimyvoice voice marketplace v2 — REJECTED: 0/100 \| при blended MRR 55 тыс. ₽, LTV/CAC 1,99x и EBITDA -2,98 мл |
