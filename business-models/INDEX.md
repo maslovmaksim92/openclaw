@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 189 | ✅ Одобрено: 25 | ❌ Отклонено: 114 | 🟡 Near-Pass: 51
+**Всего:** 190 | ✅ Одобрено: 25 | ❌ Отклонено: 115 | 🟡 Near-Pass: 52
 **Обновлено:** 2026-04-26
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 188 | [alphasense-ai-market-intelligence-v2](./rejected/alphasense-ai-market-intelligence-v2/verdict.md) | 🟡 | 69 | GEO-EXPAND | 2026-04-26 | [GEO-EXPAND] AlphaSense AI Market Intelligence v2 — NEAR-PASS: 69/100 \| enterprise research cockpit с сильной economics, но weak moat и дорогим GTM. | 1 448 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/alphasense-ai-market-intelligence-v2/verdict.md |
 | 187 | [captions-ai-video-ads-i-ai-avatary-za-minuty](./rejected/captions-ai-video-ads-i-ai-avatary-za-minuty/verdict.md) | ❌ | 0 | QUICK-AI | 2026-04-26 | [QUICK-AI] Captions AI, AI-video ads и AI-аватары за минуты — REJECTED: 0/100 \| Demand=MEDIUM, но Profit Gate FAIL \| LTV |
 | 186 | [liya-ai-operator-klientskoy-podderzhki](./approved/liya-ai-operator-klientskoy-podderzhki/verdict.md) | ✅ | 71 | B2B-OPS | 2026-04-26 | [B2B-OPS] LIA, managed AI-оператор клиентской поддержки и продаж, одобрен с оговорками благодаря сильной unit economics и достижимому EBITDA gate. | 840 000 ₽/мес через 11 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/liya-ai-operator-klientskoy-podderzhki/verdict.md |
 | 184 | [oracle-fusion-agentic-cx-v2](./rejected/oracle-fusion-agentic-cx-v2/verdict.md) | ❌ | 56 | B2B-OPS | 2026-04-26 | Standalone Oracle Fusion Agentic CX отклонён: сильная economics не компенсирует слабый exact-demand в РФ, weak moat и platform dependence. | 625,000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/oracle-fusion-agentic-cx-v2/verdict.md |
