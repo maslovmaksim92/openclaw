@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 191 | ✅ Одобрено: 25 | ❌ Отклонено: 116 | 🟡 Near-Pass: 52
+**Всего:** 192 | ✅ Одобрено: 25 | ❌ Отклонено: 116 | 🟡 Near-Pass: 53
 **Обновлено:** 2026-04-26
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 192 | [lovable-ai-veb-studiya-pod-zakaz](./rejected/lovable-ai-veb-studiya-pod-zakaz/verdict.md) | 🟡 | 66 | AI-SERVICES | 2026-04-26 | [AI-SERVICES] Lovable AI-веб-студия под заказ — NEAR-PASS: 66/100, сильная клиентская economics, но weak moat и хрупкий GTM не дают approve. | 732 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/lovable-ai-veb-studiya-pod-zakaz/verdict.md |
 | 189 | [gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty](./rejected/gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-04-26 | [AI-SERVICES] Gamma, AI-презентации, КП, лендинги и деловые материалы — REJECTED: 0/100 \| спрос подтверждён, но фондовый profitability gate провален, потому что при 50 клиентах EBITDA остаётся около -5,54 млн ₽/мес. | -5 540 200 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty/verdict.md |
 | 188 | [alphasense-ai-market-intelligence-v2](./rejected/alphasense-ai-market-intelligence-v2/verdict.md) | 🟡 | 69 | GEO-EXPAND | 2026-04-26 | [GEO-EXPAND] AlphaSense AI Market Intelligence v2 — NEAR-PASS: 69/100 \| enterprise research cockpit с сильной economics, но weak moat и дорогим GTM. | 1 448 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/alphasense-ai-market-intelligence-v2/verdict.md |
 | 187 | [captions-ai-video-ads-i-ai-avatary-za-minuty](./rejected/captions-ai-video-ads-i-ai-avatary-za-minuty/verdict.md) | ❌ | 0 | QUICK-AI | 2026-04-26 | [QUICK-AI] Captions AI, AI-video ads и AI-аватары за минуты — REJECTED: 0/100 \| Demand=MEDIUM, но Profit Gate FAIL \| LTV |
