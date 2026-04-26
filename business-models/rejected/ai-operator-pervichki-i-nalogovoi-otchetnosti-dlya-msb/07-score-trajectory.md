@@ -1,0 +1,16 @@
+## 2026-04-26 — P5 Unit Economics
+- Stage: P5 / unit-economics
+- Analyst: branch-models-lead
+- Score trajectory: **7.1 → 6.2**
+- Verdict shift: **PASS WITH RESERVATIONS → REJECTED**
+- Why it moved:
+  - blended fully-loaded CAC получился высоким, **770K ₽** на нового клиента;
+  - LTV/CAC формально нормальный, **3,5x**, но company-level economics не сходится;
+  - при **50 клиентах EBITDA = -1,55 млн ₽/мес**, а break-even наступает только от **78 клиентов**;
+  - модель остаётся слишком implementation-heavy и human-review-heavy для fund-grade ранней стадии.
+- Key risks:
+  - сервисная природа delivery продолжит раздувать COGS и FOT;
+  - рост клиентской базы идёт медленнее, чем растёт организационная нагрузка;
+  - без перехода в более высокий ACV продукт может остаться AI-enabled accounting firm.
+- Final decision:
+  - **REJECTED** на investment-fund level.

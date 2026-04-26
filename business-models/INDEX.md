@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 192 | ✅ Одобрено: 25 | ❌ Отклонено: 116 | 🟡 Near-Pass: 53
+**Всего:** 193 | ✅ Одобрено: 25 | ❌ Отклонено: 117 | 🟡 Near-Pass: 53
 **Обновлено:** 2026-04-26
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 193 | [ai-operator-pervichki-i-nalogovoi-otchetnosti-dlya-msb](./rejected/ai-operator-pervichki-i-nalogovoi-otchetnosti-dlya-msb/verdict.md) | ❌ | 62 | FINTECH | 2026-04-26 | [FINTECH] AI-оператор первички и налоговой отчётности для МСБ — REJECTED: 62/100, спрос и LTV/CAC рабочие, но EBITDA остаётся -1,55 млн ₽/мес при 50 клиентах. | -1 550 000 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-operator-pervichki-i-nalogovoi-otchetnosti-dlya-msb/verdict.md |
 | 192 | [lovable-ai-veb-studiya-pod-zakaz](./rejected/lovable-ai-veb-studiya-pod-zakaz/verdict.md) | 🟡 | 66 | AI-SERVICES | 2026-04-26 | [AI-SERVICES] Lovable AI-веб-студия под заказ — NEAR-PASS: 66/100, сильная клиентская economics, но weak moat и хрупкий GTM не дают approve. | 732 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/lovable-ai-veb-studiya-pod-zakaz/verdict.md |
 | 189 | [gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty](./rejected/gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-04-26 | [AI-SERVICES] Gamma, AI-презентации, КП, лендинги и деловые материалы — REJECTED: 0/100 \| спрос подтверждён, но фондовый profitability gate провален, потому что при 50 клиентах EBITDA остаётся около -5,54 млн ₽/мес. | -5 540 200 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty/verdict.md |
 | 188 | [alphasense-ai-market-intelligence-v2](./rejected/alphasense-ai-market-intelligence-v2/verdict.md) | 🟡 | 69 | GEO-EXPAND | 2026-04-26 | [GEO-EXPAND] AlphaSense AI Market Intelligence v2 — NEAR-PASS: 69/100 \| enterprise research cockpit с сильной economics, но weak moat и дорогим GTM. | 1 448 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/alphasense-ai-market-intelligence-v2/verdict.md |
