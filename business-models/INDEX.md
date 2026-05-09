@@ -1,8 +1,8 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 193 | ✅ Одобрено: 25 | ❌ Отклонено: 117 | 🟡 Near-Pass: 53
-**Обновлено:** 2026-04-26
+**Всего:** 193 | ✅ Одобрено: 18 | ❌ Отклонено: 103 | 🟡 Near-Pass: 48
+**Обновлено:** 2026-05-09
 
 ---
 
@@ -10,6 +10,8 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 193 | [armadin-geo-expand-v2](./rejected/armadin-geo-expand-v2/verdict.md) | 🟡 | 66 | GEO-EXPAND | 2026-05-09 | [GEO-EXPAND] Armadin — NEAR-PASS: 66/100, сильная unit economics не компенсирует weak moat и distribution-heavy GTM. | 801 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/armadin-geo-expand-v2/verdict.md |
+| 194 | [guidde-ai-video-dokumentaciya-dlya-obucheniya-i-ai-adoption](./approved/guidde-ai-video-dokumentaciya-dlya-obucheniya-i-ai-adoption/verdict.md) | ✅ | 72 | GEO-EXPAND | 2026-05-09 | [GEO-EXPAND] Guidde, AI-видео-документация и встроенные инструкции — APPROVED WITH NOTES: 72/100, strong economics и secure-enterprise wedge перевешивают средний moat. | 674 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/guidde-ai-video-dokumentaciya-dlya-obucheniya-i-ai-adoption/verdict.md |
 | 193 | [ai-operator-pervichki-i-nalogovoi-otchetnosti-dlya-msb](./rejected/ai-operator-pervichki-i-nalogovoi-otchetnosti-dlya-msb/verdict.md) | ❌ | 62 | FINTECH | 2026-04-26 | [FINTECH] AI-оператор первички и налоговой отчётности для МСБ — REJECTED: 62/100, спрос и LTV/CAC рабочие, но EBITDA остаётся -1,55 млн ₽/мес при 50 клиентах. | -1 550 000 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-operator-pervichki-i-nalogovoi-otchetnosti-dlya-msb/verdict.md |
 | 192 | [lovable-ai-veb-studiya-pod-zakaz](./rejected/lovable-ai-veb-studiya-pod-zakaz/verdict.md) | 🟡 | 66 | AI-SERVICES | 2026-04-26 | [AI-SERVICES] Lovable AI-веб-студия под заказ — NEAR-PASS: 66/100, сильная клиентская economics, но weak moat и хрупкий GTM не дают approve. | 732 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/lovable-ai-veb-studiya-pod-zakaz/verdict.md |
 | 189 | [gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty](./rejected/gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-04-26 | [AI-SERVICES] Gamma, AI-презентации, КП, лендинги и деловые материалы — REJECTED: 0/100 \| спрос подтверждён, но фондовый profitability gate провален, потому что при 50 клиентах EBITDA остаётся около -5,54 млн ₽/мес. | -5 540 200 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/gamma-ai-prezentatsii-sayty-i-kommpredy-za-minuty/verdict.md |
