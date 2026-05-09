@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 193 | ✅ Одобрено: 18 | ❌ Отклонено: 104 | 🟡 Near-Pass: 48
+**Всего:** 194 | ✅ Одобрено: 19 | ❌ Отклонено: 104 | 🟡 Near-Pass: 48
 **Обновлено:** 2026-05-09
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 195 | [trete-mnenie-ai-skrining-i-prioritizaciya-luchevyh-snimkov-dlya-klinik](./approved/trete-mnenie-ai-skrining-i-prioritizaciya-luchevyh-snimkov-dlya-klinik/verdict.md) | ✅ | 73 | HEALTHCARE | 2026-05-09 | [HEALTHCARE] Платформа Третье Мнение — APPROVED WITH NOTES: 73/100, strong radiology economics и рабочий path к EBITDA при тяжёлом GTM. | 957 000 ₽/мес через 16 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/trete-mnenie-ai-skrining-i-prioritizaciya-luchevyh-snimkov-dlya-klinik/verdict.md |
 | 195 | [conveyor-geo-expand-1827-v2](./rejected/conveyor-geo-expand-1827-v2/verdict.md) | ❌ | 57 | GEO-EXPAND | 2026-05-09 | [GEO-EXPAND] Conveyor — REJECTED: 57/100 \| EBITDA при 50 клиентах ниже 500К₽/мес \| LTV/CAC=9,7x \| Ключевое преимущество: |
 | 193 | [armadin-geo-expand-v2](./rejected/armadin-geo-expand-v2/verdict.md) | 🟡 | 66 | GEO-EXPAND | 2026-05-09 | [GEO-EXPAND] Armadin — NEAR-PASS: 66/100, сильная unit economics не компенсирует weak moat и distribution-heavy GTM. | 801 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/armadin-geo-expand-v2/verdict.md |
 | 194 | [guidde-ai-video-dokumentaciya-dlya-obucheniya-i-ai-adoption](./approved/guidde-ai-video-dokumentaciya-dlya-obucheniya-i-ai-adoption/verdict.md) | ✅ | 72 | GEO-EXPAND | 2026-05-09 | [GEO-EXPAND] Guidde, AI-видео-документация и встроенные инструкции — APPROVED WITH NOTES: 72/100, strong economics и secure-enterprise wedge перевешивают средний moat. | 674 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/guidde-ai-video-dokumentaciya-dlya-obucheniya-i-ai-adoption/verdict.md |
