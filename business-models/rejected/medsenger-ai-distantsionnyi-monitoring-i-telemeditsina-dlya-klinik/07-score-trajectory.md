@@ -1,0 +1,16 @@
+## 2026-05-10 00:46 MSK — P5 Unit Economics
+- Stage: P5 / unit-economics
+- Analyst: branch-models-lead
+- Score trajectory: **7.5 → 5.8**
+- Verdict shift: **PASS WITH RESERVATIONS → REJECTED**
+- Why it moved:
+  - fully-loaded blended CAC для regulated healthtech получился **~1.03 млн ₽ на клиента**;
+  - при MRR **90 000 ₽** и gross margin **63.3%** это даёт только **LTV/CAC 2.53x**, ниже investable threshold **3.0x**;
+  - при **50 клиентах** компания всё ещё показывает около **-2.26 млн ₽ EBITDA/мес**, то есть Profit Gate не выполняется;
+  - break-even наступает только около **95 клиентов** и после **31+ месяцев**, что требует слишком большого burn до окупаемости.
+- Key risks:
+  - regulated sales cycle и compliance-процедуры удерживают CAC у верхней границы рынка;
+  - integration-heavy delivery съедает gross margin и отодвигает break-even;
+  - текущий ценовой диапазон 7–10K ₽ за активного врача не компенсирует тяжёлый GTM.
+- Final decision:
+  - **REJECTED** на этапе Program 5.

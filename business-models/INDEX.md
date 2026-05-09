@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 195 | ✅ Одобрено: 19 | ❌ Отклонено: 108 | 🟡 Near-Pass: 48
+**Всего:** 195 | ✅ Одобрено: 19 | ❌ Отклонено: 109 | 🟡 Near-Pass: 48
 **Обновлено:** 2026-05-10
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 200 | [medsenger-ai-distantsionnyi-monitoring-i-telemeditsina-dlya-klinik](./rejected/medsenger-ai-distantsionnyi-monitoring-i-telemeditsina-dlya-klinik/verdict.md) | ❌ | 58 | HEALTHCARE | 2026-05-10 | [HEALTHCARE] Medsenger: AI-дистанционный мониторинг и телемедицина для клиник — REJECTED: 58/100 \| EBITDA при 50 клиента |
 | 199 | [ai-sozdanie-saitov-pod-zakaz](./rejected/ai-sozdanie-saitov-pod-zakaz/verdict.md) | ❌ | 26 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] AI создание сайтов под заказ — REJECTED: 26/100 \| demand score=26 и Profit Gate FAIL \| Сильная сторона: по |
 | 198 | [ai-tranzaktsionnyi-skoring-dlya-mfo-i-bankov](./rejected/ai-tranzaktsionnyi-skoring-dlya-mfo-i-bankov/verdict.md) | ❌ | 41 | FINTECH | 2026-05-10 | [FINTECH] AI транзакционный скоринг для МФО и банков — REJECTED: 41/100 \| EBITDA при 50 клиентах остаётся около -1,3 млн |
 | 197 | [zebrains-ai-cifrovoy-ofis-dlya-operacionnyh-processov](./rejected/zebrains-ai-cifrovoy-ofis-dlya-operacionnyh-processov/verdict.md) | ❌ | 47 | B2B-OPS | 2026-05-09 | [B2B-OPS] ZeBrains AI Digital Office — REJECTED: 47/100, сильная client economics не компенсирует провал EBITDA-gate к M24. | -1 711 438 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/zebrains-ai-cifrovoy-ofis-dlya-operacionnyh-processov/verdict.md |
