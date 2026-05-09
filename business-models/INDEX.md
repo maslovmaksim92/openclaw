@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 195 | ✅ Одобрено: 19 | ❌ Отклонено: 109 | 🟡 Near-Pass: 48
+**Всего:** 196 | ✅ Одобрено: 19 | ❌ Отклонено: 110 | 🟡 Near-Pass: 49
 **Обновлено:** 2026-05-10
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 196 | [iqdoc-ai-interpretaciya-lab-rezultatov-i-klinicheskih-rekomendaciy-dlya-klinik](./rejected/iqdoc-ai-interpretaciya-lab-rezultatov-i-klinicheskih-rekomendaciy-dlya-klinik/verdict.md) | 🟡 | 69 | HEALTHCARE | 2026-05-10 | [HEALTHCARE] IQDOC — NEAR-PASS: 69/100 \| EBITDA base=625К₽/мес через 13 мес \| LTV/CAC=14,2x \| локальный clinical assistant по клинрекам Минздрава РФ, но moat пока слабый. | 625 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/iqdoc-ai-interpretaciya-lab-rezultatov-i-klinicheskih-rekomendaciy-dlya-klinik/verdict.md |
 | 200 | [medsenger-ai-distantsionnyi-monitoring-i-telemeditsina-dlya-klinik](./rejected/medsenger-ai-distantsionnyi-monitoring-i-telemeditsina-dlya-klinik/verdict.md) | ❌ | 58 | HEALTHCARE | 2026-05-10 | [HEALTHCARE] Medsenger: AI-дистанционный мониторинг и телемедицина для клиник — REJECTED: 58/100 \| EBITDA при 50 клиента |
 | 199 | [ai-sozdanie-saitov-pod-zakaz](./rejected/ai-sozdanie-saitov-pod-zakaz/verdict.md) | ❌ | 26 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] AI создание сайтов под заказ — REJECTED: 26/100 \| demand score=26 и Profit Gate FAIL \| Сильная сторона: по |
 | 198 | [ai-tranzaktsionnyi-skoring-dlya-mfo-i-bankov](./rejected/ai-tranzaktsionnyi-skoring-dlya-mfo-i-bankov/verdict.md) | ❌ | 41 | FINTECH | 2026-05-10 | [FINTECH] AI транзакционный скоринг для МФО и банков — REJECTED: 41/100 \| EBITDA при 50 клиентах остаётся около -1,3 млн |
