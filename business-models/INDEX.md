@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 194 | ✅ Одобрено: 19 | ❌ Отклонено: 105 | 🟡 Near-Pass: 48
+**Всего:** 195 | ✅ Одобрено: 19 | ❌ Отклонено: 106 | 🟡 Near-Pass: 48
 **Обновлено:** 2026-05-09
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 197 | [zebrains-ai-cifrovoy-ofis-dlya-operacionnyh-processov](./rejected/zebrains-ai-cifrovoy-ofis-dlya-operacionnyh-processov/verdict.md) | ❌ | 47 | B2B-OPS | 2026-05-09 | [B2B-OPS] ZeBrains AI Digital Office — REJECTED: 47/100, сильная client economics не компенсирует провал EBITDA-gate к M24. | -1 711 438 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/zebrains-ai-cifrovoy-ofis-dlya-operacionnyh-processov/verdict.md |
 | 196 | [ai-operator-schetov-i-kreditorskoi-zadolzhennosti](./rejected/ai-operator-schetov-i-kreditorskoi-zadolzhennosti/verdict.md) | ❌ | 0 | FINTECH | 2026-05-09 | [FINTECH] AI-оператор счетов и кредиторской задолженности — REJECTED: 0/100 \| Demand=LOW \| EBITDA >500 тыс. ₽/мес требуе |
 | 195 | [trete-mnenie-ai-skrining-i-prioritizaciya-luchevyh-snimkov-dlya-klinik](./approved/trete-mnenie-ai-skrining-i-prioritizaciya-luchevyh-snimkov-dlya-klinik/verdict.md) | ✅ | 73 | HEALTHCARE | 2026-05-09 | [HEALTHCARE] Платформа Третье Мнение — APPROVED WITH NOTES: 73/100, strong radiology economics и рабочий path к EBITDA при тяжёлом GTM. | 957 000 ₽/мес через 16 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/trete-mnenie-ai-skrining-i-prioritizaciya-luchevyh-snimkov-dlya-klinik/verdict.md |
 | 195 | [conveyor-geo-expand-1827-v2](./rejected/conveyor-geo-expand-1827-v2/verdict.md) | ❌ | 57 | GEO-EXPAND | 2026-05-09 | [GEO-EXPAND] Conveyor — REJECTED: 57/100 \| EBITDA при 50 клиентах ниже 500К₽/мес \| LTV/CAC=9,7x \| Ключевое преимущество: |
