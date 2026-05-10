@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 223 | ✅ Одобрено: 31 | ❌ Отклонено: 167 | 🟡 Near-Pass: 25
+**Всего:** 224 | ✅ Одобрено: 31 | ❌ Отклонено: 168 | 🟡 Near-Pass: 25
 **Обновлено:** 2026-05-11
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 218 | [fibr-ai-agentnaya-personalizaciya-sayta-dlya-enterprise-marketinga](./rejected/fibr-ai-agentnaya-personalizaciya-sayta-dlya-enterprise-marketinga/verdict.md) | ❌ | 62 | B2B-OPS | 2026-05-11 | [B2B-OPS] Fibr AI — REJECTED: 62/100, сильная enterprise economics не компенсирует weak moat и дорогой pilot-heavy GTM. | 510 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/fibr-ai-agentnaya-personalizaciya-sayta-dlya-enterprise-marketinga/verdict.md |
 | 217 | [ai-operator-klientskoy-podderzhki-v-chatah-i-messendzherah](./rejected/ai-operator-klientskoy-podderzhki-v-chatah-i-messendzherah/verdict.md) | 🟡 | 69 | B2B-OPS | 2026-05-11 | [B2B-OPS] AI-оператор клиентской поддержки в чатах и мессенджерах — NEAR-PASS: 69/100, сильная economics не компенсирует weak moat и crowded category. | 1 435 079 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-operator-klientskoy-podderzhki-v-chatah-i-messendzherah/verdict.md |
 | 217 | [remini-ai-headshots-i-portrety-za-minuty](./rejected/remini-ai-headshots-i-portrety-za-minuty/verdict.md) | ❌ | 41 | QUICK-AI | 2026-05-10 | [QUICK-AI] Remini AI headshots и портреты за минуты — REJECTED: 41/100 \| Profit Gate FAIL \| локальный спрос LOW, WTP низ |
 | 216 | [ai-veb-studiya-na-lovable-i-tilda](./rejected/ai-veb-studiya-na-lovable-i-tilda/verdict.md) | ❌ | n/a | AI-SERVICES | 2026-05-10 | AI-веб-студия на Lovable и Tilda отклонена: спрос есть, но LTV/CAC 1,22x и labor-heavy delivery не дают investment-grade economics. |
