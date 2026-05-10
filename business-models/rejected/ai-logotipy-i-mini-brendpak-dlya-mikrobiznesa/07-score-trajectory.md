@@ -1,0 +1,37 @@
+## 2026-05-10 04:01 MSK — P4 Demand Validation
+- Stage: P4-demand-validation
+- Outcome: CONDITIONAL PASS
+- Demand API: LOW, demand_score=0
+- Key nuance: broad keyword demand слабый, но willingness-to-pay подтверждён платными конкурентами и hiring spend по логотипам/айдентике.
+- Profit Gate: PASS только в package/subscription/white-label сценариях; FAIL в pure one-off logo only.
+- Score impact:
+  - Demand: 3/5
+  - WTP: 4/5
+  - Market size: 3/5
+  - Profitability potential: 3.5/5
+  - Overall after P4: 3.4/5
+- Decision: продолжать дальше только с позиционированием как launch/branding stack для микробизнеса и селлеров, а не как commodity logo generator.
+- Artifact: pipeline/cases/ai-logotipy-i-mini-brendpak-dlya-mikrobiznesa/02-demand.md
+
+## 2026-05-10 14:37 MSK — P5 Unit Economics
+- Stage: P5-unit-economics
+- Outcome: FAIL
+- Economics summary:
+  - ARPU: 990 ₽/мес
+  - COGS: 280 ₽/клиент/мес
+  - Gross Margin: 71,7%
+  - Fully-loaded CAC: 7 575 ₽
+  - Monthly churn benchmark used: 8%
+  - LTV: 8 874 ₽
+  - LTV/CAC: 1,17x
+  - CAC Payback: 7,65 мес
+  - Break-even: 5 006 активных клиентов
+- Profit Gate: FAIL, потому что при 50 клиентах EBITDA 500 тыс. ₽/мес недостижима в принципе.
+- Score impact:
+  - Unit economics: 1/5
+  - Investability: 1/5
+  - Overall after P5: 2.2/5
+- Decision: REJECTED, перенести кейс в pipeline/rejected/.
+- Artifacts:
+  - pipeline/cases/ai-logotipy-i-mini-brendpak-dlya-mikrobiznesa/04-economics.md
+  - pipeline/cases/ai-logotipy-i-mini-brendpak-dlya-mikrobiznesa/06-verdict.md

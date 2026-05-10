@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 210 | ✅ Одобрено: 20 | ❌ Отклонено: 116 | 🟡 Near-Pass: 52
+**Всего:** 210 | ✅ Одобрено: 20 | ❌ Отклонено: 117 | 🟡 Near-Pass: 52
 **Обновлено:** 2026-05-10
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 211 | [ai-logotipy-i-mini-brendpak-dlya-mikrobiznesa](./rejected/ai-logotipy-i-mini-brendpak-dlya-mikrobiznesa/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] AI-логотипы и мини-бренд-пак для микробизнеса и селлеров — REJECTED: 0/100 \| LTV/CAC=1,17x \| EBITDA на 50  |
 | 210 | [deepip-geo-expand-v2](./rejected/deepip-geo-expand-v2/verdict.md) | ❌ | 53 | GEO-EXPAND | 2026-05-10 | [GEO-EXPAND] DeepIP — REJECTED: 53/100 \| EBITDA base=583К₽/мес через 12 мес \| LTV/CAC=12,8x \| Ключевое преимущество: hybrid IP workflow с локальным QA-слоем \| Главный риск: weak moat и слишком узкий buyer universe в РФ. | 583 453 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/deepip-geo-expand-v2/verdict.md |
 | 209 | [indico-data-geo-expand-v2](./rejected/indico-data-geo-expand-v2/verdict.md) | 🟡 | 65 | GEO-EXPAND | 2026-05-10 | [GEO-EXPAND] Indico Data — NEAR-PASS: 65/100 \| EBITDA base=603К₽/мес через 12 мес \| LTV/CAC=7,45x \| Ключевое преимущество: дорогой claims/underwriting workflow с высоким ACV \| Главный риск: weak moat и слишком узкий buyer universe в РФ. | 602 971 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/indico-data-geo-expand-v2/verdict.md |
 | 208 | [ai-native-autsorsing-customer-support-dlya-b2c-brendov](./rejected/ai-native-autsorsing-customer-support-dlya-b2c-brendov/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] AI-native аутсорсинг customer support для B2C-брендов — REJECTED: 0/100 \| Demand=LOW \| Рынок уже плотно закрыт BPO, helpdesk и AI-ботами \| Главный риск: не подтверждён standalone category pull в РФ. | н/д | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-native-autsorsing-customer-support-dlya-b2c-brendov/verdict.md |
