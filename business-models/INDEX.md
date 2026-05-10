@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 203 | ✅ Одобрено: 20 | ❌ Отклонено: 111 | 🟡 Near-Pass: 49
+**Всего:** 204 | ✅ Одобрено: 20 | ❌ Отклонено: 112 | 🟡 Near-Pass: 49
 **Обновлено:** 2026-05-10
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 204 | [norm-ai-geo-expand-v2](./rejected/norm-ai-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-05-10 | Norm Ai-подобный enterprise compliance AI для РФ отклоняется: локальный спрос на policy-execution category остаётся слишком слабым, а premium economics не превращается в реалистичный путь к EBITDA выше 500 тыс. ₽/мес. | н/д | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/norm-ai-geo-expand-v2/verdict.md |
 | 203 | [Smart Engines, AI-ввод первичных документов для бухучета и налогового учета](./approved/smart-engines-ai-vvod-pervichnyh-dokumentov-dlya-buhucheta-i-nalogovogo-ucheta/verdict.md) | ✅ | 73 | FINTECH | 2026-05-10 | [FINTECH] Smart Engines — APPROVED WITH NOTES: 73/100, strong unit economics и рабочий путь к EBITDA при риске price compression. | 863 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/smart-engines-ai-vvod-pervichnyh-dokumentov-dlya-buhucheta-i-nalogovogo-ucheta/verdict.md |
 | 202 | [mutiny-ai-agent-dlya-enterprise-go-to-market-komand](./rejected/mutiny-ai-agent-dlya-enterprise-go-to-market-komand/verdict.md) | ❌ | 62 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] Mutiny отклонён: сильная enterprise economics не компенсирует weak moat и founder-heavy GTM. | 1 451 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/mutiny-ai-agent-dlya-enterprise-go-to-market-komand/verdict.md |
 | 196 | [iqdoc-ai-interpretaciya-lab-rezultatov-i-klinicheskih-rekomendaciy-dlya-klinik](./rejected/iqdoc-ai-interpretaciya-lab-rezultatov-i-klinicheskih-rekomendaciy-dlya-klinik/verdict.md) | 🟡 | 69 | HEALTHCARE | 2026-05-10 | [HEALTHCARE] IQDOC — NEAR-PASS: 69/100 \| EBITDA base=625К₽/мес через 13 мес \| LTV/CAC=14,2x \| локальный clinical assistant по клинрекам Минздрава РФ, но moat пока слабый. | 625 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/iqdoc-ai-interpretaciya-lab-rezultatov-i-klinicheskih-rekomendaciy-dlya-klinik/verdict.md |
