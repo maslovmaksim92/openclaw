@@ -1,0 +1,15 @@
+## 2026-05-10 — P5 Unit Economics
+- Stage: P5 / unit-economics
+- Analyst: branch-models-lead
+- Score trajectory: **7.3 → 3.6**
+- Verdict shift: **PASS WITH RESERVATIONS → REJECTED**
+- Why it moved:
+  - fully-loaded CAC оказался **232 218 ₽**, то есть уже ближе к сложному B2B motion, тогда как blended ARPA остался всего **14 000 ₽/мес**;
+  - при churn **3.1%/мес** и GM **72.9%** получается только **LTV/CAC = 1.42x**, что сильно ниже investable порога **3:1**;
+  - profit gate провален жёстко: при **50 клиентах EBITDA = -5.27 млн ₽/мес**, а break-even требует около **617 клиентов**.
+- Key risks:
+  - CAC inflation против low-ticket продукта;
+  - слабые switching costs и commodity-удержание;
+  - burn-to-breakeven слишком большой для seller tooling.
+- Next check:
+  - rerun имеет смысл только если кейс радикально перепакован в white-label/API или встраивается в более крупную marketplace-экосистему.

@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 210 | ✅ Одобрено: 20 | ❌ Отклонено: 118 | 🟡 Near-Pass: 52
+**Всего:** 210 | ✅ Одобрено: 20 | ❌ Отклонено: 119 | 🟡 Near-Pass: 52
 **Обновлено:** 2026-05-10
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 213 | [ai-kartochki-tovarov-i-predmetnye-foto-dlya-marketpleysov](./rejected/ai-kartochki-tovarov-i-predmetnye-foto-dlya-marketpleysov/verdict.md) | ❌ | 36 | UNKNOWN | 2026-05-10 | [ECOMMERCE_ENABLEMENT] AI-карточки товаров и предметные фото для маркетплейсов — REJECTED: 36/100 \| EBITDA при 50 клиент |
 | 212 | [ai-headshots-dlya-linkedin-sayta-i-prodazh-za-30-minut](./rejected/ai-headshots-dlya-linkedin-sayta-i-prodazh-za-30-minut/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] AI-headshots для LinkedIn, сайта и продаж за 30 минут — REJECTED: 0/100 \| Demand=LOW \| Profit Gate FAIL во |
 | 211 | [ai-logotipy-i-mini-brendpak-dlya-mikrobiznesa](./rejected/ai-logotipy-i-mini-brendpak-dlya-mikrobiznesa/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] AI-логотипы и мини-бренд-пак для микробизнеса и селлеров — REJECTED: 0/100 \| LTV/CAC=1,17x \| EBITDA на 50  |
 | 210 | [deepip-geo-expand-v2](./rejected/deepip-geo-expand-v2/verdict.md) | ❌ | 53 | GEO-EXPAND | 2026-05-10 | [GEO-EXPAND] DeepIP — REJECTED: 53/100 \| EBITDA base=583К₽/мес через 12 мес \| LTV/CAC=12,8x \| Ключевое преимущество: hybrid IP workflow с локальным QA-слоем \| Главный риск: weak moat и слишком узкий buyer universe в РФ. | 583 453 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/deepip-geo-expand-v2/verdict.md |
