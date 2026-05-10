@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 205 | ✅ Одобрено: 20 | ❌ Отклонено: 113 | 🟡 Near-Pass: 49
+**Всего:** 205 | ✅ Одобрено: 20 | ❌ Отклонено: 114 | 🟡 Near-Pass: 49
 **Обновлено:** 2026-05-10
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 206 | [ai-native-autsorsing-customer-support-dlya-b2c-brendov](./rejected/ai-native-autsorsing-customer-support-dlya-b2c-brendov/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] AI-native аутсорсинг customer support для B2C-брендов — REJECTED: 0/100 \| Demand=LOW \| Рынок уже плотно за |
 | 205 | [speedybrand-ai-seo-podpiska-dlya-smb](./rejected/speedybrand-ai-seo-podpiska-dlya-smb/verdict.md) | ❌ | 35 | AI-SERVICES | 2026-05-10 | [AI-SERVICES] SpeedyBrand-подобная AI-SEO подписка для SMB отклонена: спрос на outcome есть, но EBITDA-модель не выдерживает сервисную cost base. | -1 839 677 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/speedybrand-ai-seo-podpiska-dlya-smb/verdict.md |
 | 204 | [norm-ai-geo-expand-v2](./rejected/norm-ai-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-05-10 | Norm Ai-подобный enterprise compliance AI для РФ отклоняется: локальный спрос на policy-execution category остаётся слишком слабым, а premium economics не превращается в реалистичный путь к EBITDA выше 500 тыс. ₽/мес. | н/д | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/norm-ai-geo-expand-v2/verdict.md |
 | 203 | [Smart Engines, AI-ввод первичных документов для бухучета и налогового учета](./approved/smart-engines-ai-vvod-pervichnyh-dokumentov-dlya-buhucheta-i-nalogovogo-ucheta/verdict.md) | ✅ | 73 | FINTECH | 2026-05-10 | [FINTECH] Smart Engines — APPROVED WITH NOTES: 73/100, strong unit economics и рабочий путь к EBITDA при риске price compression. | 863 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/smart-engines-ai-vvod-pervichnyh-dokumentov-dlya-buhucheta-i-nalogovogo-ucheta/verdict.md |
