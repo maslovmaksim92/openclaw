@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 212 | ✅ Одобрено: 20 | ❌ Отклонено: 121 | 🟡 Near-Pass: 53
+**Всего:** 212 | ✅ Одобрено: 20 | ❌ Отклонено: 122 | 🟡 Near-Pass: 53
 **Обновлено:** 2026-05-10
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 217 | [remini-ai-headshots-i-portrety-za-minuty](./rejected/remini-ai-headshots-i-portrety-za-minuty/verdict.md) | ❌ | 41 | QUICK-AI | 2026-05-10 | [QUICK-AI] Remini AI headshots и портреты за минуты — REJECTED: 41/100 \| Profit Gate FAIL \| локальный спрос LOW, WTP низ |
 | 216 | [ai-veb-studiya-na-lovable-i-tilda](./rejected/ai-veb-studiya-na-lovable-i-tilda/verdict.md) | ❌ | n/a | AI-SERVICES | 2026-05-10 | AI-веб-студия на Lovable и Tilda отклонена: спрос есть, но LTV/CAC 1,22x и labor-heavy delivery не дают investment-grade economics. |
 | 215 | [scribe-optimize-geo-expand-v2](./rejected/scribe-optimize-geo-expand-v2/verdict.md) | 🟡 | 69 | GEO-EXPAND | 2026-05-10 | Scribe Optimize, workflow visibility и AI-readiness wedge с сильной economics, но слабым direct category pull в РФ. | 600 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/scribe-optimize-geo-expand-v2/verdict.md |
 | 214 | [ai-skrining-rentgena-i-kt-dlya-klinik-rf](./rejected/ai-skrining-rentgena-i-kt-dlya-klinik-rf/verdict.md) | ❌ | 54 | HEALTHCARE | 2026-05-10 | [HEALTHCARE] AI-скрининг рентгена и КТ для клиник РФ — REJECTED: 54/100 \| EBITDA при 50 клиентах = -2.9 млн ₽/мес \| LTV/ |
