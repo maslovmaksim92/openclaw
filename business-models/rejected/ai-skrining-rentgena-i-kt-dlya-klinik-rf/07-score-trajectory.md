@@ -1,0 +1,17 @@
+## 2026-05-10 — P5 Unit Economics
+- Stage: P5 / unit-economics
+- Analyst: branch-models-lead
+- Score trajectory: **6.6 → 5.4**
+- Verdict shift: **PROCEED → REJECTED**
+- Why it moved:
+  - demand был реальным, но fully-loaded CAC для regulated B2B healthcare оказался слишком тяжёлым: **2.57 млн ₽** на клиента при blended win rate **0.65 клиента/мес**;
+  - gross profit на клиента составляет только **90K ₽/мес**, поэтому при benchmark churn **1.5%/мес** LTV выходит лишь **6.0 млн ₽**, а **LTV/CAC = 2.34x**, ниже fund-grade порога **3x**;
+  - payback растягивается до **17.1 месяца**, то есть находится почти на верхней границе допустимого enterprise-коридора и не оставляет запаса на ошибку модели;
+  - ключевой слом экономики в fixed cost base: полный состав команды и обязательный regulated overhead дают **7.4 млн ₽/мес fixed costs**, из-за чего даже при **50 клиентах EBITDA ≈ -2.9 млн ₽/мес**;
+  - это означает прямой **Profit Gate FAIL**: положительная EBITDA **500K+ ₽/мес** на масштабе 50 клиентов не достигается.
+- Key risks:
+  - высокий CAC может оказаться ещё выше при реальных тендерах, ИБ review и затянутых пилотах;
+  - hiring-plan для ML, compliance и enterprise sales сам по себе создаёт длительный cash burn до первых повторяемых продаж;
+  - российский TAM недостаточно велик, чтобы спокойно переварить такую cost structure.
+- Confidence: **medium-high**
+- Evidence base: **02-demand.md + internal unit economics model + Optifai churn benchmark + HH.ru salary benchmarks**
