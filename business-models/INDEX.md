@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 230 | ✅ Одобрено: 29 | ❌ Отклонено: 142 | 🟡 Near-Pass: 60
+**Всего:** 232 | ✅ Одобрено: 29 | ❌ Отклонено: 143 | 🟡 Near-Pass: 60
 **Обновлено:** 2026-05-11
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 233 | [delve-geo-expand-v2](./rejected/delve-geo-expand-v2/verdict.md) | ❌ | 61 | GEO-EXPAND | 2026-05-11 | [GEO-EXPAND] Delve geo-expand v2 — REJECTED: 61/100, сильная enterprise economics не компенсирует weak moat, LOW RU-demand и high-touch delivery risk. | 960 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/delve-geo-expand-v2/verdict.md |
 | 232 | [ai-veb-studiya-i-mvp-pod-zakaz-na-bolt-new](./rejected/ai-veb-studiya-i-mvp-pod-zakaz-na-bolt-new/verdict.md) | ❌ | 58 | AI-SERVICES | 2026-05-11 | [AI-SERVICES] AI-веб-студия и MVP под заказ на Bolt.new — REJECTED: 58/100 \| EBITDA @50 clients = -550К₽/мес \| LTV/CAC = |
 | 231 | [fabula-ai-ai-avatary-i-kartochki-tovarov-dlya-marketpleysov-za-minuty](./rejected/fabula-ai-ai-avatary-i-kartochki-tovarov-dlya-marketpleysov-za-minuty/verdict.md) | ❌ | 0 | QUICK-AI | 2026-05-11 | [QUICK-AI] Fabula AI, AI-аватары и карточки товаров для маркетплейсов за минуты — REJECTED: 0/100, продукт может жить как сервис, но не собирает investment-grade economics. | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/fabula-ai-ai-avatary-i-kartochki-tovarov-dlya-marketpleysov-za-minuty/verdict.md |
 | 229 | [AI-скрининг рентгена и КТ для клиник РФ](./approved/ai-skrining-rentgena-i-kt-dlya-klinik-rf/verdict.md) | ✅ | 70 | HEALTHCARE | 2026-05-11 | [HEALTHCARE] AI-скрининг рентгена и КТ для клиник РФ — APPROVED WITH NOTES: 70/100, локально валидированный radiology workflow с сильной unit economics и тяжёлым GTM. | 1 908 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-skrining-rentgena-i-kt-dlya-klinik-rf/verdict.md |
