@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 227 | ✅ Одобрено: 28 | ❌ Отклонено: 140 | 🟡 Near-Pass: 59
+**Всего:** 228 | ✅ Одобрено: 28 | ❌ Отклонено: 140 | 🟡 Near-Pass: 60
 **Обновлено:** 2026-05-11
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 228 | [AI-рекрутинг-оператор под ключ для enterprise и кадровых агентств](./rejected/ai-rekruting-operator-pod-klyuch-dlya-enterprise-i-kadrovyh-agentstv/verdict.md) | 🟡 | 65 | B2B-OPS | 2026-05-11 | [B2B-OPS] AI-рекрутинг-оператор под ключ для enterprise и кадровых агентств — NEAR-PASS: 65/100, сильная unit economics не компенсирует weak moat и тяжёлый capital path. | 725 500 ₽/мес через 12-13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-rekruting-operator-pod-klyuch-dlya-enterprise-i-kadrovyh-agentstv/verdict.md |
 | 230 | [AI-скрининг хронических рисков и clinical decision support для клиник РФ](./rejected/ai-skrining-khronicheskih-riskov-i-clinical-decision-support-dlya-klinik-rf/verdict.md) | ❌ | 42 | HEALTHCARE | 2026-05-11 | [HEALTHCARE] AI-скрининг хронических рисков и clinical decision support для клиник РФ — REJECTED: 42/100, локальный спрос и comparable есть, но EBITDA-gate к M24 не доказан. | -1 454 469 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-skrining-khronicheskih-riskov-i-clinical-decision-support-dlya-klinik-rf/verdict.md |
 | 229 | [ai-fotosessii-v-telegram-dlya-socsetey-i-marketpleysov](./rejected/ai-fotosessii-v-telegram-dlya-socsetey-i-marketpleysov/verdict.md) | ❌ | 30 | QUICK-AI | 2026-05-11 | [QUICK-AI] AI-фотосессии в Telegram для соцсетей и маркетплейсов — REJECTED: 30/100 \| EBITDA при 50 клиентах ≈ -2,24 млн |
 | 228 | [ЦРТ Voice2Med](./approved/crt-voice2med-ai-golosovoe-zapolnenie-meditsinskoy-dokumentatsii/verdict.md) | ✅ | 72 | HEALTHCARE | 2026-05-11 | [HEALTHCARE] ЦРТ Voice2Med — APPROVED WITH NOTES: 72/100, strong unit economics и локальный on-prem/МИС wedge при среднем moat. | 1 514 731 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/crt-voice2med-ai-golosovoe-zapolnenie-meditsinskoy-dokumentatsii/verdict.md |
