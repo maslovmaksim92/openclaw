@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 224 | ✅ Одобрено: 31 | ❌ Отклонено: 171 | 🟡 Near-Pass: 25
+**Всего:** 225 | ✅ Одобрено: 31 | ❌ Отклонено: 171 | 🟡 Near-Pass: 26
 **Обновлено:** 2026-05-11
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 225 | [mintlify-geo-expand-v2](./rejected/mintlify-geo-expand-v2/verdict.md) | 🟡 | 66 | AI-SERVICES | 2026-05-11 | [AI-SERVICES] Mintlify geo-expand v2 — NEAR-PASS: 66/100, сильная client-level economics не компенсирует weak moat и founder-heavy GTM. | 530 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/mintlify-geo-expand-v2/verdict.md |
 | 221 | [ai-operator-valyutnogo-kontrolya-i-ved-dokumentov-dlya-msb](./rejected/ai-operator-valyutnogo-kontrolya-i-ved-dokumentov-dlya-msb/verdict.md) | ❌ | 49 | FINTECH | 2026-05-11 | [FINTECH] AI-оператор валютного контроля и ВЭД-документов для МСБ — REJECTED: 49/100 \| EBITDA при 50 клиентах ≈ -4,26 мл |
 | 220 | [future-it-dent-ai-mis-dlya-stomatologiy](./rejected/future-it-dent-ai-mis-dlya-stomatologiy/verdict.md) | ❌ | 57 | HEALTHCARE | 2026-05-11 | [HEALTHCARE] Future IT Dent, AI-МИС для стоматологий с документацией и маршрутизацией пациента — REJECTED: 57/100 \| EBIT |
 | 219 | [the-brief-ai-dizayn-bannerov-i-video-kreativov-pod-zakaz](./rejected/the-brief-ai-dizayn-bannerov-i-video-kreativov-pod-zakaz/verdict.md) | ❌ | 62 | AI-SERVICES | 2026-05-11 | [AI-SERVICES] The Brief AI, AI-дизайн баннеров и видео-креативов под заказ — REJECTED: 62/100 \| EBITDA при 50 клиентах ≈ |
