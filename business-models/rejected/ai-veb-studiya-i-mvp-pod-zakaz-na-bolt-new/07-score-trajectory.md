@@ -1,0 +1,21 @@
+## 2026-05-11 — P5 Unit Economics
+- Stage: P5 Unit Economics
+- Outcome: REJECTED
+- Fund-level result: Profit Gate FAIL
+- Key metrics:
+  - Fully-loaded CAC: 170 000 ₽
+  - LTV: 152 000 ₽
+  - LTV/CAC: 0,89x
+  - CAC Payback: 19,4 мес
+  - Contribution Margin: 56,4%
+  - Break-even: 68 клиентов base / 72 клиента safety
+  - EBITDA @50 active clients: -550 000 ₽/мес
+- Why score moved down:
+  - экономика держится на разовых build-проектах, а не на устойчивом recurring;
+  - attach rate на support только 35%, поэтому LTV остаётся низким;
+  - fully-loaded CAC реалистично высокий из-за founder-sales, pre-sale и sales FOT;
+  - даже при 50 клиентах компания не выходит в +500k ₽ EBITDA/мес.
+- Decision impact:
+  - кейс не проходит инвестиционный фильтр фонда;
+  - перевод в pipeline/rejected;
+  - возможный rerun только при доказанном переходе в более sticky recurring model.
