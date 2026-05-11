@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 224 | ✅ Одобрено: 31 | ❌ Отклонено: 169 | 🟡 Near-Pass: 25
+**Всего:** 224 | ✅ Одобрено: 31 | ❌ Отклонено: 170 | 🟡 Near-Pass: 25
 **Обновлено:** 2026-05-11
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 220 | [future-it-dent-ai-mis-dlya-stomatologiy](./rejected/future-it-dent-ai-mis-dlya-stomatologiy/verdict.md) | ❌ | 57 | HEALTHCARE | 2026-05-11 | [HEALTHCARE] Future IT Dent, AI-МИС для стоматологий с документацией и маршрутизацией пациента — REJECTED: 57/100 \| EBIT |
 | 219 | [the-brief-ai-dizayn-bannerov-i-video-kreativov-pod-zakaz](./rejected/the-brief-ai-dizayn-bannerov-i-video-kreativov-pod-zakaz/verdict.md) | ❌ | 62 | AI-SERVICES | 2026-05-11 | [AI-SERVICES] The Brief AI, AI-дизайн баннеров и видео-креативов под заказ — REJECTED: 62/100 \| EBITDA при 50 клиентах ≈ |
 | 218 | [fibr-ai-agentnaya-personalizaciya-sayta-dlya-enterprise-marketinga](./rejected/fibr-ai-agentnaya-personalizaciya-sayta-dlya-enterprise-marketinga/verdict.md) | ❌ | 62 | B2B-OPS | 2026-05-11 | [B2B-OPS] Fibr AI — REJECTED: 62/100, сильная enterprise economics не компенсирует weak moat и дорогой pilot-heavy GTM. | 510 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/fibr-ai-agentnaya-personalizaciya-sayta-dlya-enterprise-marketinga/verdict.md |
 | 217 | [ai-operator-klientskoy-podderzhki-v-chatah-i-messendzherah](./rejected/ai-operator-klientskoy-podderzhki-v-chatah-i-messendzherah/verdict.md) | 🟡 | 69 | B2B-OPS | 2026-05-11 | [B2B-OPS] AI-оператор клиентской поддержки в чатах и мессенджерах — NEAR-PASS: 69/100, сильная economics не компенсирует weak moat и crowded category. | 1 435 079 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-operator-klientskoy-podderzhki-v-chatah-i-messendzherah/verdict.md |
