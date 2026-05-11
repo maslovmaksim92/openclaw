@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 228 | ✅ Одобрено: 32 | ❌ Отклонено: 173 | 🟡 Near-Pass: 26
+**Всего:** 228 | ✅ Одобрено: 32 | ❌ Отклонено: 174 | 🟡 Near-Pass: 26
 **Обновлено:** 2026-05-11
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 229 | [ai-fotosessii-v-telegram-dlya-socsetey-i-marketpleysov](./rejected/ai-fotosessii-v-telegram-dlya-socsetey-i-marketpleysov/verdict.md) | ❌ | 30 | QUICK-AI | 2026-05-11 | [QUICK-AI] AI-фотосессии в Telegram для соцсетей и маркетплейсов — REJECTED: 30/100 \| EBITDA при 50 клиентах ≈ -2,24 млн |
 | 228 | [ЦРТ Voice2Med](./approved/crt-voice2med-ai-golosovoe-zapolnenie-meditsinskoy-dokumentatsii/verdict.md) | ✅ | 72 | HEALTHCARE | 2026-05-11 | [HEALTHCARE] ЦРТ Voice2Med — APPROVED WITH NOTES: 72/100, strong unit economics и локальный on-prem/МИС wedge при среднем moat. | 1 514 731 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/crt-voice2med-ai-golosovoe-zapolnenie-meditsinskoy-dokumentatsii/verdict.md |
 | 227 | [fal-ai-geo-expand-v2](./rejected/fal-ai-geo-expand-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-05-11 | [GEO-EXPAND] fal.ai geo-expand v2 — REJECTED: 0/100, demand и economics не собирают investable локальный wedge, а EBITDA при 50 клиентах около -3,30 млн ₽/мес. | -3 300 000 ₽/мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/fal-ai-geo-expand-v2/verdict.md |
 | 226 | [enterprise-agent-adoption-signals-v2](./rejected/enterprise-agent-adoption-signals-v2/verdict.md) | ❌ | 41 | AI-SERVICES | 2026-05-11 | [AI-SERVICES] Enterprise agent adoption signals и managed-agent services — REJECTED: 41/100 \| EBITDA при 50 клиентах ≈ - |
