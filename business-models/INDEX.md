@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 244 | ✅ Одобрено: 23 | ❌ Отклонено: 139 | 🟡 Near-Pass: 59
+**Всего:** 245 | ✅ Одобрено: 23 | ❌ Отклонено: 139 | 🟡 Near-Pass: 60
 **Обновлено:** 2026-05-12
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 246 | [AI-native claims ops для страховщиков](./rejected/ai-native-claims-ops-dlya-strahovshchikov/verdict.md) | 🟡 | 65 | FINTECH | 2026-05-12 | [FINTECH] AI-native claims ops для страховщиков — NEAR-PASS: 65/100, сильная economics не компенсирует LOW category demand и средний moat. | 1 197 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-native-claims-ops-dlya-strahovshchikov/verdict.md |
 | 245 | [GetLivePhoto Quick AI v2](./rejected/getlivephoto-quick-ai-v2/verdict.md) | ❌ | n/a | QUICK-AI | 2026-05-12 | GetLivePhoto отклонён: consumer emotional-utility use case не проходит profit gate, потому что LTV 920 ₽ ниже fully-loaded CAC 1 480 ₽ и для EBITDA 500К+ нужно около 16 тыс. платящих клиентов в месяц. | н/д | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/getlivephoto-quick-ai-v2/verdict.md |
 | 244 | Virtual CISO для SMB через партнёрские каналы | 🟡 | 67 | AI-SERVICES | 2026-05-12 | Service-heavy vCISO-retainer с сильной unit economics  но weak moat и adjacent-demand не дают approve. | 629 207 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/virtual-ciso-square-sellers-v2/verdict.md |
 | 243 | [ai-perevod-dokumentov-i-lokalizatsiya-pod-zakaz](./rejected/ai-perevod-dokumentov-i-lokalizatsiya-pod-zakaz/verdict.md) | ❌ | 0 | AI-SERVICES | 2026-05-12 | [AI-SERVICES] AI-перевод документов и локализация под заказ — REJECTED: 0/100 \| Demand API LOW \| Profit Gate FAIL \| Силь |
