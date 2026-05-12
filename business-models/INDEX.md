@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 239 | ✅ Одобрено: 30 | ❌ Отклонено: 149 | 🟡 Near-Pass: 63
+**Всего:** 242 | ✅ Одобрено: 23 | ❌ Отклонено: 136 | 🟡 Near-Pass: 59
 **Обновлено:** 2026-05-12
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 242 | [ai-avtonomnyi-operator-klientskoi-podderzhki-dlya-e-commerce-i-dtc-brendov](./rejected/ai-avtonomnyi-operator-klientskoi-podderzhki-dlya-e-commerce-i-dtc-brendov/verdict.md) | 🟡 | 65 | B2B-OPS | 2026-05-12 | [B2B-OPS] AI-автономный оператор клиентской поддержки для e-commerce и DTC-брендов — NEAR-PASS: 65/100, сильная client economics не компенсирует weak moat и отрицательный p10 EBITDA. | 1 240 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-avtonomnyi-operator-klientskoi-podderzhki-dlya-e-commerce-i-dtc-brendov/verdict.md |
 | 241 | [ai-predaudit-nma-i-zatrat-na-soft-po-fsbu-14-2022](./rejected/ai-predaudit-nma-i-zatrat-na-soft-po-fsbu-14-2022/verdict.md) | ❌ | 0 | FINTECH | 2026-05-12 | [FINTECH] AI-предаудит НМА и затрат на софт по ФСБУ 14/2022 — REJECTED: 0/100 \| Demand API LOW 3/10 \| Profit Gate FAIL \| |
 | 240 | [workday-contract-intelligence-negotiation-agents-v2](./rejected/workday-contract-intelligence-negotiation-agents-v2/verdict.md) | 🟡 | 67 | B2B-OPS | 2026-05-12 | [B2B-OPS] Workday Contract Intelligence + Negotiation Agents — NEAR-PASS: 67/100, сильная enterprise economics не компенсирует weak local demand и price sensitivity. | 1 239 333 ₽/мес через 9 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/workday-contract-intelligence-negotiation-agents-v2/verdict.md |
 | 239 | [looka-ai-logotipy-i-brand-kit-za-minuty](./rejected/looka-ai-logotipy-i-brand-kit-za-minuty/verdict.md) | ❌ | n/a | QUICK-AI | 2026-05-12 | Looka отклонён: LTV/CAC 1.42x, низкий ARPA и коммодитизированный рынок AI-логотипов не дают investment-grade economics. | н/д | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/looka-ai-logotipy-i-brand-kit-za-minuty/verdict.md |
@@ -132,7 +133,6 @@
 | 134 | [superdial-healthcare-voice-geo-expand-v2](./rejected/superdial-healthcare-voice-geo-expand-v2/verdict.md) | ❌ | 0 | HEALTHCARE | 2026-04-24 | [HEALTHCARE] SuperDial Healthcare Voice GEO Expand v2 — REJECTED: 0/100 \| В РФ не подтверждён отдельный спрос на payer-f |
 | 133 | [superdial-geo-expand-v2](./rejected/superdial-geo-expand-v2/verdict.md) | ❌ | 34 | GEO-EXPAND | 2026-04-24 | [GEO-EXPAND] SuperDial GEO Expand v2 — REJECTED: 34/100 \| Спрос в РФ по payer-facing healthcare voice automation остаётс |
 | 132 | [solve-intelligence-patent-ai-geo-expand-v2](./rejected/solve-intelligence-patent-ai-geo-expand-v2/verdict.md) | ❌ | 0 | LEGAL | 2026-04-23 | [LEGAL] Solve Intelligence patent AI GEO Expand v2 — REJECTED: спрос в РФ по категории LOW, а unit economics не дают надёжного пути к EBITDA 500 тыс. ₽/мес. |
-
 | 118 | micro1 Human Data GEO Expand v2 | ❌ | 64/100 | GEO-EXPAND | 2026-04-23 | Managed human data ops для enterprise AI-команд сильны по economics, но в РФ рынок слишком узкий и human-heavy для approve. | 1 602 546 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/micro1-human-data-geo-expand-v2/verdict.md |
 | 131 | Aibidia Geo Expand v2 | 🟡 | 66/100 | GEO-EXPAND | 2026-04-23 | Enterprise tax-tech с редкой силой по unit economics, но пока без investment-grade запаса по спросу, moat и локальному trust layer. | 8 937 000 ₽/мес через 19 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/aibidia-geo-expand-v2/verdict.md |
 | 130 | [sanas-geo-expand-0659-v2](./rejected/sanas-geo-expand-0659-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-04-23 | [GEO-EXPAND] Sanas GEO Expand 0659 v2 — REJECTED: 0/100 \| Standalone accent translation для contact centers в РФ не подт |
@@ -251,9 +251,4 @@
 | 3 | AI Accounting Document Processing Operator | ✅ APPROVED | 79/100 | B2B-OPS | 2026-04-19 | Service-led AI-оператор для распознавания и обработки первичных бухгалтерских документов, интеграции с 1С/ERP и managed exception handling. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-accounting-document-processing-operator/verdict.md |
 | 2 | Animated Photo On-Demand Service | ❌ REJECTED | 56/100 | QUICK-AI | 2026-04-19 | Telegram-native сервис оживления фото с реальным спросом, но слабым moat и недостаточно сильной фондовой экономикой. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/animated-photo-on-demand-service/verdict.md |
 | 1 | Enterprise AI Documentation Platform | ✅ APPROVED | 72/100 | GEO-EXPAND | 2026-04-19 | AI-native платформа для enterprise-документации, AI-поиска и managed documentation ops для B2B-команд. | n/a | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/enterprise-ai-documentation-platform/verdict.md |
-
----
-
 | 161 | [ai-seo-autsors-dlya-smb-s-uporom-na-geo](./rejected/ai-seo-autsors-dlya-smb-s-uporom-na-geo/verdict.md) | 🟡 | 67 | AI-SERVICES | 2026-04-25 | [AI-SERVICES] AI-SEO аутсорс для SMB с упором на GEO — NEAR-PASS: 67/100 | 1 146 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-seo-autsors-dlya-smb-s-uporom-na-geo/verdict.md |
-
-*Каждая строка - результат полного анализа: спрос + юнит-экономика + финансовая модель + вердикт инвесткомитета.*
