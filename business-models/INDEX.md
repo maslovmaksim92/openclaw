@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 239 | ✅ Одобрено: 30 | ❌ Отклонено: 148 | 🟡 Near-Pass: 63
+**Всего:** 239 | ✅ Одобрено: 30 | ❌ Отклонено: 149 | 🟡 Near-Pass: 63
 **Обновлено:** 2026-05-12
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 241 | [ai-predaudit-nma-i-zatrat-na-soft-po-fsbu-14-2022](./rejected/ai-predaudit-nma-i-zatrat-na-soft-po-fsbu-14-2022/verdict.md) | ❌ | 0 | FINTECH | 2026-05-12 | [FINTECH] AI-предаудит НМА и затрат на софт по ФСБУ 14/2022 — REJECTED: 0/100 \| Demand API LOW 3/10 \| Profit Gate FAIL \| |
 | 240 | [workday-contract-intelligence-negotiation-agents-v2](./rejected/workday-contract-intelligence-negotiation-agents-v2/verdict.md) | 🟡 | 67 | B2B-OPS | 2026-05-12 | [B2B-OPS] Workday Contract Intelligence + Negotiation Agents — NEAR-PASS: 67/100, сильная enterprise economics не компенсирует weak local demand и price sensitivity. | 1 239 333 ₽/мес через 9 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/workday-contract-intelligence-negotiation-agents-v2/verdict.md |
 | 239 | [looka-ai-logotipy-i-brand-kit-za-minuty](./rejected/looka-ai-logotipy-i-brand-kit-za-minuty/verdict.md) | ❌ | n/a | QUICK-AI | 2026-05-12 | Looka отклонён: LTV/CAC 1.42x, низкий ARPA и коммодитизированный рынок AI-логотипов не дают investment-grade economics. | н/д | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/looka-ai-logotipy-i-brand-kit-za-minuty/verdict.md |
 | 238 | [ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz](./approved/ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz/verdict.md) | ✅ | 71 | AI-SERVICES | 2026-05-12 | [AI-SERVICES] AI-перевод техдокументации и локализация — APPROVED WITH NOTES: 71/100, strong unit economics при низком category demand. | 820 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz/verdict.md |
