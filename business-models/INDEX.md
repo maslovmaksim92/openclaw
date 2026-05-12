@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 238 | ✅ Одобрено: 30 | ❌ Отклонено: 147 | 🟡 Near-Pass: 62
+**Всего:** 239 | ✅ Одобрено: 30 | ❌ Отклонено: 148 | 🟡 Near-Pass: 63
 **Обновлено:** 2026-05-12
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 240 | [workday-contract-intelligence-negotiation-agents-v2](./rejected/workday-contract-intelligence-negotiation-agents-v2/verdict.md) | 🟡 | 67 | B2B-OPS | 2026-05-12 | [B2B-OPS] Workday Contract Intelligence + Negotiation Agents — NEAR-PASS: 67/100, сильная enterprise economics не компенсирует weak local demand и price sensitivity. | 1 239 333 ₽/мес через 9 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/workday-contract-intelligence-negotiation-agents-v2/verdict.md |
 | 239 | [looka-ai-logotipy-i-brand-kit-za-minuty](./rejected/looka-ai-logotipy-i-brand-kit-za-minuty/verdict.md) | ❌ | n/a | QUICK-AI | 2026-05-12 | Looka отклонён: LTV/CAC 1.42x, низкий ARPA и коммодитизированный рынок AI-логотипов не дают investment-grade economics. | н/д | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/looka-ai-logotipy-i-brand-kit-za-minuty/verdict.md |
 | 238 | [ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz](./approved/ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz/verdict.md) | ✅ | 71 | AI-SERVICES | 2026-05-12 | [AI-SERVICES] AI-перевод техдокументации и локализация — APPROVED WITH NOTES: 71/100, strong unit economics при низком category demand. | 820 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz/verdict.md |
 | 237 | [rogo-wall-street-ai-geo-expand-v2](./rejected/rogo-wall-street-ai-geo-expand-v2/verdict.md) | ❌ | 55 | GEO-EXPAND | 2026-05-12 | [GEO-EXPAND] Rogo Wall Street AI — REJECTED: 55/100, сильная unit economics не компенсирует weak moat и хрупкий company-level EBITDA profile. | 114 175 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rogo-wall-street-ai-geo-expand-v2/verdict.md |
