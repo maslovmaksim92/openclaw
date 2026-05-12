@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 249 | ✅ Одобрено: 24 | ❌ Отклонено: 141 | 🟡 Near-Pass: 60
+**Всего:** 250 | ✅ Одобрено: 24 | ❌ Отклонено: 142 | 🟡 Near-Pass: 60
 **Обновлено:** 2026-05-13
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 250 | [Vidnoz, быстрые AI-avatar видео и видеооткрытки](./rejected/vidnoz-ai-avatar-video-i-videootkrytki-za-minuty/verdict.md) | ❌ | 0 | QUICK-AI | 2026-05-13 | Vidnoz отклонён: кейс показывает рабочую клиентскую монетизацию, но EBITDA при 50 клиентах около -1,69 млн ₽/мес и путь к breakeven слишком капиталоёмкий для fund-level модели. | -1 690 000 ₽/мес на 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/vidnoz-ai-avatar-video-i-videootkrytki-za-minuty/verdict.md |
 | 249 | [RapidClaims](./rejected/rapidclaims-geo-expand-v2/verdict.md) | 🟡 | 68 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] RapidClaims — NEAR-PASS: 68/100, сильная unit economics и median EBITDA-case не компенсируют weak moat, evidence penalty и compliance-heavy GTM. | 1 442 497 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rapidclaims-geo-expand-v2/verdict.md |
 | 248 | [AI-веб-студия site-as-a-service на WordPress, AI и Lovable](./rejected/ai-veb-studiya-site-as-a-service-na-wordpress-ai-i-lovable/verdict.md) | ❌ | n/a | AI-SERVICES | 2026-05-12 | AI-веб-студия site-as-a-service на WordPress, AI и Lovable отклонена: спрос есть, но LTV/CAC 2.31x и service-heavy delivery не дают investment-grade economics. | -1 760 000 ₽/мес на 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-veb-studiya-site-as-a-service-na-wordpress-ai-i-lovable/verdict.md |
 | 247 | [AI-операционный оператор FinOps и бэк-офиса](./approved/ai-operacionnyi-operator-finops-i-bek-ofisa/verdict.md) | ✅ | 70 | B2B-OPS | 2026-05-12 | [B2B-OPS] AI-операционный оператор FinOps и бэк-офиса — APPROVED WITH NOTES: 70/100, strong unit economics и outcome-layer поверх 1С/ЭДО/ERP при среднем moat. | 1 250 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-operacionnyi-operator-finops-i-bek-ofisa/verdict.md |
