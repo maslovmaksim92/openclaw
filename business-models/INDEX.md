@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 234 | ✅ Одобрено: 29 | ❌ Отклонено: 143 | 🟡 Near-Pass: 62
+**Всего:** 211 | ✅ Одобрено: 22 | ❌ Отклонено: 132 | 🟡 Near-Pass: 57
 **Обновлено:** 2026-05-12
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 235 | [flora-geo-expand-v2](./rejected/flora-geo-expand-v2/verdict.md) | ❌ | 63 | GEO-EXPAND | 2026-05-12 | [GEO-EXPAND] FLORA — REJECTED: 63/100, сильная creative-ops economics не компенсирует weak moat и LOW direct-demand в РФ. | 1 133 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/flora-geo-expand-v2/verdict.md |
 | 235 | [rogo-finance-ai-analyst-v2](./rejected/rogo-finance-ai-analyst-v2/verdict.md) | 🟡 | 67 | FINTECH | 2026-05-12 | [FINTECH] Rogo Finance AI Analyst v2 — NEAR-PASS: 67/100, сильная enterprise economics не компенсирует узкий buyer universe и price compression risk. | 317 042 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rogo-finance-ai-analyst-v2/verdict.md |
 | 234 | [servicenow-enterprise-ai-control-tower-v2](./rejected/servicenow-enterprise-ai-control-tower-v2/verdict.md) | 🟡 | 66 | B2B-OPS | 2026-05-12 | [B2B-OPS] ServiceNow Enterprise AI Control Tower v2 — NEAR-PASS: сильная unit economics, но weak moat и capital-heavy GTM не дают approve. | 681 986 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/servicenow-enterprise-ai-control-tower-v2/verdict.md |
 | 233 | [delve-geo-expand-v2](./rejected/delve-geo-expand-v2/verdict.md) | ❌ | 61 | GEO-EXPAND | 2026-05-11 | [GEO-EXPAND] Delve geo-expand v2 — REJECTED: 61/100, сильная enterprise economics не компенсирует weak moat, LOW RU-demand и high-touch delivery risk. | 960 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/delve-geo-expand-v2/verdict.md |
