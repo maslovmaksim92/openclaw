@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 236 | ✅ Одобрено: 29 | ❌ Отклонено: 146 | 🟡 Near-Pass: 62
+**Всего:** 237 | ✅ Одобрено: 30 | ❌ Отклонено: 146 | 🟡 Near-Pass: 62
 **Обновлено:** 2026-05-12
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 238 | [ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz](./approved/ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz/verdict.md) | ✅ | 71 | AI-SERVICES | 2026-05-12 | [AI-SERVICES] AI-перевод техдокументации и локализация — APPROVED WITH NOTES: 71/100, strong unit economics при низком category demand. | 820 000 ₽/мес через 14 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-perevod-tekhnicheskoi-dokumentatsii-i-lokalizatsiya-pod-zakaz/verdict.md |
 | 237 | [rogo-wall-street-ai-geo-expand-v2](./rejected/rogo-wall-street-ai-geo-expand-v2/verdict.md) | ❌ | 55 | GEO-EXPAND | 2026-05-12 | [GEO-EXPAND] Rogo Wall Street AI — REJECTED: 55/100, сильная unit economics не компенсирует weak moat и хрупкий company-level EBITDA profile. | 114 175 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rogo-wall-street-ai-geo-expand-v2/verdict.md |
 | 236 | [ai-first-kreativnyi-prodakshn-na-podpiske](./rejected/ai-first-kreativnyi-prodakshn-na-podpiske/verdict.md) | ❌ | 58 | AI-SERVICES | 2026-05-12 | [AI-SERVICES] AI-first креативный продакшн на подписке — REJECTED: 58/100, спрос подтверждён, но service-heavy delivery  |
 | 235 | [flora-geo-expand-v2](./rejected/flora-geo-expand-v2/verdict.md) | ❌ | 63 | GEO-EXPAND | 2026-05-12 | [GEO-EXPAND] FLORA — REJECTED: 63/100, сильная creative-ops economics не компенсирует weak moat и LOW direct-demand в РФ. | 1 133 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/flora-geo-expand-v2/verdict.md |
