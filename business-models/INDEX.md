@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 250 | ✅ Одобрено: 24 | ❌ Отклонено: 142 | 🟡 Near-Pass: 60
+**Всего:** 251 | ✅ Одобрено: 24 | ❌ Отклонено: 143 | 🟡 Near-Pass: 60
 **Обновлено:** 2026-05-13
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 251 | [ai-logotipy-svg-ikonki-i-brand-assets-za-minuty](./rejected/ai-logotipy-svg-ikonki-i-brand-assets-za-minuty/verdict.md) | ❌ | 0 | QUICK-AI | 2026-05-13 | AI-логотипы, SVG-иконки и brand assets за минуты отклонены: спрос подтверждён, но standalone B2B/API-модель требует слишком тяжёлую команду, и EBITDA при 50 клиентах остаётся около -3,4 млн ₽/мес. | -3 400 000 ₽/мес на 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-logotipy-svg-ikonki-i-brand-assets-za-minuty/verdict.md |
 | 250 | [Vidnoz, быстрые AI-avatar видео и видеооткрытки](./rejected/vidnoz-ai-avatar-video-i-videootkrytki-za-minuty/verdict.md) | ❌ | 0 | QUICK-AI | 2026-05-13 | Vidnoz отклонён: кейс показывает рабочую клиентскую монетизацию, но EBITDA при 50 клиентах около -1,69 млн ₽/мес и путь к breakeven слишком капиталоёмкий для fund-level модели. | -1 690 000 ₽/мес на 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/vidnoz-ai-avatar-video-i-videootkrytki-za-minuty/verdict.md |
 | 249 | [RapidClaims](./rejected/rapidclaims-geo-expand-v2/verdict.md) | 🟡 | 68 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] RapidClaims — NEAR-PASS: 68/100, сильная unit economics и median EBITDA-case не компенсируют weak moat, evidence penalty и compliance-heavy GTM. | 1 442 497 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rapidclaims-geo-expand-v2/verdict.md |
 | 248 | [AI-веб-студия site-as-a-service на WordPress, AI и Lovable](./rejected/ai-veb-studiya-site-as-a-service-na-wordpress-ai-i-lovable/verdict.md) | ❌ | n/a | AI-SERVICES | 2026-05-12 | AI-веб-студия site-as-a-service на WordPress, AI и Lovable отклонена: спрос есть, но LTV/CAC 2.31x и service-heavy delivery не дают investment-grade economics. | -1 760 000 ₽/мес на 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-veb-studiya-site-as-a-service-na-wordpress-ai-i-lovable/verdict.md |
