@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 252 | ✅ Одобрено: 24 | ❌ Отклонено: 144 | 🟡 Near-Pass: 60
+**Всего:** 252 | ✅ Одобрено: 24 | ❌ Отклонено: 146 | 🟡 Near-Pass: 60
 **Обновлено:** 2026-05-13
 
 ---
@@ -10,6 +10,8 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 254 | [ai-veb-studiya-sait-pod-klyuch-dlya-smb](./rejected/ai-veb-studiya-sait-pod-klyuch-dlya-smb/verdict.md) | ❌ | 42 | AI-SERVICES | 2026-05-13 | [AI-SERVICES] AI-веб-студия сайтов под ключ для SMB — REJECTED: 42/100, спрос на outcome подтверждён, но recurring LTV/C |
+| 253 | [fabula-ai-mgnovennaya-infografika-i-ai-fotosessii-dlya-marketpleysov](./rejected/fabula-ai-mgnovennaya-infografika-i-ai-fotosessii-dlya-marketpleysov/verdict.md) | ❌ | 0 | QUICK-AI | 2026-05-13 | [QUICK-AI] Fabula AI, мгновенная инфографика и AI-фотосессии для маркетплейсов — REJECTED: 0/100, рынок и дистрибуция по |
 | 252 | [Laurel](./rejected/laurel-geo-expand-1355-v2/verdict.md) | ❌ | 64 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] Laurel — REJECTED: 64/100, сильная client economics не компенсирует weak moat, LOW demand и дорогой category education. | 800 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/laurel-geo-expand-1355-v2/verdict.md |
 | 251 | [ai-logotipy-svg-ikonki-i-brand-assets-za-minuty](./rejected/ai-logotipy-svg-ikonki-i-brand-assets-za-minuty/verdict.md) | ❌ | 0 | QUICK-AI | 2026-05-13 | AI-логотипы, SVG-иконки и brand assets за минуты отклонены: спрос подтверждён, но standalone B2B/API-модель требует слишком тяжёлую команду, и EBITDA при 50 клиентах остаётся около -3,4 млн ₽/мес. | -3 400 000 ₽/мес на 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-logotipy-svg-ikonki-i-brand-assets-za-minuty/verdict.md |
 | 250 | [Vidnoz, быстрые AI-avatar видео и видеооткрытки](./rejected/vidnoz-ai-avatar-video-i-videootkrytki-za-minuty/verdict.md) | ❌ | 0 | QUICK-AI | 2026-05-13 | Vidnoz отклонён: кейс показывает рабочую клиентскую монетизацию, но EBITDA при 50 клиентах около -1,69 млн ₽/мес и путь к breakeven слишком капиталоёмкий для fund-level модели. | -1 690 000 ₽/мес на 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/vidnoz-ai-avatar-video-i-videootkrytki-za-minuty/verdict.md |
