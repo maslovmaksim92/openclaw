@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 257 | ✅ Одобрено: 26 | ❌ Отклонено: 149 | 🟡 Near-Pass: 62
+**Всего:** 268 | ✅ Одобрено: 26 | ❌ Отклонено: 149 | 🟡 Near-Pass: 63
 **Обновлено:** 2026-05-13
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 268 | [Profound](./rejected/profound-geo-analytics-dlya-brendov-v-ai-poiske/verdict.md) | 🟡 | 69 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] Profound — NEAR-PASS: 69/100, сильная unit economics и EBITDA-path уже есть, но approve блокируют weak moat и LOW exact-demand в РФ. | 1 249 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/profound-geo-analytics-dlya-brendov-v-ai-poiske/verdict.md |
 | 257 | [micro1-geo-expand-v2](./rejected/micro1-geo-expand-v2/verdict.md) | 🟡 | 65 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] micro1 — NEAR-PASS: 65/100, сильная unit economics не компенсирует слишком узкий buyer universe и weak moat. | 1 701 322 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/micro1-geo-expand-v2/verdict.md |
 | 259 | [ai-dizayn-bannerov-i-brand-assetov-pod-zakaz](./rejected/ai-dizayn-bannerov-i-brand-assetov-pod-zakaz/verdict.md) | ❌ | n/a | AI-SERVICES | 2026-05-13 | AI-дизайн баннеров и brand assets под заказ отклонён: service-heavy delivery и слабый software leverage не позволяют выйти на EBITDA 500k+ ₽/мес даже при 50 активных клиентах. | -3 900 000 ₽/мес при 50 клиентах | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/ai-dizayn-bannerov-i-brand-assetov-pod-zakaz/verdict.md |
 | 255 | [AI-комплаенс и проверка контрагентов для бухгалтерии и финконтроля](./approved/ai-komplaens-i-proverka-kontragentov-dlya-buhgalterii-i-finkontrolya/verdict.md) | ✅ | 71 | FINTECH | 2026-05-13 | [FINTECH] AI-комплаенс и проверка контрагентов для бухгалтерии и финконтроля — APPROVED WITH NOTES: 71/100 | EBITDA base=1536К₽/мес через 15 мес | LTV/CAC=8,8x | Ключевое преимущество: decision-layer поверх ФНС и 1С | Главный риск: incumbents быстро копируют AI-слой. | 1 536 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-komplaens-i-proverka-kontragentov-dlya-buhgalterii-i-finkontrolya/verdict.md |
