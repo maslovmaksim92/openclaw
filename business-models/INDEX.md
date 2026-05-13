@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 254 | ✅ Одобрено: 25 | ❌ Отклонено: 146 | 🟡 Near-Pass: 61
+**Всего:** 254 | ✅ Одобрено: 25 | ❌ Отклонено: 147 | 🟡 Near-Pass: 61
 **Обновлено:** 2026-05-13
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 257 | [headshotpro-ai-delovye-avatary-i-portrety-za-10-minut](./rejected/headshotpro-ai-delovye-avatary-i-portrety-za-10-minut/verdict.md) | ❌ | 40 | QUICK-AI | 2026-05-13 | [QUICK-AI] HeadshotPro / деловые аватары и портреты — REJECTED: 40/100 \| подтверждённый спрос есть, но при ARPA 24 900 ₽ |
 | 256 | [AI-предаудит отчётности и раскрытий по ФСБУ](./approved/ai-predaudit-finansovoy-otchetnosti-i-raskrytiy-po-fsbu/verdict.md) | ✅ | 71 | FINTECH | 2026-05-13 | [FINTECH] AI-предаудит отчётности и раскрытий по ФСБУ — APPROVED WITH NOTES: 71/100, compliance-first слой для FSBU 4/2023 с рабочей unit economics. | 1 047 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-predaudit-finansovoy-otchetnosti-i-raskrytiy-po-fsbu/verdict.md |
 | 255 | [Linq](./rejected/linq-geo-expand-v2/verdict.md) | 🟡 | 68 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] Linq — NEAR-PASS: сильная enterprise economics уже доказана, но approve блокируют weak moat и хрупкая pricing power. | 1 493 781 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/linq-geo-expand-v2/verdict.md |
 | 254 | [ai-veb-studiya-sait-pod-klyuch-dlya-smb](./rejected/ai-veb-studiya-sait-pod-klyuch-dlya-smb/verdict.md) | ❌ | 42 | AI-SERVICES | 2026-05-13 | [AI-SERVICES] AI-веб-студия сайтов под ключ для SMB — REJECTED: 42/100, спрос на outcome подтверждён, но recurring LTV/C |
