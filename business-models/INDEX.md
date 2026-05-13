@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 254 | ✅ Одобрено: 25 | ❌ Отклонено: 148 | 🟡 Near-Pass: 61
+**Всего:** 255 | ✅ Одобрено: 26 | ❌ Отклонено: 148 | 🟡 Near-Pass: 61
 **Обновлено:** 2026-05-13
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 255 | [AI-комплаенс и проверка контрагентов для бухгалтерии и финконтроля](./approved/ai-komplaens-i-proverka-kontragentov-dlya-buhgalterii-i-finkontrolya/verdict.md) | ✅ | 71 | FINTECH | 2026-05-13 | [FINTECH] AI-комплаенс и проверка контрагентов для бухгалтерии и финконтроля — APPROVED WITH NOTES: 71/100 | EBITDA base=1536К₽/мес через 15 мес | LTV/CAC=8,8x | Ключевое преимущество: decision-layer поверх ФНС и 1С | Главный риск: incumbents быстро копируют AI-слой. | 1 536 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-komplaens-i-proverka-kontragentov-dlya-buhgalterii-i-finkontrolya/verdict.md |
 | 258 | [topview-ai-video-ads-i-avatar-kreativy-za-minuty](./rejected/topview-ai-video-ads-i-avatar-kreativy-za-minuty/verdict.md) | ❌ | 40 | QUICK-AI | 2026-05-13 | [QUICK-AI] Topview AI / video ads и avatar-креативы — REJECTED: 40/100 \| спрос на видео для маркетплейсов есть, но при A |
 | 257 | [headshotpro-ai-delovye-avatary-i-portrety-za-10-minut](./rejected/headshotpro-ai-delovye-avatary-i-portrety-za-10-minut/verdict.md) | ❌ | 40 | QUICK-AI | 2026-05-13 | [QUICK-AI] HeadshotPro / деловые аватары и портреты — REJECTED: 40/100 \| подтверждённый спрос есть, но при ARPA 24 900 ₽ |
 | 256 | [AI-предаудит отчётности и раскрытий по ФСБУ](./approved/ai-predaudit-finansovoy-otchetnosti-i-raskrytiy-po-fsbu/verdict.md) | ✅ | 71 | FINTECH | 2026-05-13 | [FINTECH] AI-предаудит отчётности и раскрытий по ФСБУ — APPROVED WITH NOTES: 71/100, compliance-first слой для FSBU 4/2023 с рабочей unit economics. | 1 047 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-predaudit-finansovoy-otchetnosti-i-raskrytiy-po-fsbu/verdict.md |
