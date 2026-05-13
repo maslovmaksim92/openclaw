@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 268 | ✅ Одобрено: 26 | ❌ Отклонено: 150 | 🟡 Near-Pass: 63
+**Всего:** 269 | ✅ Одобрено: 27 | ❌ Отклонено: 150 | 🟡 Near-Pass: 63
 **Обновлено:** 2026-05-13
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 270 | [Resolve AI](./approved/resolve-ai-geo-expand-v2/verdict.md) | ✅ | 70 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] Resolve AI — APPROVED WITH NOTES: 70/100, strong enterprise economics и EBITDA-path, но approve держится на productized rollout и partner-led GTM. | 526 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/resolve-ai-geo-expand-v2/verdict.md |
 | 269 | [ivoxstudio-quick-ai-v2](./rejected/ivoxstudio-quick-ai-v2/verdict.md) | ❌ | 40 | QUICK-AI | 2026-05-13 | [QUICK-AI] iVox Studio quick AI v2 — REJECTED: 40/100 \| LTV/CAC 0,95x, blended CAC 9 226 ₽, EBITDA при 50 клиентах глубо |
 | 268 | [Profound](./rejected/profound-geo-analytics-dlya-brendov-v-ai-poiske/verdict.md) | 🟡 | 69 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] Profound — NEAR-PASS: 69/100, сильная unit economics и EBITDA-path уже есть, но approve блокируют weak moat и LOW exact-demand в РФ. | 1 249 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/profound-geo-analytics-dlya-brendov-v-ai-poiske/verdict.md |
 | 257 | [micro1-geo-expand-v2](./rejected/micro1-geo-expand-v2/verdict.md) | 🟡 | 65 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] micro1 — NEAR-PASS: 65/100, сильная unit economics не компенсирует слишком узкий buyer universe и weak moat. | 1 701 322 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/micro1-geo-expand-v2/verdict.md |
