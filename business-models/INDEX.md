@@ -1,8 +1,8 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 265 | ✅ Одобрено: 27 | ❌ Отклонено: 148 | 🟡 Near-Pass: 66
-**Обновлено:** 2026-05-20
+**Всего:** 266 | ✅ Одобрено: 27 | ❌ Отклонено: 148 | 🟡 Near-Pass: 67
+**Обновлено:** 2026-05-27
 
 ---
 
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 271 | [Hightouch AI Decisioning](./rejected/hightouch-geo-expand-1438-v2/verdict.md) | 🟡 | 65 | GEO-EXPAND | 2026-05-27 | [GEO-EXPAND] Hightouch AI Decisioning — NEAR-PASS: 65/100 | EBITDA base=1261К₽/мес через 12 мес | LTV/CAC=23,8x | Ключевое преимущество: сильная unit economics в enterprise martech | Главный риск: weak moat и слабый прямой спрос в РФ. | 1 261 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/hightouch-geo-expand-1438-v2/verdict.md |
 | 265 | [Rogo Investment Banking Geo Expand v2](./rejected/rogo-investment-banking-geo-expand-v2/verdict.md) | 🟡 | 67 | FINTECH | 2026-05-20 | [FINTECH] Rogo Investment Banking Geo Expand v2 — NEAR-PASS: 67/100, сильная клиентская economics не компенсирует weak moat и узкий buyer universe. | 261 732 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rogo-investment-banking-geo-expand-v2/verdict.md |
 | 270 | [Resolve AI](./approved/resolve-ai-geo-expand-v2/verdict.md) | ✅ | 70 | GEO-EXPAND | 2026-05-13 | [GEO-EXPAND] Resolve AI — APPROVED WITH NOTES: 70/100, strong enterprise economics и EBITDA-path, но approve держится на productized rollout и partner-led GTM. | 526 000 ₽/мес через 15 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/resolve-ai-geo-expand-v2/verdict.md |
 | 269 | [ivoxstudio-quick-ai-v2](./rejected/ivoxstudio-quick-ai-v2/verdict.md) | ❌ | 40 | QUICK-AI | 2026-05-13 | [QUICK-AI] iVox Studio quick AI v2 — REJECTED: 40/100 \| LTV/CAC 0,95x, blended CAC 9 226 ₽, EBITDA при 50 клиентах глубо |
