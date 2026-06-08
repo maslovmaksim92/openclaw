@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 266 | ✅ Одобрено: 27 | ❌ Отклонено: 149 | 🟡 Near-Pass: 67
+**Всего:** 267 | ✅ Одобрено: 27 | ❌ Отклонено: 149 | 🟡 Near-Pass: 68
 **Обновлено:** 2026-06-08
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 268 | [WitnessAI geo-expand v2](./rejected/witnessai-geo-expand-v2/verdict.md) | 🟡 | 68 | GEO-EXPAND | 2026-06-08 | [GEO-EXPAND] WitnessAI geo-expand v2 — NEAR-PASS: сильная enterprise economics не компенсирует weak moat и недоказанный локальный GTM. | 11 682 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/witnessai-geo-expand-v2/verdict.md |
 | 272 | [podari-track-quick-ai-v2](./rejected/podari-track-quick-ai-v2/verdict.md) | ❌ | 44 | QUICK-AI | 2026-06-08 | [QUICK-AI] Podari Track — REJECTED: 44/100 \| спрос на персональные AI-песни в РФ подтверждён, но низкий чек, LTV/CAC 1,2 |
 | 271 | [Hightouch AI Decisioning](./rejected/hightouch-geo-expand-1438-v2/verdict.md) | 🟡 | 65 | GEO-EXPAND | 2026-05-27 | Enterprise decisioning-layer с сильной unit economics, но weak moat и слабый прямой спрос в РФ пока не дают approve. | 1 261 000 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/hightouch-geo-expand-1438-v2/verdict.md |
 | 265 | [Rogo Investment Banking Geo Expand v2](./rejected/rogo-investment-banking-geo-expand-v2/verdict.md) | 🟡 | 67 | FINTECH | 2026-05-20 | [FINTECH] Rogo Investment Banking Geo Expand v2 — NEAR-PASS: 67/100, сильная клиентская economics не компенсирует weak moat и узкий buyer universe. | 261 732 ₽/мес через 12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/rogo-investment-banking-geo-expand-v2/verdict.md |
