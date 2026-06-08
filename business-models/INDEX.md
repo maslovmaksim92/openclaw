@@ -1,8 +1,8 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 268 | ✅ Одобрено: 27 | ❌ Отклонено: 151 | 🟡 Near-Pass: 68
-**Обновлено:** 2026-06-08
+**Всего:** 268 | ✅ Одобрено: 27 | ❌ Отклонено: 152 | 🟡 Near-Pass: 68
+**Обновлено:** 2026-06-09
 
 ---
 
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 274 | [kintsugi-geo-expand-v2](./rejected/kintsugi-geo-expand-v2/verdict.md) | ❌ | 34 | GEO-EXPAND | 2026-06-09 | [GEO-EXPAND] Kintsugi geo-expand v2 — REJECTED: 34/100 \| tax automation category сильна глобально, но локальный РФ motio |
 | 270 | [SteosVoice / CyberVoice](./rejected/steosvoice-quick-ai-v2/verdict.md) | ❌ | 54 | QUICK-AI | 2026-06-08 | [QUICK-AI] SteosVoice / CyberVoice — REJECTED: 54/100, Telegram-first voice AI с живым спросом, но weak moat и недоказанный SMB/API апселл. | 940 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/steosvoice-quick-ai-v2/verdict.md |
 | 273 | [redefy-salesforce-implementation-v2](./rejected/redefy-salesforce-implementation-v2/verdict.md) | ❌ | 21 | GEO-EXPAND | 2026-06-08 | [GEO-EXPAND] ReDEFY Salesforce Implementation v2 — REJECTED: 21/100 \| enterprise implementation motion подтверждает нали |
 | 268 | [WitnessAI geo-expand v2](./rejected/witnessai-geo-expand-v2/verdict.md) | 🟡 | 68 | GEO-EXPAND | 2026-06-08 | [GEO-EXPAND] WitnessAI geo-expand v2 — NEAR-PASS: сильная enterprise economics не компенсирует weak moat и недоказанный локальный GTM. | 11 682 000 ₽/мес через 13 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/witnessai-geo-expand-v2/verdict.md |
