@@ -1,7 +1,7 @@
 # Business Models - Index
 
 > Автоматически обновляется агентом `models-critic` после каждого вердикта.
-**Всего:** 269 | ✅ Одобрено: 28 | ❌ Отклонено: 152 | 🟡 Near-Pass: 68
+**Всего:** 269 | ✅ Одобрено: 28 | ❌ Отклонено: 153 | 🟡 Near-Pass: 68
 **Обновлено:** 2026-06-09
 
 ---
@@ -10,6 +10,7 @@
 
 | # | Название | Статус | Score | Сектор | Дата | Описание 1 предл. | company_ebitda_rub_month базовый | GitHub ссылка |
 |---|---------|--------|-------|--------|------|-------------------|------------------------------:|------|
+| 275 | [helicone-geo-expand-1757-v2](./rejected/helicone-geo-expand-1757-v2/verdict.md) | ❌ | 0 | GEO-EXPAND | 2026-06-09 | [GEO-EXPAND] Helicone geo-expand 1757 v2 — REJECTED: 0/100 \| Demand already failed в РФ, а managed-wrapper motion раздув |
 | 269 | [ai-perevod-dokumentov-i-lokalizatsiya-pod-zakaz](./approved/ai-perevod-dokumentov-i-lokalizatsiya-pod-zakaz/verdict.md) | ✅ | 70 | AI-SERVICES | 2026-06-09 | [AI-SERVICES] EasyTranslate HumanAI — APPROVED WITH NOTES: 70/100 | 2 550 000 ₽/мес через 10-12 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/approved/ai-perevod-dokumentov-i-lokalizatsiya-pod-zakaz/verdict.md |
 | 274 | [kintsugi-geo-expand-v2](./rejected/kintsugi-geo-expand-v2/verdict.md) | ❌ | 34 | GEO-EXPAND | 2026-06-09 | [GEO-EXPAND] Kintsugi geo-expand v2 — REJECTED: 34/100 \| tax automation category сильна глобально, но локальный РФ motio |
 | 270 | [SteosVoice / CyberVoice](./rejected/steosvoice-quick-ai-v2/verdict.md) | ❌ | 54 | QUICK-AI | 2026-06-08 | [QUICK-AI] SteosVoice / CyberVoice — REJECTED: 54/100, Telegram-first voice AI с живым спросом, но weak moat и недоказанный SMB/API апселл. | 940 000 ₽/мес через 24 мес | https://github.com/maslovmaksim92/openclaw/blob/main/business-models/rejected/steosvoice-quick-ai-v2/verdict.md |
